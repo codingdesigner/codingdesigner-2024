@@ -1,0 +1,106 @@
+:root {
+  --main-bg-color: rgb(228, 243, 252);
+
+  --type-display: "SF Pro Display", Inter, -apple-system, sans-serif;
+  --type-text: "SF Pro Text", Inter, -apple-system, sans-serif;
+
+  --test-sidebar-color: rgba(255, 255, 255, 1);
+  --test-grid-color: #18ffff;
+
+  --color-section-accessibility: rgba(0, 128, 111, 1);
+  --color-section-brand_expression: rgba(245, 71, 77, 1);
+  --color-section-components: rgba(125, 79, 248, 1);
+  --color-section-teams: rgba(35, 113, 231, 1);
+  --color-section-resources: rgba(255, 114, 71, 1);
+  --color-section-verso: rgba(0, 70, 118, 1);
+  --color-home-section-verso: rgba(1, 36, 63, 1);
+
+  --color-feedback-link: rgba(0, 127, 173, 1);
+  --color-feedback-link_hover: rgba(8, 96, 128, 1);
+  --color-feedback-positive: rgba(0, 136, 88, 1);
+  --color-feedback-negative: rgba(192, 0, 58, 1);
+  --color-feedback-warning: rgba(204, 134, 12, 1);
+  --color-feedback-warning: rgba(204, 134, 12, 1);
+
+  --color-accent-1: rgba(0, 127, 173, 1);
+  --color-accent-2: rgba(255, 71, 99, 1);
+  --color-accent-3: rgba(0, 70, 117, 1);
+  --color-accent-4: rgba(255, 221, 74, 1);
+  --color-accent-5: rgba(126, 78, 249, 1);
+  --color-accent-6: rgba(0, 255, 195, 1);
+  --color-accent-7: rgba(240, 92, 51, 1);
+  --color-accent-8: rgba(254, 180, 183, 1);
+
+  --color-accent-light-1: rgba(0, 127, 173, 1);
+  --color-accent-light-2: rgba(178, 0, 45, 1);
+  --color-accent-light-3: rgba(0, 70, 117, 1);
+  --color-accent-light-4: rgba(152, 94, 31, 1);
+  --color-accent-light-5: rgba(126, 78, 249, 1);
+  --color-accent-light-6: rgba(0, 168, 115, 1);
+  --color-accent-light-7: rgba(240, 92, 51, 1);
+  --color-accent-light-8: rgba(197, 129, 134, 1);
+
+  --color-grayscale-black: rgba(0, 0, 0, 1);
+  --color-grayscale-gray1: rgba(51, 51, 51, 1);
+  --color-grayscale-gray2: rgba(102, 102, 102, 1);
+  --color-grayscale-gray3: rgba(153, 153, 153, 1);
+  --color-grayscale-gray4: rgba(186, 186, 186, 1);
+  --color-grayscale-gray5: rgba(222, 222, 222, 1);
+  --color-grayscale-gray6: rgba(247, 247, 247, 1);
+  --color-grayscale-white: rgba(255, 255, 255, 1);
+
+  --color-transparent-black: rgba(0, 0, 0, 0);
+  --color-transparent-black-40: rgba(0, 0, 0, 0.4);
+  --color-transparent-white: rgba(255, 255, 255, 0);
+
+  --spacing-0-5: 4px;
+  --spacing-baseline: 8px;
+  --spacing-1-5: 12px;
+  --spacing-2: 16px;
+  --spacing-2-5: 20px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-5: 40px;
+  --spacing-6: 48px;
+  --spacing-7: 56px;
+  --spacing-8: 64px;
+  --spacing-9: 72px;
+  --spacing-10: 80px;
+  --spacing-11: 88px;
+  --spacing-12: 96px;
+
+  --overlay-menu-width: 350px;
+
+  --layout-gap: var(--spacing-2);
+  --layout-padding: var(--spacing-3);
+  --nav-bar-height: var(--spacing-8);
+  --nav-bar-gap: var(--spacing-4);
+  --nav-bar-padding: var(--spacing-1-5);
+  --card-text-link-color: rgba(0, 127, 173, 1);
+  --feature-button-color: rgba(124, 79, 248, 1);
+  --feature-card-padding-row: var(--spacing-3) var(--spacing-4);
+  --feature-card-padding-column: var(--spacing-4) var(--spacing-3);
+  --footer-height: 296px;
+  --footer-padding: var(--spacing-4) var(--spacing-6);
+  --border-radius: 8px;
+
+  --breakpoint-md: 768px;
+}
+
+body {
+  padding: 20px 20px 60px;
+  /* max-width: 680px; */
+  margin: 0 auto;
+  background-color: var(--main-bg-color);
+  /*  */
+  /* font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; */
+}
+
+/* h1  {
+  font-family: "Gwendolyn", cursive;
+  font-weight: 700;
+  font-style: normal;
+} */

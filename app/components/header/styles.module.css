@@ -1,0 +1,23 @@
+.skiplink {
+  background: var(--color-feedback-link);
+  border: none;
+  color: var(--color-grayscale-gray6);
+  font-weight: 700;
+  left: 0;
+  outline: none;
+  padding: var(--spacing-baseline);
+  position: absolute;
+  transform: translateY(0%);
+  transition: transform 0.3s;
+  z-index: 2;
+}
+
+.skiplink:focus-visible, .skiplink:focus {
+  outline-offset: 0;
+  outline: 3px solid var(--color-feedback-link_hover);
+  transform: translateY(var(--nav-bar-height));
+}
+
+.header {
+  outline: 1px solid pink;
+}
