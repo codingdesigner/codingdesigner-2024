@@ -87,20 +87,3 @@
   --breakpoint-md: 768px;
 }
 
-body {
-  padding: 20px 20px 60px;
-  /* max-width: 680px; */
-  margin: 0 auto;
-  background-color: var(--main-bg-color);
-  /*  */
-  /* font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal; */
-}
-
-/* h1  {
-  font-family: "Gwendolyn", cursive;
-  font-weight: 700;
-  font-style: normal;
-} */
