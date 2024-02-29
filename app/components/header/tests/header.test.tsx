@@ -1,5 +1,5 @@
-import React from 'react';
+// import React from 'react';
 
-import {header} from '../header';
+// import {Header} from '../header';
 
-describe('<header />', () => {});
+// describe('<Header />', () => {});
