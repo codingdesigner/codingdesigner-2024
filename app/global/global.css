@@ -1,10 +1,10 @@
 :root {
-  --main-bg-color: rgb(228, 243, 252);
+  --main-bg-color: rgb(255, 255, 255);
 
   --type-display: "SF Pro Display", Inter, -apple-system, sans-serif;
   --type-text: "SF Pro Text", Inter, -apple-system, sans-serif;
 
-  --test-sidebar-color: rgba(255, 255, 255, 1);
+  --test-sidebar-color: rgb(222, 222, 222);
   --test-grid-color: #18ffff;
 
   --color-section-accessibility: rgba(0, 128, 111, 1);

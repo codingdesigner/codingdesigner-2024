@@ -1,0 +1,7 @@
+.menuLink {
+  color: var(--color-feedback-link);
+  text-underline-offset: 2px;
+}
+.menuLink:hover {
+  color: var(--color-feedback-link_hover);
+}
