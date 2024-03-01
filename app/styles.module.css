@@ -1,3 +1,6 @@
-.menu {
-  border-left: 3px solid #b80000;
+.body {
+  padding: 20px 20px 60px;
+  /* max-width: 680px; */
+  margin: 0 auto;
+  background-color: var(--main-bg-color);
 }
