@@ -3,23 +3,22 @@
 }
 
 .drawer {
-  position: absolute;
-  left: 0;
-  background: var(--color-grayscale-gray6);
-  width: calc(100vw - var(--spacing-6));
-  height: 3em;
-  padding: var(--spacing-2);
-  margin: 0 var(--spacing-3);
-  display: flex;
   align-items: center;
-  transition: top 0.3s;
-  z-index: -1;
+  background: var(--color-grayscale-gray6);
   display: flex;
+  display: flex;
+  height: 3em;
   justify-content: end;
+  left: 0;
+  margin: 0 var(--spacing-3);
+  padding: var(--spacing-2);
+  position: absolute;
+  transition: top 0.3s;
+  width: calc(100vw - var(--spacing-6));
 }
 .drawerOpen {
   composes: drawer;
-  top: 72px;
+  top: var(--spacing-10);
 }
 .drawerClosed {
   composes: drawer;
@@ -31,6 +30,7 @@
   right: var(--spacing-2);
   top: var(--spacing-2);
   visibility: hidden;
+  z-index: 2;
 }
 .menuButton::after {
   background-image: url('images/menu.svg');
@@ -40,10 +40,10 @@
   display: block;
   font-size: 0;
   height: 40px;
+  margin: var(--spacing-baseline);
   position: absolute;
   right: 0;
   top: 0;
-  margin: var(--spacing-baseline);
   visibility: visible;
   width: 40px;
 }

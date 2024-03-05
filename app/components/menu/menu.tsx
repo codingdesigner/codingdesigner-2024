@@ -1,14 +1,9 @@
 'use client';
 import React, { useState } from "react";
-import { useMediaQuery } from "react-responsive";
 
 import styles from './menu.module.css';
 
-export interface menuProps {
-  prop?: string;
-}
-
-function MenuList() {
+export function MenuList() {
   return (
     <ul role="menu" className={styles.menu}>
       <li className={styles.menuItem}>
@@ -27,33 +22,23 @@ function MenuList() {
   );
 }
 
-export function Menu({ prop = 'default value' }: menuProps) {
+export function Menu() {
   const [menuActive, setMenuActive] = useState(false);
 
   const onHamburgerClick = () => {
     const newState = (menuActive) ? false : true;
     setMenuActive(newState);
-    console.log(minSmall)
   };
-
-  const minSmall = useMediaQuery({
-    query: `(max-width: 632px)`,
-  });
 
   return (
     <React.Fragment>
-      {minSmall && (
-        <React.Fragment>
-          <div className={styles.menuButton}
-            onClick={onHamburgerClick}>Menu</div>
-          <div className={(menuActive) ? styles.drawerOpen : styles.drawerClosed}>
-            <MenuList />
-          </div>
-        </React.Fragment>
-      )}
-      {!minSmall && (
-        <MenuList />
-      )}
+      <React.Fragment>
+        <div className={styles.menuButton}
+          onClick={onHamburgerClick}>Menu</div>
+        <div className={(menuActive) ? styles.drawerOpen : styles.drawerClosed}>
+          <MenuList />
+        </div>
+      </React.Fragment>
     </React.Fragment>
   );
 }
