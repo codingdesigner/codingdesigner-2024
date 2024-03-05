@@ -1,13 +1,22 @@
-import React from 'react';
-import { Menu } from '../menu';
+'use client';
+import React, { useState, useEffect } from 'react';
+import { useMediaQuery } from "react-responsive";
+
+import { Menu, MenuList } from '../menu';
 
 import styles from './header.module.css';
 
-export interface headerProps {
-  prop?: string;
-}
+export function Header() {
+  const [isClient, setIsClient] = useState(false)
 
-export function Header({ prop = 'default value' }: headerProps) {
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
+
+  const minSmall = useMediaQuery({
+    query: `(max-width: 632px)`,
+  });
+
   return (
     <React.Fragment>
       <a href="#maincontent" className={styles.skiplink}>Skip to main content</a>
@@ -16,7 +25,12 @@ export function Header({ prop = 'default value' }: headerProps) {
           <a href='/' className={styles.gwendy}>Gwendy Wendell</a>
           <a href='/' className={styles.tcd}>The Coding Designer</a>
         </div>
-        <Menu/>
+        {isClient && !minSmall && (
+          <MenuList />
+        )}
       </header>
+      {isClient && minSmall && (
+        <Menu />
+      )}
     </React.Fragment>);
 }
