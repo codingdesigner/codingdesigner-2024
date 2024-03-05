@@ -1,6 +1,7 @@
 import React from 'react';
+import { Menu } from '../menu';
 
-import styles from './styles.module.css';
+import styles from './header.module.css';
 
 export interface headerProps {
   prop?: string;
@@ -15,22 +16,7 @@ export function Header({ prop = 'default value' }: headerProps) {
           <a href='/' className={styles.gwendy}>Gwendy Wendell</a>
           <a href='/' className={styles.tcd}>The Coding Designer</a>
         </div>
-        <ul aria-role="menu" className={styles.menu}>
-          <li className={styles.menuItem}>
-            <a href="/portfolio" className={styles.menuLink}>Portfolio</a>
-          </li>
-          <li className={styles.menuItem}>
-            <a href="/cv" className={styles.menuLink}>CV</a>
-          </li>
-          <li className={styles.menuItem}>
-            <a href="/about" className={styles.menuLink}>About</a>
-          </li>
-          <li className={styles.menuItem}>
-            <a href="/contact" className={styles.menuLink}>Contact</a>
-          </li>
-          {/* <li><a href="/test/md">Markdown</a></li> */}
-          {/* <li><a href="/test">Settings</a></li> */}
-        </ul>
+        <Menu/>
       </header>
     </React.Fragment>);
 }

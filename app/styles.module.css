@@ -1,6 +1,11 @@
 .body {
-  padding: 20px 20px 60px;
+  padding: var(--spacing-3) var(--spacing-3) var(--spacing-8);
   /* max-width: 680px; */
   margin: 0 auto;
   background-color: var(--main-bg-color);
+}
+
+.mainContent {
+  position: relative;
+  z-index: -2;
 }

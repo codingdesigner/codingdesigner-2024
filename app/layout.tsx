@@ -16,7 +16,7 @@ export default function RootLayout({
       </head>
       <body className={styles.body}>
         <Header prop="yer mom"/>
-        <main id="maincontent">
+        <main id="maincontent" className={styles.mainContent}>
           {children}
         </main>
       </body>

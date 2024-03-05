@@ -24,27 +24,26 @@
   transform: translateX(-50%) translateY(0);
 }
 
-
-
 .header {
   align-items: end;
+  background-color: var(--main-bg-color);
   border-bottom: 2px dashed var(--color-grayscale-gray5);
   display: grid;
-  font-family: var(--type-display);
-  font-weight: 700;
   gap: var(--spacing-2);
   grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-  letter-spacing: -0.5px;
-  margin-bottom: var(--spacing-4);
+  margin-bottom: var(--spacing-6);
   padding-bottom: var(--spacing-1-5);
-  text-transform: uppercase;
 }
 
 .banner {
   align-content: center;
   display: grid;
+  font-family: var(--type-display);
+  font-weight: 700;
   gap: var(--spacing-0-5);
   height: auto;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
   width: fit-content;
 }
 
@@ -56,30 +55,4 @@
 .tcd {
   composes: menuLink;
   display: block;
-}
-
-.menu {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: fit-content;
-}
-
-@media (min-width: 632px) {
-  .menu {
-    justify-self: end;
-  }
-}
-
-.menuItem {
-  padding: 0 var(--spacing-baseline);
-}
-
-.menuItem:first-child {
-  padding-left: 0;
-}
-.menuItem:last-child {
-  padding-right: 0;
 }
