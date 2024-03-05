@@ -14,7 +14,7 @@ export function Header() {
   }, [])
 
   const minSmall = useMediaQuery({
-    query: `(max-width: 632px)`,
+    query: `(max-width: 640px)`,
   });
 
   return (

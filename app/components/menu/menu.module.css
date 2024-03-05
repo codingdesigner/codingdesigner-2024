@@ -7,10 +7,10 @@
   background: var(--color-grayscale-gray6);
   display: flex;
   display: flex;
-  height: 3em;
   justify-content: end;
   left: 0;
   margin: 0 var(--spacing-3);
+  min-height: 3em;
   padding: var(--spacing-2);
   position: absolute;
   transition: top 0.3s;
@@ -22,7 +22,7 @@
 }
 .drawerClosed {
   composes: drawer;
-  top: var(--spacing-3);
+  top: 0;
 }
 
 .menuButton {
@@ -53,31 +53,31 @@
 
 .menu {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   font-family: var(--type-display);
   font-weight: 700;
   letter-spacing: -0.5px;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
-  width: fit-content;
-}
-
-
-@media (min-width: 632px) {
-  .menu {
-    justify-self: end;
-  }
+  justify-content: end;
 }
 
 .menuItem {
   padding: 0 var(--spacing-baseline);
 }
 
-.menuItem:first-child {
-  padding-left: 0;
-}
-.menuItem:last-child {
-  padding-right: 0;
+@media (min-width: 360px) {
+  .menu {
+    flex-direction: row;
+    text-transform: uppercase;
+    width: fit-content;
+    justify-self: end;
+  }
+  .menuItem:first-child {
+    padding-left: 0;
+  }
+  .menuItem:last-child {
+    padding-right: 0;
+  }
 }

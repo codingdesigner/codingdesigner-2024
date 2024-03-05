@@ -32,7 +32,9 @@
   gap: var(--spacing-2);
   grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   margin-bottom: var(--spacing-6);
+  margin-top: calc(var(--spacing-3) * -1);
   padding-bottom: var(--spacing-1-5);
+  padding-top: var(--spacing-3);
   position: relative;
   z-index: 1;
 }
