@@ -15,7 +15,7 @@ export default function RootLayout({
         {/* <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" /> */}
       </head>
       <body className={styles.body}>
-        <Header prop="yer mom"/>
+        <Header/>
         <main id="maincontent" className={styles.mainContent}>
           {children}
         </main>
