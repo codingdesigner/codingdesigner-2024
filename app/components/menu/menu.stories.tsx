@@ -5,7 +5,7 @@ import {Menu} from './menu';
 
 const meta: Meta<typeof Menu> = {
   title: 'Menu',
-  tags: ['autodocs'],
+  // tags: ['autodocs'],
   component: Menu,
 };
 

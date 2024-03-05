@@ -14,7 +14,7 @@ export default function RootLayout({
         {/* <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> */}
         {/* <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" /> */}
       </head>
-      <body className={styles.body}>
+      <body className="body">
         <Header/>
         <main id="maincontent" className={styles.mainContent}>
           {children}
