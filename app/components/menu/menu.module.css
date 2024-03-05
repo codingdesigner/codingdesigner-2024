@@ -6,10 +6,10 @@
   position: absolute;
   left: 0;
   background: var(--color-grayscale-gray6);
-  width: calc(100vw - var(--spacing-4));
+  width: calc(100vw - var(--spacing-6));
   height: 3em;
   padding: var(--spacing-2);
-  margin: 0 var(--spacing-2);
+  margin: 0 var(--spacing-3);
   display: flex;
   align-items: center;
   transition: top 0.3s;
@@ -23,13 +23,13 @@
 }
 .drawerClosed {
   composes: drawer;
-  top: var(--spacing-2);
+  top: var(--spacing-3);
 }
 
 .menuButton {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: var(--spacing-2);
+  top: var(--spacing-2);
   visibility: hidden;
 }
 .menuButton::after {
@@ -54,21 +54,16 @@
 .menu {
   display: flex;
   flex-direction: row;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: fit-content;
-
-  /*  */
   font-family: var(--type-display);
   font-weight: 700;
   letter-spacing: -0.5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   text-transform: uppercase;
+  width: fit-content;
 }
 
-/* .menuOpen {
-  composes: menu;
-} */
 
 @media (min-width: 632px) {
   .menu {

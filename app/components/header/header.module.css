@@ -31,7 +31,7 @@
   display: grid;
   gap: var(--spacing-2);
   grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-  margin-bottom: var(--spacing-4);
+  margin-bottom: var(--spacing-6);
   padding-bottom: var(--spacing-1-5);
 }
 
