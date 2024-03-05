@@ -1,0 +1,21 @@
+.typeDisplay {
+  font-family: var(--type-display);
+  font-optical-sizing: var(--type-display-font-optical-sizing);
+  font-weight: var(--type-display-font-base-weight);
+  font-style: var(--type-display-font-style);
+  font-variation-settings: var(--type-display-font-variation-settings);
+}
+.typeDisplay2 {
+  font-family: var(--type-display2);
+  font-optical-sizing: var(--type-display2-font-optical-sizing);
+  font-weight: var(--type-display2-font-base-weight);
+  font-style: var(--type-display2-font-style);
+  font-variation-settings: var(--type-display2-font-variation-settings);
+}
+.typeDisplay2 {
+  font-family: var(--type-text);
+  font-optical-sizing: var(--type-text-font-optical-sizing);
+  font-weight: var(--type-text-font-base-weight);
+  font-style: var(--type-text-font-style);
+  font-variation-settings: var(--type-text-font-variation-settings);
+}

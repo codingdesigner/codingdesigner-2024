@@ -1,5 +1,9 @@
+.typeDisplay {
+  composes: typeDisplay from '../../global/typography.module.css';
+}
+
 .menuLink {
-  composes: menuLink from '../../global/links.module.css'
+  composes: menuLink from '../../global/links.module.css';
 }
 
 .skiplink {
@@ -40,14 +44,11 @@
 }
 
 .banner {
+  composes: typeDisplay;
   align-content: center;
   display: grid;
-  font-family: var(--type-display);
-  font-weight: 700;
   gap: var(--spacing-0-5);
   height: auto;
-  letter-spacing: -0.5px;
-  text-transform: uppercase;
   width: fit-content;
 }
 

@@ -1,8 +1,23 @@
 :root {
   --main-bg-color: rgb(255, 255, 255);
 
-  --type-display: "SF Pro Display", Inter, -apple-system, sans-serif;
-  --type-text: "SF Pro Text", Inter, -apple-system, sans-serif;
+  --type-display: "Playfair Display", "Garamond", Georgia, "Times New Roman", -apple-system, serif;
+  --type-display-font-optical-sizing: auto;
+  --type-display-font-base-weight: 500;
+  --type-display-font-style: italic;
+  --type-display-font-variation-settings: auto;
+  --type-display2: "Fraunces", "Garamond", Georgia, "Times New Roman", -apple-system, serif;
+  --type-display2-font-optical-sizing: auto;
+  --type-display2-font-base-weight: 500;
+  --type-display2-font-style: italic;
+  --type-display2-font-variation-settings: "SOFT" 1, "WONK" 1;
+  --type-text: "Nunito Sans", Verdana, Arial, -apple-system, sans-serif;
+  --type-text-font-optical-sizing: auto;
+  --type-text-font-base-weight: 400;
+  --type-text-font-style: normal;
+  --type-text-font-variation-settings: "wdth" 95,
+  "YTLC" 500;
+
 
   --test-sidebar-color: rgb(222, 222, 222);
   --test-grid-color: #18ffff;
@@ -69,6 +84,17 @@
   --spacing-11: 88px;
   --spacing-12: 96px;
 
+  --type-scale-seed: 1em;
+  --type-scale-multiplier: 1.2;
+  --type-scale-1: var(--type-scale-seed);
+  --type-scale-2: calc(var(--type-scale-seed) * pow(var(--type-scale-multiplier), 1));
+  --type-scale-3: calc(var(--type-scale-seed) * pow(var(--type-scale-multiplier), 2));
+  --type-scale-4: calc(var(--type-scale-seed) * pow(var(--type-scale-multiplier), 3));
+  --type-scale-5: calc(var(--type-scale-seed) * pow(var(--type-scale-multiplier), 4));
+  --type-scale-6: calc(var(--type-scale-seed) * pow(var(--type-scale-multiplier), 5));
+  --type-scale-7: calc(var(--type-scale-seed) * pow(var(--type-scale-multiplier), 6));
+  --type-scale-8: calc(var(--type-scale-seed) * pow(var(--type-scale-multiplier), 7));
+
   --overlay-menu-width: 350px;
 
   --layout-gap: var(--spacing-2);
@@ -92,7 +118,18 @@
 }
 
 body, .sb-show-main.sb-main-padded {
-  padding: var(--spacing-3) var(--spacing-3) var(--spacing-8);
-  margin: 0 auto;
   background-color: var(--main-bg-color);
+  font-size: var(--type-scale-1);
+  margin: 0 auto;
+  padding: var(--spacing-3) var(--spacing-3) var(--spacing-8);
+}
+
+h1 {
+  font-size: var(--type-scale-4);
+}
+h2 {
+  font-size: var(--type-scale-3);
+}
+h3 {
+  font-size: var(--type-scale-2);
 }
