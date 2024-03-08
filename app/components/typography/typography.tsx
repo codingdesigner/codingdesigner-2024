@@ -6,13 +6,10 @@ export interface typographyProps {
   prop?: string;
 }
 
-export function typography({ prop = 'default value' }: typographyProps) {
+export function Typography({ prop = 'default value' }: typographyProps) {
   return (
-    <React.Fragment>
-      <h1>heading 1</h1>
-      <h2>heading 2</h2>
-      <h3>heading 3</h3>
-      <p>paragraph text</p>
-    </React.Fragment>
+    <div id="top" role="document">
+      <main dangerouslySetInnerHTML={{__html: prop}} />
+    </div>
   );
 }

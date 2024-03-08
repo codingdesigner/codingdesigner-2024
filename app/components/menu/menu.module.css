@@ -7,7 +7,7 @@
   background: var(--color-grayscale-gray6);
   display: flex;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   left: 0;
   margin: 0 var(--spacing-3);
   min-height: 3em;
@@ -18,7 +18,7 @@
 }
 .drawerOpen {
   composes: drawer;
-  top: var(--spacing-10);
+  top: var(--spacing-12);
 }
 .drawerClosed {
   composes: drawer;
@@ -60,7 +60,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .menuItem {
@@ -72,7 +72,7 @@
     flex-direction: row;
     text-transform: uppercase;
     width: fit-content;
-    justify-self: end;
+    justify-self: flex-end;
   }
   .menuItem:first-child {
     padding-left: 0;
