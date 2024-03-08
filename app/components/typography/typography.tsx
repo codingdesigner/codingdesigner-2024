@@ -3,13 +3,13 @@ import React from 'react';
 // import styles from './typography.module.css';
 
 export interface typographyProps {
-  prop?: string;
+  dangerousHTML?: string;
 }
 
-export function Typography({ prop = 'default value' }: typographyProps) {
+export function Typography({ dangerousHTML = '' }: typographyProps) {
   return (
     <div id="top" role="document">
-      <main dangerouslySetInnerHTML={{__html: prop}} />
+      <main dangerouslySetInnerHTML={{__html: dangerousHTML}} />
     </div>
   );
 }

@@ -15,6 +15,6 @@ export default meta;
 
 type Story = StoryObj<typeof Typography>;
 
-export const Text: Story = {args: {prop : textSection}};
-export const Embedded: Story = {args: {prop : embeddedSection}};
-export const Forms: Story = {args: {prop : formsSection}};
+export const Text: Story = {args: {dangerousHTML : textSection}};
+export const Embedded: Story = {args: {dangerousHTML : embeddedSection}};
+export const Forms: Story = {args: {dangerousHTML : formsSection}};
