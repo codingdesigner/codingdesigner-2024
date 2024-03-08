@@ -1,46 +1,15 @@
 :root {
   --main-bg-color: rgb(255, 255, 255);
 
-  /* --type-display: "Playfair Display", "Garamond", Georgia, "Times New Roman",
-    -apple-system, serif;
-  --type-display-font-optical-sizing: auto;
-  --type-display-font-base-weight: 500;
-  --type-display-font-style: normal;
-  --type-display-font-variation-settings: auto;
-
-  --type-display2: "Fraunces", "Garamond", Georgia, "Times New Roman",
-    -apple-system, serif;
-  --type-display2-font-optical-sizing: auto;
-  --type-display2-font-base-weight: 500;
-  --type-display2-font-style: normal;
-  --type-display2-font-variation-settings: "SOFT" 1, "WONK" 1; */
-
-  /* --type-text: "Nunito Sans", Verdana, Arial, -apple-system, sans-serif;
+  --type-text: "gill-sans-nova", Verdana, Arial, -apple-system, sans-serif;
   --type-text-font-optical-sizing: auto;
   --type-text-font-base-weight: 400;
   --type-text-font-style: normal;
-  --type-text-font-variation-settings: "wdth" 95, "YTLC" 500; */
 
-  --type-text2: "gill-sans-nova", Verdana, Arial, -apple-system, sans-serif;
-  --type-text2-font-optical-sizing: auto;
-  --type-text2-font-base-weight: 400;
-  --type-text2-font-style: normal;
-
-  /* --type-display3: "montecatini-pro-normale", "Garamond", Georgia, "Times New Roman", -apple-system, serif;
-  --type-display3: "montecatini-pro-stretto", "Garamond", Georgia, "Times New Roman", -apple-system, serif;
-  --type-display3: "montecatini-pro-ampio", "Garamond", Georgia, "Times New Roman", -apple-system, serif;
-  --type-display3-font-base-weight: 400;
-  --type-display3-font-style: normal;
-
-  --type-display4: "bookmania", "Garamond", Georgia, "Times New Roman", -apple-system, serif;
-  --type-display4-font-base-weight: 400;
-  --type-display4-font-style: normal;
-  --type-display4-font-variation-settings: "liga", "calt", "dlig", "salt", "swsh"; */
-
-  --type-display5: "gill-sans-nova-shadowed-outl", Verdana, Arial, -apple-system, sans-serif;
-  --type-display5-font-base-weight: 400;
-  --type-display5-font-style: normal;
-  --type-display5-font-variation-settings: "liga", "salt";
+  --type-display: "gill-sans-nova-shadowed-outl", Verdana, Arial, -apple-system, sans-serif;
+  --type-display-font-base-weight: 400;
+  --type-display-font-style: normal;
+  --type-display-font-variation-settings: "liga", "salt";
 
   --test-sidebar-color: rgb(222, 222, 222);
   --test-grid-color: rgba(0, 213, 255, 0.5);
@@ -107,7 +76,7 @@
   --spacing-11: 88px;
   --spacing-12: 96px;
 
-  --type-scale-seed: 16px;
+  --type-scale-seed: var(--spacing-2);
   --type-scale-multiplier: 1.2;
   --type-scale-1: var(--type-scale-seed);
   --type-scale-2: calc(
@@ -131,16 +100,13 @@
   --type-scale-8: calc(
     var(--type-scale-seed) * pow(var(--type-scale-multiplier), 7)
   );
-  /* --line-height-seed: 1.5em; */
-  --line-height-seed: 24px;
-  --line-height-1: calc(var(--line-height-seed) * 1);
-  --line-height-2: calc(var(--line-height-seed) * 1);
-  --line-height-3: calc(var(--line-height-seed) * 1.5);
-  --line-height-4: calc(var(--line-height-seed) * 1.5);
-  --line-height-5: calc(var(--line-height-seed) * 2);
-  --line-height-6: calc(var(--line-height-seed) * 2);
-  --line-height-7: calc(var(--line-height-seed) * 3);
-  /* --line-height-1: calc(var(--line-height-seed) / var(--type-scale-1)); */
+  --line-height-1: var(--spacing-3);
+  --line-height-2: var(--spacing-3);
+  --line-height-3: var(--spacing-4);
+  --line-height-4: var(--spacing-4);
+  --line-height-5: var(--spacing-6);
+  --line-height-6: var(--spacing-6);
+  --line-height-7: var(--spacing-8);
 
   --overlay-menu-width: 350px;
 
@@ -173,7 +139,7 @@
   box-sizing: border-box;
 }
 
-/* .typeDisplay,
+.typeDisplay,
 h1,
 h2,
 h3,
@@ -181,58 +147,9 @@ h4,
 h5,
 h6 {
   font-family: var(--type-display);
-  font-optical-sizing: var(--type-display-font-optical-sizing);
   font-weight: var(--type-display-font-base-weight);
   font-style: var(--type-display-font-style);
   font-variation-settings: var(--type-display-font-variation-settings);
-}
-.typeDisplay2,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--type-display2);
-  font-optical-sizing: var(--type-display2-font-optical-sizing);
-  font-weight: var(--type-display2-font-base-weight);
-  font-style: var(--type-display2-font-style);
-  font-variation-settings: var(--type-display2-font-variation-settings);
-}
-.typeDisplay3,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--type-display3);
-  font-weight: var(--type-display3-font-base-weight);
-  font-style: var(--type-display3-font-style);
-}
-.typeDisplay4,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--type-display4);
-  font-weight: var(--type-display4-font-base-weight);
-  font-style: var(--type-display4-font-style);
-  font-variation-settings: var(--type-display4-font-variation-settings);
-} */
-.typeDisplay5,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--type-display5);
-  font-weight: var(--type-display5-font-base-weight);
-  font-style: var(--type-display5-font-style);
-  font-variation-settings: var(--type-display5-font-variation-settings);
 }
 .typeText,
 body {
@@ -241,13 +158,6 @@ body {
   font-weight: var(--type-text-font-base-weight);
   font-style: var(--type-text-font-style);
   font-variation-settings: var(--type-text-font-variation-settings);
-}
-.typeText2,
-body {
-  font-family: var(--type-text2);
-  font-optical-sizing: var(--type-text2-font-optical-sizing);
-  font-weight: var(--type-text2-font-base-weight);
-  font-style: var(--type-text2-font-style);
 }
 
 body,
