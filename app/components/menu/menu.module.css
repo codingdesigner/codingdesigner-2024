@@ -1,5 +1,15 @@
+.typeBasic {
+  composes: typeBasic from '../../global/typography.module.css'
+}
+
 .menuLink {
-  composes: menuLink from '../../global/links.module.css'
+  composes: typeBasic;
+  color: var(--color-grayscale-black);
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+.menuLink:hover {
+  color: var(--color-grayscale-gray3);
 }
 
 .drawer {
