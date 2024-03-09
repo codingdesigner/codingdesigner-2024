@@ -7,7 +7,7 @@ import { embeddedSection } from './story-content/embedded';
 import { formsSection } from './story-content/forms';
 
 const meta: Meta<typeof Typography> = {
-  title: 'Typography',
+  title: 'Utilities/Typography',
   component: Typography,
 };
 

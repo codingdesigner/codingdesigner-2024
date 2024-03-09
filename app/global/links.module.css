@@ -1,7 +1,7 @@
 .menuLink {
-  color: var(--color-feedback-link);
+  color: var(--color-grayscale-black);
   text-underline-offset: 2px;
 }
 .menuLink:hover {
-  color: var(--color-feedback-link_hover);
+  color: var(--color-grayscale-gray1);
 }

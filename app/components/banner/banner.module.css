@@ -1,0 +1,104 @@
+.headings {
+  composes: headingDefaults from "../typography/typography.module.css";
+}
+
+.banner {
+  composes: headings;
+  align-content: center;
+  display: grid;
+  gap: var(--spacing-0-5);
+  height: auto;
+  width: fit-content;
+
+  font-size: var(--type-scale-3);
+  line-height: var(--line-height-3);
+  transform: translateY(16px);
+  overflow: hidden;
+}
+
+.banner:hover {
+  .bannerWrapper {
+    background-color: var(--color-accent-5);
+  }
+}
+
+.bannerLink {
+  color: var(--color-grayscale-black);
+  text-decoration: none;
+}
+
+.bannerLink:hover {
+  color: var(--color-grayscale-black);
+}
+
+.bannerWrapper {
+  padding: var(--spacing-0-5);
+  display: inline-block;
+  position: relative;
+}
+
+.bannerItem {
+  position: relative;
+  display: inline-block;
+}
+
+.gwendyWendell {
+  composes: bannerLink;
+  composes: headings;
+  display: block;
+}
+
+.gwendyWrapper {
+  composes: bannerWrapper;
+  background-color: var(--color-accent-1);
+  transform: rotate(-1deg) translate3d(-3px, -4px, 0);
+}
+.gwendy {
+  composes: bannerItem;
+  transform: rotate(1deg) translate3d(3px, 4px, 0);
+}
+
+.wendellWrapper {
+  composes: bannerWrapper;
+  background-color: var(--color-accent-2);
+  transform: rotate(1.5deg) translate3d(3px, 2px, 0);
+}
+.wendell {
+  composes: bannerItem;
+  transform: rotate(-1.5deg) translate3d(-3px, -2px, 0);
+}
+
+.tcd {
+  composes: bannerLink;
+  composes: headings;
+  display: block;
+  transform: translateY(-8px);
+}
+
+.the {
+  composes: bannerItem;
+  font-size: var(--type-scale-1);
+  line-height: var(--line-height-1);
+}
+
+.codingWrapper {
+  composes: bannerWrapper;
+  background-color: var(--color-accent-3);
+  transform: rotate(0.5deg) translate3d(2px, 2px, 0);
+}
+
+.coding {
+  composes: bannerItem;
+  transform: rotate(-0.5deg) translate3d(-2px, -2px, 0);
+}
+
+.designerWrapper {
+  composes: bannerWrapper;
+  background-color: var(--color-accent-4);
+  transform: rotate(-2deg) translate3d(3px, -3px, 0);
+}
+
+.designer {
+  composes: bannerItem;
+  transform: rotate(2deg) translate3d(-3px, 3px, 0);
+}

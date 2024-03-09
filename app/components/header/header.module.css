@@ -1,11 +1,3 @@
-.typeDisplay {
-  composes: typeDisplay from '../../global/typography.module.css';
-}
-
-.menuLink {
-  composes: menuLink from '../../global/links.module.css';
-}
-
 .skiplink {
   background: var(--color-feedback-link);
   border: none;
@@ -35,30 +27,13 @@
   display: grid;
   gap: var(--spacing-2);
   grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  height: var(--spacing-12);
   margin-bottom: var(--spacing-6);
   margin-top: calc(var(--spacing-3) * -1);
   padding-bottom: var(--spacing-1-5);
   padding-top: var(--spacing-3);
   position: relative;
   z-index: 1;
-  min-height: var(--spacing-12);
 }
 
-.banner {
-  composes: typeDisplay;
-  align-content: center;
-  display: grid;
-  gap: var(--spacing-0-5);
-  height: auto;
-  width: fit-content;
-}
 
-.gwendy {
-  composes: menuLink;
-  display: block;
-}
-
-.tcd {
-  composes: menuLink;
-  display: block;
-}
