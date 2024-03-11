@@ -7,7 +7,7 @@ export const embeddedSection: string = `
               <h3>Plain <code>&lt;img&gt;</code> element</h3>
               <p>
                 <img
-                  src="https://placekitten.com/480/480"
+                  src="http://unsplash.it/480/480"
                   alt="Photo of a kitten"
                 />
               </p>
@@ -17,7 +17,7 @@ export const embeddedSection: string = `
               </h3>
               <figure>
                 <img
-                  src="https://placekitten.com/420/420"
+                  src="http://unsplash.it/420/420"
                   alt="Photo of a kitten"
                 />
               </figure>
@@ -28,7 +28,7 @@ export const embeddedSection: string = `
               </h3>
               <figure>
                 <img
-                  src="https://placekitten.com/420/420"
+                  src="http://unsplash.it/420/420"
                   alt="Photo of a kitten"
                 />
                 <figcaption>Here is a caption for this image.</figcaption>
@@ -40,11 +40,11 @@ export const embeddedSection: string = `
               <figure>
                 <picture>
                   <source
-                    srcSet="https://placekitten.com/800/800"
+                    srcSet="http://unsplash.it/800/800"
                     media="(min-width: 800px)"
                   />
                   <img
-                    src="https://placekitten.com/420/420"
+                    src="http://unsplash.it/420/420"
                     alt="Photo of a kitten"
                   />
                 </picture>
@@ -58,7 +58,7 @@ export const embeddedSection: string = `
             <header class="section-heading"><h2>Background images</h2></header>
             <div
               style={{
-            backgroundImage: 'url(' + 'https://placekitten.com/300/300' + ')',
+            backgroundImage: 'url(' + 'http://unsplash.it/300/300' + ')',
             width: '300px',
             height: '300px',
           }}
