@@ -57,7 +57,7 @@ export const formsSection: string = `
                 <input id="input__file" type="file" />
               </p>
             </fieldset>
-            <p><a href="#top">[Top]</a></p>
+
             <fieldset id="forms__select">
               <legend>Select menus</legend>
               <p>
@@ -81,7 +81,7 @@ export const formsSection: string = `
                 </select>
               </p>
             </fieldset>
-            <p><a href="#top">[Top]</a></p>
+
             <fieldset id="forms__checkbox">
               <legend>Checkboxes</legend>
               <ul>
@@ -110,7 +110,7 @@ export const formsSection: string = `
                 </li>
               </ul>
             </fieldset>
-            <p><a href="#top">[Top]</a></p>
+
             <fieldset id="forms__radio">
               <legend>Radio buttons</legend>
               <ul>
@@ -137,7 +137,7 @@ export const formsSection: string = `
                 </li>
               </ul>
             </fieldset>
-            <p><a href="#top">[Top]</a></p>
+
             <fieldset id="forms__textareas">
               <legend>Textareas</legend>
               <p>
@@ -150,7 +150,7 @@ export const formsSection: string = `
                 ></textarea>
               </p>
             </fieldset>
-            <p><a href="#top">[Top]</a></p>
+
             <fieldset id="forms__html5">
               <legend>HTML5 inputs</legend>
               <p>
@@ -195,7 +195,7 @@ export const formsSection: string = `
                 </datalist>
               </p>
             </fieldset>
-            <p><a href="#top">[Top]</a></p>
+
             <fieldset id="forms__action">
               <legend>Action buttons</legend>
               <p>
@@ -211,7 +211,7 @@ export const formsSection: string = `
                 <button type="button" disabled>&lt;button disabled&gt;</button>
               </p>
             </fieldset>
-            <p><a href="#top">[Top]</a></p>
+
           </form>
         </section>
 `

@@ -51,7 +51,7 @@ export const embeddedSection: string = `
               </figure>
             </div>
             <footer>
-              <p><a href="#top">[Top]</a></p>
+
             </footer>
           </article>
           <article id="embedded__bgimages">
@@ -64,42 +64,42 @@ export const embeddedSection: string = `
           }}
             ></div>
             <footer>
-              <p><a href="#top">[Top]</a></p>
+
             </footer>
           </article>
           <article id="embedded__audio">
             <header class="section-heading"><h2>Audio</h2></header>
             <div><audio controls>audio</audio></div>
             <footer>
-              <p><a href="#top">[Top]</a></p>
+
             </footer>
           </article>
           <article id="embedded__video">
             <header class="section-heading"><h2>Video</h2></header>
             <div><video controls>video</video></div>
             <footer>
-              <p><a href="#top">[Top]</a></p>
+
             </footer>
           </article>
           <article id="embedded__canvas">
             <header class="section-heading"><h2>Canvas</h2></header>
             <div><canvas>canvas</canvas></div>
             <footer>
-              <p><a href="#top">[Top]</a></p>
+
             </footer>
           </article>
           <article id="embedded__meter">
             <header class="section-heading"><h2>Meter</h2></header>
             <div><meter value="2" min="0" max="10">2 out of 10</meter></div>
             <footer>
-              <p><a href="#top">[Top]</a></p>
+
             </footer>
           </article>
           <article id="embedded__progress">
             <header class="section-heading"><h2>Progress</h2></header>
             <div><progress>progress</progress></div>
             <footer>
-              <p><a href="#top">[Top]</a></p>
+
             </footer>
           </article>
           <article id="embedded__svg">
@@ -110,28 +110,28 @@ export const embeddedSection: string = `
               </svg>
             </div>
             <footer>
-              <p><a href="#top">[Top]</a></p>
+
             </footer>
           </article>
           <article id="embedded__iframe">
             <header class="section-heading"><h2>IFrame</h2></header>
             <div><iframe src="index.html" height="300"></iframe></div>
             <footer>
-              <p><a href="#top">[Top]</a></p>
+
             </footer>
           </article>
           <article id="embedded__embed">
             <header class="section-heading"><h2>Embed</h2></header>
             <div><embed src="index.html" height="300" /></div>
             <footer>
-              <p><a href="#top">[Top]</a></p>
+
             </footer>
           </article>
           <article id="embedded__object">
             <header class="section-heading"><h2>Object</h2></header>
             <div><object data="index.html" height="300"></object></div>
             <footer>
-              <p><a href="#top">[Top]</a></p>
+
             </footer>
           </article>
         </section>
