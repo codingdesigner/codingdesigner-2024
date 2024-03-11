@@ -1,6 +1,6 @@
 export const formsSection: string = `
 <section id="forms">
-          <header><h2>Form elements</h2></header>
+          <header class="section-heading"><h2>Form elements</h2></header>
           <form>
             <fieldset id="forms__input">
               <legend>Input fields</legend>

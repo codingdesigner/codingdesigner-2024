@@ -2,7 +2,7 @@ export const textSection: string = `
 <section id="text">
 <header><h1>Text</h1></header>
 <article id="text__headings">
-  <header>
+  <header class="section-heading">
     <h2>Headings</h2>
   </header>
   <div>
@@ -13,12 +13,10 @@ export const textSection: string = `
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
   </div>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
+
 </article>
 <article id="text__paragraphs">
-  <header><h2>Paragraphs</h2></header>
+  <header class="section-heading"><h2>Paragraphs</h2></header>
   <div>
     <p>
       A paragraph (from the Greek paragraphos, “to write beside” or
@@ -29,12 +27,10 @@ export const textSection: string = `
       used to organize longer prose.
     </p>
   </div>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
+
 </article>
 <article id="text__blockquotes">
-  <header><h2>Blockquotes</h2></header>
+  <header class="section-heading"><h2>Blockquotes</h2></header>
   <div>
     <blockquote>
       <p>
@@ -50,12 +46,10 @@ export const textSection: string = `
       <cite><a href="#!">Said no one, ever.</a></cite>
     </blockquote>
   </div>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
+
 </article>
 <article id="text__lists">
-  <header><h2>Lists</h2></header>
+  <header class="section-heading"><h2>Lists</h2></header>
   <div>
     <h3>Definition list</h3>
     <dl>
@@ -131,12 +125,10 @@ export const textSection: string = `
       <li>List Item 3</li>
     </ul>
   </div>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
+
 </article>
 <article id="text__blockquotes">
-  <header><h1>Blockquotes</h1></header>
+  <header class="section-heading"><h2><h1>Blockquotes</h1></header>
   <div>
     <blockquote>
       <p>
@@ -152,12 +144,10 @@ export const textSection: string = `
       <cite><a href="#!">Said no one, ever.</a></cite>
     </blockquote>
   </div>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
+
 </article>
 <article id="text__details">
-  <header><h1>Details / Summary</h1></header>
+  <header class="section-heading"><h2><h1>Details / Summary</h1></header>
   <details>
     <summary>Expand for details</summary>
     <p>
@@ -167,12 +157,10 @@ export const textSection: string = `
       facilis quidem unde eos! Ipsa.
     </p>
   </details>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
+
 </article>
 <article id="text__address">
-  <header><h1>Address</h1></header>
+  <header class="section-heading"><h2><h1>Address</h1></header>
   <address>
     Written by
     <a href="mailto:webmaster@example.com">Jon Doe</a>.<br />
@@ -181,21 +169,17 @@ export const textSection: string = `
     Box 564, Disneyland<br />
     USA
   </address>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
+
 </article>
 <article id="text__hr">
-  <header><h2>Horizontal rules</h2></header>
+  <header class="section-heading"><h2>Horizontal rules</h2></header>
   <div>
     <hr />
   </div>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
+
 </article>
 <article id="text__tables">
-  <header><h2>Tabular data</h2></header>
+  <header class="section-heading"><h2>Tabular data</h2></header>
   <table>
     <caption>
       Table Caption
@@ -249,12 +233,10 @@ export const textSection: string = `
       </tr>
     </tbody>
   </table>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
+
 </article>
 <article id="text__code">
-  <header><h2>Code</h2></header>
+  <header class="section-heading"><h2>Code</h2></header>
   <div>
     <p><strong>Keyboard input:</strong> <kbd>Cmd</kbd></p>
     <p>
@@ -275,12 +257,10 @@ export const textSection: string = `
       a b c d e f g h i j k l m n o
       p q r s t u v w x y z ~ </pre>
   </div>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
+
 </article>
 <article id="text__inline">
-  <header><h2>Inline elements</h2></header>
+  <header class="section-heading"><h2>Inline elements</h2></header>
   <div>
     <p><a href="#!">This is a text link</a>.</p>
     <p>
@@ -329,21 +309,7 @@ export const textSection: string = `
       <time dateTime="2013-04-06T12:32+00:00">2 weeks ago</time>
     </p>
   </div>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
-</article>
-<article id="text__comments">
-  <header><h2>HTML Comments</h2></header>
-  <div>
-    <p>
-      There is comment here:
-    </p>
-    <p>There is a comment spanning multiple tags and lines below here.</p>
-  </div>
-  <footer>
-    <p><a href="#top">[Top]</a></p>
-  </footer>
+
 </article>
 </section>
 `;
