@@ -79,6 +79,8 @@
   --spacing-11: 88px;
   --spacing-12: 96px;
 
+  --vh: 100vh;
+
   --type-scale-seed: var(--spacing-2);
   --type-scale-multiplier: 1.2;
   --type-scale-1: var(--type-scale-seed);
@@ -252,8 +254,8 @@ dd {
 }
 
 ol, ul {
-  margin-block-start: var(--spacing-2);
   margin-block-end: var(--spacing-2);
+  margin-block-start: var(--spacing-2);
   padding-inline-start: 0;
 }
 
@@ -261,18 +263,18 @@ ul ul,
 ul ol,
 ol ul,
 ol ol {
-  margin-block-start: 0;
   margin-block-end: 0;
+  margin-block-start: 0;
   padding-inline-start: var(--spacing-4);
 }
 
 hr {
-  margin-block-start: var(--spacing-baseline);
-  margin-block-end: calc(var(--spacing-baseline) -  var(--border-width));
   border-style: dashed;
   border-width: var(--border-width);
-  margin-top: calc(var(--border-width) * 2 * -1);
   color: var(--color-grayscale-gray4);
+  margin-block-end: calc(var(--spacing-baseline) -  var(--border-width));
+  margin-block-start: var(--spacing-baseline);
+  margin-top: calc(var(--border-width) * 2 * -1);
 }
 
 table {
@@ -303,12 +305,10 @@ sup, sub {
 
 sup {
   margin-top: -12px;
-  /* display: none; */
 }
 
 sub {
   margin-bottom: -12px;
-  /* display: none; */
 }
 
 small {

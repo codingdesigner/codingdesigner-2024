@@ -1,4 +1,5 @@
 import { Header } from './components/header'
+import { PageFooter } from './components/pageFooter'
 import './global/global.css'
 import styles from './layout.module.css'
 
@@ -13,10 +14,15 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://use.typekit.net/hqw2ypd.css"></link>
       </head>
       <body className="body">
+        <div className={styles.holyGrail}>
         <Header />
-        <main id="maincontent" className={styles.mainContent}>
+        <main id="maincontent" className={styles.holyGrailBody}>
+          <div className={styles.holyGrailContent}>
           {children}
+          </div>
         </main>
+        <PageFooter/>
+        </div>
       </body>
     </html>
   )

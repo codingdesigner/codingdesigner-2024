@@ -1,3 +1,25 @@
-.mainContent {
+.holyGrail {
+  display: flex;
+  flex-direction: column;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  min-height: var(--vh);
+}
+
+.holyGrailBody {
+  align-content: start;
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  grid-auto-columns: 1fr;
+  grid-column-gap: var(--layout-gap);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   position: relative;
+}
+
+.holyGrailContent {
+  flex: 1;
 }
