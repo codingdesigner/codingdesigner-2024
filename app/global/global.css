@@ -12,6 +12,12 @@
   --type-display-font-style: normal;
   --type-display-font-variation-settings: "liga", "salt";
 
+  --type-display2: "gill-sans-nova-condensed", Verdana, Arial, -apple-system,
+    sans-serif;
+  --type-display2-font-base-weight: 500;
+  --type-display2-font-style: normal;
+  --type-display2-font-variation-settings: "liga";
+
   --type-mono: "source-code-pro", monospace;
   --type-mono-font-base-weight: 400;
   --type-mono-font-style: normal;
@@ -157,6 +163,17 @@ h6 {
   font-variation-settings: var(--type-display-font-variation-settings);
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--type-display2);
+  font-weight: var(--type-display2-font-base-weight);
+  font-style: var(--type-display2-font-style);
+  font-variation-settings: var(--type-display2-font-variation-settings);
+}
+
 h1,
 h2 {
   margin-block-start: var(--spacing-3);
@@ -182,7 +199,7 @@ body {
 .sb-show-main.sb-main-padded .section-heading {
   h2 {
     color: var(--color-accent-1);
-    font-family: var(--type-text);
+    font-family: var(--type-display2);
   }
 }
 
@@ -193,7 +210,7 @@ body,
   line-height: var(--line-height-1);
   margin: 0 auto;
   padding: var(--spacing-3) var(--spacing-3) var(--spacing-8);
-  background-image: var(--baseline-bg-image);
+  /* background-image: var(--baseline-bg-image); */
 }
 
 p {
