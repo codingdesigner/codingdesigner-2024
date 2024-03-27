@@ -1,0 +1,8 @@
+.FigureGallery {
+  outline: 1px solid pink;
+  display: grid;
+  gap: var(--spacing-4);
+  /* todo: automatically set min width */
+  grid-template-columns: repeat(auto-fit, minmax(393px, 1fr));
+    align-items: start;
+}

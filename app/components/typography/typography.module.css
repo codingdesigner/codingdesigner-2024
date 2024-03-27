@@ -1,5 +1,5 @@
 .headingDefaults {
-  font-family: var(--type-display);
+  font-family: var(--type-display-font-family);
   font-weight: var(--type-display-font-base-weight);
   font-style: var(--type-display-font-style);
   font-variation-settings: var(--type-display-font-variation-settings);

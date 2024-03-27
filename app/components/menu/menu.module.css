@@ -64,7 +64,7 @@
 .menu {
   display: flex;
   flex-wrap: wrap;
-  font-family: var(--type-display);
+  font-family: var(--type-display-font-family);
   font-weight: 700;
   letter-spacing: -0.5px;
   list-style-type: none;

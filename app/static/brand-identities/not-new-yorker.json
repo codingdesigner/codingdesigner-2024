@@ -1,0 +1,1324 @@
+{
+  "colors": {
+    "background": {
+      "adContainer": {
+        "inverted": "c2",
+        "special": "c8",
+        "standard": "g17",
+        "sticky": "a3"
+      },
+      "black": "c1",
+      "brand": "c1",
+      "dark": "c2",
+      "light": "c8",
+      "white": "a3"
+    },
+    "consumption": {
+      "body": {
+        "inverted": {
+          "accent": "c8",
+          "adlabel": "c3",
+          "bg-card": "c1",
+          "bg-photo": "c1",
+          "body": "a3",
+          "body-deemphasized": "c8",
+          "display-signature": "a3",
+          "display-texture": "a3",
+          "divider": "c1",
+          "link": "a3",
+          "link-hover": "c8",
+          "subhed": "a3"
+        },
+        "special": {
+          "accent": "c1",
+          "adlabel": "c6",
+          "bg-card": "c8",
+          "bg-photo": "a3",
+          "body": "c1",
+          "body-deemphasized": "c3",
+          "display-signature": "c1",
+          "display-texture": "c1",
+          "divider": "c2",
+          "link": "c1",
+          "link-hover": "c2",
+          "subhed": "c1"
+        },
+        "standard": {
+          "accent": "c1",
+          "adlabel": "c6",
+          "bg-card": "c8",
+          "bg-photo": "a3",
+          "body": "c1",
+          "body-deemphasized": "c2",
+          "display-signature": "c1",
+          "display-texture": "c1",
+          "divider": "c2",
+          "link": "c1",
+          "link-hover": "c2",
+          "subhed": "c1"
+        }
+      },
+      "lead": {
+        "inverted": {
+          "accent": "c8",
+          "accreditation": "a3",
+          "background": "c1",
+          "context-signature": "c8",
+          "context-tertiary": "c8",
+          "context-texture": "c1",
+          "description": "a3",
+          "divider": "c2",
+          "heading": "a3",
+          "heading-background": "c1",
+          "link": "a3",
+          "link-hover": "c8",
+          "syndication": "c8"
+        },
+        "special": {
+          "accent": "c2",
+          "accreditation": "c1",
+          "background": "a3",
+          "context-signature": "c1",
+          "context-tertiary": "c2",
+          "context-texture": "a3",
+          "description": "c2",
+          "divider": "c1",
+          "heading": "c1",
+          "heading-background": "a3",
+          "link": "c1",
+          "link-hover": "c2",
+          "syndication": "c1"
+        },
+        "standard": {
+          "accent": "c1",
+          "accreditation": "c1",
+          "background": "a3",
+          "context-signature": "c1",
+          "context-tertiary": "c2",
+          "context-texture": "c8",
+          "description": "c2",
+          "divider": "c7",
+          "heading": "c1",
+          "heading-background": "a3",
+          "link": "c1",
+          "link-hover": "c2",
+          "syndication": "c1"
+        }
+      }
+    },
+    "discovery": {
+      "body": {
+        "black": {
+          "accent": "c8",
+          "accreditation": "a3",
+          "background": "c1",
+          "border": "c3",
+          "context-signature": "a3",
+          "context-tertiary": "c5",
+          "context-texture": "c2",
+          "description": "c6",
+          "divider": "c2",
+          "heading": "a3",
+          "heading-background": "c1",
+          "syndication": "c8"
+        },
+        "brand": {
+          "accent": "c8",
+          "accreditation": "a3",
+          "background": "c1",
+          "border": "c3",
+          "context-signature": "a3",
+          "context-tertiary": "c5",
+          "context-texture": "c2",
+          "description": "c5",
+          "divider": "c2",
+          "heading": "a3",
+          "heading-background": "c1",
+          "syndication": "c8"
+        },
+        "dark": {
+          "accent": "c8",
+          "accreditation": "a3",
+          "background": "c1",
+          "border": "c3",
+          "context-signature": "a3",
+          "context-tertiary": "c5",
+          "context-texture": "c2",
+          "description": "c5",
+          "divider": "c2",
+          "heading": "a3",
+          "heading-background": "c1",
+          "syndication": "c8"
+        },
+        "light": {
+          "accent": "c1",
+          "accreditation": "c1",
+          "background": "c8",
+          "border": "c1",
+          "context-signature": "c1",
+          "context-tertiary": "c1",
+          "context-texture": "a3",
+          "description": "c2",
+          "divider": "c1",
+          "heading": "c1",
+          "heading-background": "c8",
+          "syndication": "c1"
+        },
+        "white": {
+          "accent": "c1",
+          "accreditation": "c1",
+          "background": "a3",
+          "border": "c7",
+          "context-signature": "c1",
+          "context-tertiary": "c1",
+          "context-texture": "c8",
+          "description": "c2",
+          "divider": "c7",
+          "heading": "c1",
+          "heading-background": "a3",
+          "syndication": "c1"
+        }
+      },
+      "lead": {
+        "primary": {
+          "accent": "c2",
+          "background": "a3",
+          "description": "c1",
+          "divider": "c2",
+          "hed": "c1",
+          "link": "c1",
+          "link-hover": "c2"
+        },
+        "secondary": {
+          "accent": "c2",
+          "background": "c8",
+          "description": "c1",
+          "divider": "c2",
+          "hed": "c1",
+          "link": "c1",
+          "link-hover": "c2"
+        }
+      }
+    },
+    "foundation": {
+      "ad": {
+        "background-inverted": "ad2",
+        "background-standard": "ad1",
+        "label-inverted": "ad4",
+        "label-standard": "ad3"
+      },
+      "collapsed-menu": {
+        "nav-link": { "default": "c1", "hover": "c2" },
+        "utility-link": { "default": "c1", "hover": "c2" }
+      },
+      "expanded-context": "c2",
+      "expanded-menu": {
+        "nav-link": { "default": "c1", "hover": "c2" },
+        "utility-link": { "default": "c1", "hover": "c2" }
+      },
+      "expanded-utility": { "nav-link": { "default": "c1", "hover": "c2" } },
+      "footer": {
+        "accent": "c2",
+        "bg": "c1",
+        "context": "a3",
+        "links": { "primary": "a3", "secondary": "c6" },
+        "meta-primary": "a3",
+        "meta-secondary": "c3",
+        "social": { "hover": "c7" }
+      },
+      "icon": { "default": "c1", "hover": "c2" },
+      "menu": { "dividers": "c7" },
+      "menu-bg": { "accent": "c2", "collapsed": "a3", "expanded": "a3" }
+    },
+    "interactive": {
+      "base": {
+        "black": "c1",
+        "body": "c1",
+        "border": "c3",
+        "brand-primary": "c1",
+        "brand-secondary": "c2",
+        "dark": "c2",
+        "deemphasized": "c2",
+        "highlight": "g18",
+        "hover": "c8",
+        "light": "c7",
+        "white": "a3"
+      },
+      "feedback": {
+        "alert-primary": "a3",
+        "alert-secondary": "c1",
+        "invalid-primary": "b2",
+        "invalid-secondary": "b3",
+        "notice-primary": "notice1",
+        "notice-secondary": "notice2",
+        "valid-primary": "c1",
+        "valid-secondary": "c7"
+      },
+      "social": {
+        "primary": "c2",
+        "primary-hover": "c2",
+        "secondary": "c8",
+        "secondary-hover": "c7"
+      }
+    },
+    "palette": {
+      "a1": "rgba(0,0,0,1)",
+      "a2": "rgba(248,248,248,1)",
+      "a3": "rgba(255,255,255,1)",
+      "ad1": "rgba(0,0,0,0.699999988079071)",
+      "ad2": "rgba(255,255,255,0.10000000149011612)",
+      "ad3": "rgba(26,26,26,1)",
+      "ad4": "rgba(247,247,247,1)",
+      "b1": "rgba(31,31,31,1)",
+      "b2": "rgba(217,47,32,1)",
+      "b3": "rgba(252,239,238,1)",
+      "c1": "rgba(0,0,0,1)",
+      "c2": "rgba(31,31,31,1)",
+      "c3": "rgba(99,99,99,1)",
+      "c4": "rgba(114,114,114,1)",
+      "c5": "rgba(168,168,168,1)",
+      "c6": "rgba(203,203,203,1)",
+      "c7": "rgba(224,224,224,1)",
+      "c8": "rgba(248,248,248,1)",
+      "g12": "rgba(69,145,194,1)",
+      "g13": "rgba(59,89,152,1)",
+      "g14": "rgba(0,123,182,1)",
+      "g15": "rgba(189,8,28,1)",
+      "g16": "rgba(151,151,151,1)",
+      "g17": "rgba(255,255,255,0)",
+      "g18": "rgba(222,235,247,1)",
+      "notice1": "rgba(247,196,66,1)",
+      "notice2": "rgba(255,242,208,1)"
+    }
+  },
+  "decorations": {
+    "backgroundImagePrimary": {
+      "attachment": "initial",
+      "file": "them-bg.png",
+      "position": "center",
+      "repeat": "no-repeat",
+      "size": "cover",
+      "type": "background"
+    },
+    "backgroundImageSecondary": {
+      "attachment": "initial",
+      "file": "gay_pride_flag.svg.png",
+      "position": "initial",
+      "repeat": "repeat-y",
+      "size": "contain",
+      "type": "background"
+    },
+    "badgeFlagLg": {
+      "file": "red-paint.png",
+      "height": 111,
+      "offsetX": "0",
+      "offsetY": "13",
+      "placement": "center",
+      "rotation": "-34",
+      "type": "badge",
+      "width": 149,
+      "x": "end",
+      "y": "end"
+    },
+    "badgeFlagMd": {
+      "file": "red-paint.png",
+      "height": 111,
+      "offsetX": "0",
+      "offsetY": "13",
+      "placement": "center",
+      "rotation": "-34",
+      "type": "badge",
+      "width": 149,
+      "x": "end",
+      "y": "end"
+    },
+    "badgeFlagSm": {
+      "file": "red-paint.png",
+      "height": 111,
+      "offsetX": "0",
+      "offsetY": "13",
+      "placement": "center",
+      "rotation": "-34",
+      "type": "badge",
+      "width": 149,
+      "x": "end",
+      "y": "end"
+    },
+    "badgePrimaryLg": {
+      "file": "best-new-music.svg",
+      "height": 48,
+      "offsetX": "0",
+      "offsetY": "0",
+      "placement": "inside",
+      "rotation": "0",
+      "type": "badge",
+      "width": 48,
+      "x": "end",
+      "y": "start"
+    },
+    "badgePrimaryMd": {
+      "file": "best-new-music.svg",
+      "height": 48,
+      "offsetX": "0",
+      "offsetY": "0",
+      "placement": "inside",
+      "rotation": "0",
+      "type": "badge",
+      "width": 48,
+      "x": "end",
+      "y": "start"
+    },
+    "badgePrimarySm": {
+      "file": "best-new-music.svg",
+      "height": 48,
+      "offsetX": "0",
+      "offsetY": "0",
+      "placement": "inside",
+      "rotation": "0",
+      "type": "badge",
+      "width": 48,
+      "x": "end",
+      "y": "start"
+    },
+    "badgeSecondaryLg": {
+      "file": "green-paint.png",
+      "height": 67.04212188720703,
+      "offsetX": "-36",
+      "offsetY": "-17",
+      "placement": "inside",
+      "rotation": "-40",
+      "type": "badge",
+      "width": 133,
+      "x": "start",
+      "y": "start"
+    },
+    "badgeSecondaryMd": {
+      "file": "green-paint.png",
+      "height": 67.04212188720703,
+      "offsetX": "-36",
+      "offsetY": "-17",
+      "placement": "inside",
+      "rotation": "-40",
+      "type": "badge",
+      "width": 133,
+      "x": "start",
+      "y": "start"
+    },
+    "badgeSecondarySm": {
+      "file": "green-paint.png",
+      "height": 67.04212188720703,
+      "offsetX": "-36",
+      "offsetY": "-17",
+      "placement": "inside",
+      "rotation": "-40",
+      "type": "badge",
+      "width": 133,
+      "x": "start",
+      "y": "start"
+    },
+    "borderRadius": 0,
+    "borderStyle": "solid",
+    "borderWidth": 1,
+    "cardRadiusLg": 0,
+    "cardRadiusMd": 0,
+    "cardRadiusSm": 12,
+    "dividerStyle": "solid",
+    "dividerWidth": 1,
+    "iconProfileRadius": 0,
+    "navigationRuleStyle": "solid",
+    "navigationRuleWidth": 1,
+    "sectionBorderPrimary": {
+      "align": "center",
+      "file": "green-star.svg",
+      "offset": "0",
+      "placement": "grid",
+      "repeat": "round",
+      "side": "bottom",
+      "thickness": "16",
+      "type": "graphic-border-simple",
+      "width": "50%"
+    },
+    "sectionBorderSecondary": {
+      "file": "black-grunge.png",
+      "offset": "0",
+      "placement": "inside",
+      "repeat": "stretch",
+      "sides": "1,1,1,1",
+      "thickness": "36",
+      "type": "graphic-border-full"
+    },
+    "sectionBorderTertiary": {
+      "file": "rainbow-splotches.png",
+      "offset": "0",
+      "placement": "inside",
+      "repeat": "round",
+      "sides": "1,1,1,1",
+      "thickness": "20",
+      "type": "graphic-border-full"
+    },
+    "sectionOrnamentLength": 50,
+    "sectionOrnamentStyle": "solid",
+    "sectionOrnamentWidth": 8,
+    "titleBorderDecoration": {
+      "file": "gay_pride_flag.svg.png",
+      "offset": "-7",
+      "placement": "grid",
+      "repeat": "stretch",
+      "sides": "1,1,1,1",
+      "thickness": "10",
+      "type": "graphic-border-full"
+    }
+  },
+  "typography": {
+    "definitions": {
+      "commerce": {
+        "brand-name": {
+          "case": "uppercase",
+          "family": "Helvetica",
+          "italic": false,
+          "letter-spacing": 0.05714285799435207,
+          "ligatures": null,
+          "line-height": 1.1428571428571428,
+          "mobile-size": 14,
+          "weight": 700
+        },
+        "call-to-action": {
+          "case": "uppercase",
+          "family": "Helvetica",
+          "italic": false,
+          "letter-spacing": 0.033333333830038704,
+          "ligatures": null,
+          "line-height": 1.3333333333333333,
+          "mobile-size": 12,
+          "weight": 400
+        },
+        "label": {
+          "case": "uppercase",
+          "family": "Helvetica",
+          "italic": false,
+          "letter-spacing": 0.11666666467984517,
+          "ligatures": null,
+          "line-height": 1.3333333333333333,
+          "mobile-size": 12,
+          "weight": 400
+        },
+        "product-description": {
+          "case": "normal",
+          "family": "Helvetica",
+          "italic": false,
+          "letter-spacing": -0.007692307806932009,
+          "ligatures": null,
+          "line-height": 1.5384615384615385,
+          "mobile-size": 13,
+          "weight": 300
+        },
+        "product-title": {
+          "case": "normal",
+          "family": "Helvetica",
+          "italic": false,
+          "letter-spacing": 0.014285714498588018,
+          "ligatures": null,
+          "line-height": 1.3571428571428572,
+          "mobile-size": 14,
+          "weight": 400
+        }
+      },
+      "consumptionEditorial": {
+        "body-core": {
+          "case": "normal",
+          "family": "CormorantGaramond",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.5,
+          "mobile-size": 20,
+          "weight": 400
+        },
+        "body-feature": {
+          "case": "normal",
+          "family": "CormorantGaramond",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.6,
+          "mobile-size": 20,
+          "weight": 400
+        },
+        "citation": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": -0.007692307806932009,
+          "ligatures": null,
+          "line-height": 1.2307692307692308,
+          "mobile-size": 13,
+          "weight": 400
+        },
+        "description-core": {
+          "case": "normal",
+          "family": "CormorantGaramond",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.4099999596090877,
+          "mobile-size": 17,
+          "weight": 400
+        },
+        "description-embed": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 13,
+          "italic": false,
+          "letter-spacing": -0.007692307806932009,
+          "ligatures": null,
+          "line-height": 1.5999999413123498,
+          "lineHeightMd": 1.5999999413123498,
+          "mobile-size": 13,
+          "weight": 400
+        },
+        "description-feature": {
+          "case": "normal",
+          "family": "CormorantGaramond",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.5,
+          "mobile-size": 18,
+          "weight": 400
+        },
+        "display-large": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1,
+          "mobile-size": 116,
+          "weight": 600
+        },
+        "display-medium": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.04374999925494194,
+          "ligatures": null,
+          "line-height": 1.25,
+          "mobile-size": 32,
+          "weight": 300
+        },
+        "display-small": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 38,
+          "italic": false,
+          "letter-spacing": 0.04374999925494194,
+          "ligatures": null,
+          "line-height": 1.125,
+          "lineHeightMd": 1.105263157894737,
+          "mobile-size": 32,
+          "weight": 300
+        },
+        "hed-bulletin": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 32,
+          "italic": false,
+          "letter-spacing": -0.002631578986582003,
+          "ligatures": null,
+          "line-height": 1.105263157894737,
+          "lineHeightMd": 1.100000023841858,
+          "mobile-size": 38,
+          "weight": 600
+        },
+        "hed-feature": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeLg": 48,
+          "fontSizeMd": 44,
+          "italic": false,
+          "letter-spacing": 0.03684210463574058,
+          "ligatures": null,
+          "line-height": 1.105263157894737,
+          "lineHeightLg": 1.125,
+          "lineHeightMd": 1.0909090909090908,
+          "mobile-size": 38,
+          "weight": 300
+        },
+        "hed-standard": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeLg": 42,
+          "fontSizeMd": 40,
+          "italic": false,
+          "letter-spacing": -0.005263158016734653,
+          "ligatures": null,
+          "line-height": 1.2000000211927626,
+          "lineHeightLg": 1.2000000363304502,
+          "lineHeightMd": 1.2,
+          "mobile-size": 36,
+          "weight": 600
+        },
+        "subhed-aux-primary": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.033333333830038704,
+          "ligatures": null,
+          "line-height": 1.3333333333333333,
+          "mobile-size": 24,
+          "weight": 300
+        },
+        "subhed-aux-secondary": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.3333333333333333,
+          "mobile-size": 18,
+          "weight": 600
+        },
+        "subhed-break-primary": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 32,
+          "italic": false,
+          "letter-spacing": 0.028571428997176036,
+          "ligatures": null,
+          "line-height": 1.1428571428571428,
+          "lineHeightMd": 1.125,
+          "mobile-size": 28,
+          "weight": 300
+        },
+        "subhed-break-secondary": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.02307692399391761,
+          "ligatures": null,
+          "line-height": 1.229999982393705,
+          "mobile-size": 26,
+          "weight": 300
+        }
+      },
+      "discovery": {
+        "description-core": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.375,
+          "mobile-size": 14,
+          "weight": 400
+        },
+        "description-feature": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 17,
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.3999999551212086,
+          "lineHeightMd": 1.3999999551212086,
+          "mobile-size": 17,
+          "weight": 400
+        },
+        "description-page": {
+          "case": "normal",
+          "family": "CormorantGaramond",
+          "fontSizeMd": 17,
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.4099999596090877,
+          "lineHeightMd": 1.4099999596090877,
+          "mobile-size": 17,
+          "weight": 400
+        },
+        "hed-break-out": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeLg": 32,
+          "fontSizeMd": 28,
+          "italic": false,
+          "letter-spacing": -0.0031250001241763434,
+          "ligatures": null,
+          "line-height": 1.125,
+          "lineHeightLg": 1.0909374952316284,
+          "lineHeightMd": 1.1053571701049805,
+          "mobile-size": 24,
+          "weight": 600
+        },
+        "hed-bulletin-primary": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": -0.014285714365541935,
+          "ligatures": null,
+          "line-height": 1.399999976158142,
+          "mobile-size": 16,
+          "weight": 600
+        },
+        "hed-bulletin-secondary": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": -0.00828402374799435,
+          "ligatures": null,
+          "line-height": 1.3253845801720252,
+          "mobile-size": 13,
+          "weight": 500
+        },
+        "hed-core-primary": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 18,
+          "italic": false,
+          "letter-spacing": -0.012500000186264515,
+          "ligatures": null,
+          "line-height": 1.399999976158142,
+          "lineHeightMd": 1.2222222222222223,
+          "mobile-size": 16,
+          "weight": 600
+        },
+        "hed-core-secondary": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 18,
+          "italic": false,
+          "letter-spacing": -0.012500000186264515,
+          "ligatures": null,
+          "line-height": 1.2999999523162842,
+          "lineHeightMd": 1.2222222222222223,
+          "mobile-size": 16,
+          "weight": 600
+        },
+        "hed-feature": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeLg": 32,
+          "fontSizeMd": 28,
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.25,
+          "lineHeightLg": 1.25,
+          "lineHeightMd": 1.2857142857142858,
+          "mobile-size": 24,
+          "weight": 600
+        },
+        "page-hed-section": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 64,
+          "italic": false,
+          "letter-spacing": 0.041666666666666664,
+          "ligatures": null,
+          "line-height": 1.125,
+          "lineHeightMd": 1.125,
+          "mobile-size": 48,
+          "weight": 300
+        },
+        "page-hed-subsection": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 44,
+          "italic": false,
+          "letter-spacing": 0.04374999925494194,
+          "ligatures": null,
+          "line-height": 1.125,
+          "lineHeightMd": 1.0909090909090908,
+          "mobile-size": 32,
+          "weight": 300
+        },
+        "subhed-section-collection": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.10000000397364299,
+          "ligatures": null,
+          "line-height": 1.1111111111111112,
+          "mobile-size": 18,
+          "weight": 400
+        },
+        "subhed-section-primary": {
+          "case": "uppercase",
+          "family": "Futura",
+          "fontSizeMd": 22,
+          "italic": false,
+          "letter-spacing": 0.08181818127632141,
+          "ligatures": null,
+          "line-height": 1.3,
+          "lineHeightMd": 1.076818206093528,
+          "mobile-size": 20,
+          "weight": 400
+        },
+        "subhed-section-secondary": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.06923076510429382,
+          "ligatures": null,
+          "line-height": 1.0770833492279053,
+          "mobile-size": 24,
+          "weight": 400
+        },
+        "subhed-section-tertiary": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.09999999735090467,
+          "ligatures": null,
+          "line-height": 1.1111111111111112,
+          "mobile-size": 18,
+          "weight": 400
+        }
+      },
+      "foundation": {
+        "ad-label": {
+          "case": "normal",
+          "family": "Helvetica",
+          "italic": false,
+          "letter-spacing": 0.2,
+          "ligatures": null,
+          "line-height": 1.2,
+          "mobile-size": 10,
+          "weight": 400
+        },
+        "link-feature": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.11428571598870414,
+          "ligatures": null,
+          "line-height": 1.4300000326974052,
+          "mobile-size": 14,
+          "weight": 600
+        },
+        "link-primary": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.1278106432694655,
+          "ligatures": null,
+          "line-height": 1.1361538813664362,
+          "mobile-size": 13,
+          "weight": 600
+        },
+        "link-secondary": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.1361538813664362,
+          "mobile-size": 13,
+          "weight": 500
+        },
+        "link-utility": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.1278106432694655,
+          "ligatures": null,
+          "line-height": 1.1361538813664362,
+          "mobile-size": 13,
+          "weight": 600
+        },
+        "list": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.11666666467984517,
+          "ligatures": null,
+          "line-height": 3,
+          "mobile-size": 12,
+          "weight": 500
+        },
+        "meta-primary": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": -0.007100591865869669,
+          "ligatures": null,
+          "line-height": 1.4000000586876502,
+          "mobile-size": 13,
+          "weight": 400
+        },
+        "meta-secondary": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": -0.016666666915019352,
+          "ligatures": null,
+          "line-height": 1.3333333333333333,
+          "mobile-size": 12,
+          "weight": 400
+        },
+        "title-primary": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": -0.008333333457509676,
+          "ligatures": null,
+          "line-height": 1.3333333333333333,
+          "mobile-size": 24,
+          "weight": 600
+        },
+        "title-secondary": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.1278106432694655,
+          "ligatures": null,
+          "line-height": 1.133076887864333,
+          "mobile-size": 13,
+          "weight": 600
+        }
+      },
+      "globalEditorial": {
+        "accreditation-core": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.16363635659217834,
+          "ligatures": null,
+          "line-height": 1.3633333841959636,
+          "mobile-size": 12,
+          "weight": 600
+        },
+        "accreditation-feature": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.16363635659217834,
+          "ligatures": null,
+          "line-height": 1.3633333841959636,
+          "mobile-size": 12,
+          "weight": 600
+        },
+        "ad-label": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.16363635659217834,
+          "ligatures": null,
+          "line-height": 1.1816666920979817,
+          "mobile-size": 12,
+          "weight": 500
+        },
+        "context-primary": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.13846153479356033,
+          "ligatures": null,
+          "line-height": 1.2307692307692308,
+          "mobile-size": 13,
+          "weight": 600
+        },
+        "context-secondary": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.5999999413123498,
+          "mobile-size": 13,
+          "weight": 500
+        },
+        "context-tertiary": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": -0.007692307806932009,
+          "ligatures": null,
+          "line-height": 1.2307692307692308,
+          "mobile-size": 13,
+          "weight": 500
+        },
+        "context-title": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": -0.007692307806932009,
+          "ligatures": null,
+          "line-height": 1.2307692307692308,
+          "mobile-size": 13,
+          "weight": 600
+        },
+        "numerical-large": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": -0.005263157973164006,
+          "ligatures": null,
+          "line-height": 1.105263157894737,
+          "mobile-size": 38,
+          "weight": 600
+        },
+        "numerical-small": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.13846153479356033,
+          "ligatures": null,
+          "line-height": 1.2276923106266902,
+          "mobile-size": 13,
+          "weight": 600
+        },
+        "syndication": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.13846153479356033,
+          "ligatures": null,
+          "line-height": 1.2307692307692308,
+          "mobile-size": 13,
+          "weight": 600
+        },
+        "tags": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": -0.007692307806932009,
+          "ligatures": null,
+          "line-height": 1.2307692307692308,
+          "mobile-size": 13,
+          "weight": 500
+        }
+      },
+      "utility": {
+        "assistive-text": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.3300000031789143,
+          "mobile-size": 12,
+          "weight": 400
+        },
+        "body": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.3846153846153846,
+          "mobile-size": 13,
+          "weight": 500
+        },
+        "button-bulletin": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.09940827809847318,
+          "ligatures": null,
+          "line-height": 1.1361538813664362,
+          "mobile-size": 13,
+          "weight": 600
+        },
+        "button-core": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.08520710468292236,
+          "ligatures": null,
+          "line-height": 1.1361538813664362,
+          "mobile-size": 13,
+          "weight": 600
+        },
+        "button-utility": {
+          "case": "uppercase",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.08520710468292236,
+          "ligatures": null,
+          "line-height": 1.1364285605294364,
+          "mobile-size": 14,
+          "weight": 600
+        },
+        "card-heading": {
+          "case": "normal",
+          "family": "Helvetica",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.3333333333333333,
+          "mobile-size": 18,
+          "weight": 700
+        },
+        "description": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.4285714285714286,
+          "mobile-size": 14,
+          "weight": 500
+        },
+        "heading": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 32,
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.3999999364217122,
+          "lineHeightMd": 1.25,
+          "mobile-size": 24,
+          "weight": 600
+        },
+        "input-core": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.5516667366027832,
+          "mobile-size": 12,
+          "weight": 400
+        },
+        "input-feature": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 28,
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.0909090909090908,
+          "lineHeightMd": 1.1428571428571428,
+          "mobile-size": 22,
+          "weight": 400
+        },
+        "label": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.3300000031789143,
+          "mobile-size": 12,
+          "weight": 500
+        },
+        "landing-body": {
+          "case": "normal",
+          "family": "CormorantGaramond",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.3333333333333333,
+          "mobile-size": 18,
+          "weight": 400
+        },
+        "landing-description": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0.025,
+          "ligatures": null,
+          "line-height": 1.2,
+          "mobile-size": 20,
+          "weight": 500
+        },
+        "landing-heading": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeLg": 32,
+          "fontSizeMd": 28,
+          "italic": false,
+          "letter-spacing": 0.016666666915019352,
+          "ligatures": null,
+          "line-height": 1.1666666666666667,
+          "lineHeightLg": 1.25,
+          "lineHeightMd": 1.1428571428571428,
+          "mobile-size": 24,
+          "weight": 600
+        },
+        "landing-subheading": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 24,
+          "italic": false,
+          "letter-spacing": 0.020000000298023225,
+          "ligatures": null,
+          "line-height": 1.3,
+          "lineHeightMd": 1.3333333333333333,
+          "mobile-size": 20,
+          "weight": 600
+        },
+        "list-heading": {
+          "case": "normal",
+          "family": "Helvetica",
+          "fontSizeMd": 16,
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.1428571428571428,
+          "lineHeightMd": 1.25,
+          "mobile-size": 14,
+          "weight": 700
+        },
+        "modal-body": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.3333333333333333,
+          "mobile-size": 18,
+          "weight": 500
+        },
+        "modal-hed": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 32,
+          "italic": false,
+          "letter-spacing": -0.0066666667660077415,
+          "ligatures": null,
+          "line-height": 1.3333333333333333,
+          "lineHeightMd": 1.375,
+          "mobile-size": 30,
+          "weight": 600
+        },
+        "pricing": {
+          "case": "normal",
+          "family": "Futura",
+          "fontSizeMd": 20,
+          "italic": false,
+          "letter-spacing": 0.020000000298023225,
+          "ligatures": null,
+          "line-height": 1.3,
+          "lineHeightMd": 1.3,
+          "mobile-size": 20,
+          "weight": 600
+        },
+        "pricing-secondary": {
+          "case": "normal",
+          "family": "Helvetica",
+          "fontSizeMd": 16,
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.7142857142857142,
+          "lineHeightMd": 2,
+          "mobile-size": 14,
+          "weight": 700
+        },
+        "subheading": {
+          "case": "normal",
+          "family": "Futura",
+          "italic": false,
+          "letter-spacing": 0,
+          "ligatures": null,
+          "line-height": 1.3333333333333333,
+          "mobile-size": 18,
+          "weight": 500
+        }
+      }
+    }
+  }
+}
