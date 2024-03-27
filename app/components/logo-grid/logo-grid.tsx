@@ -53,7 +53,6 @@ const logos = [
 console.clear()
 
 export function LogoGrid() {
-  console.log(['logos', logos])
   return (
     <div className={styles.logoGrid}>
       {logos.map((logo, index) => {
