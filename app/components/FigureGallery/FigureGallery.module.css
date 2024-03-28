@@ -5,5 +5,7 @@
   row-gap: var(--spacing-2);
   /* todo: automatically set min width */
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    align-items: start;
+  align-items: start;
+  margin-block-start: var(--spacing-4);
+  margin-block-end: var(--spacing-4);
 }

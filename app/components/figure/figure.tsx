@@ -15,7 +15,6 @@ export function Figure({ imageFile, altText, caption }: figureProps) {
         className={styles.image}
         src={imageFile.src}
         width={imageFile.width}
-        // height={imageFile.height}
         alt={altText}
       />
       <figcaption className={styles.figCaption}>{caption}</figcaption>
