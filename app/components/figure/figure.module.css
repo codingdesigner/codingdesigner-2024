@@ -1,7 +1,16 @@
 .figure {
-  /* display: inline-block; */
+  display: block;
+  margin-block-start: unset;
+  margin-block-end: unset;
+  margin-inline-start: unset;
+  margin-inline-end: unset;
 }
 
 .figCaption {
   /* display: inline; */
+}
+
+.image {
+  width: 100%;
+  border: 1px solid pink;
 }

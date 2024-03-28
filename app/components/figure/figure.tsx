@@ -12,8 +12,9 @@ export function Figure({ imageFile, altText, caption }: figureProps) {
   return (
     <figure className={styles.figure}>
       <img
+        className={styles.image}
         src={imageFile.src}
-        // width={imageFile.width}
+        width={imageFile.width}
         // height={imageFile.height}
         alt={altText}
       />
