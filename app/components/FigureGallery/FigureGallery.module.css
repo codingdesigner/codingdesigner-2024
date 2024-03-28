@@ -1,5 +1,4 @@
 .FigureGallery {
-  outline: 1px solid pink;
   display: grid;
   column-gap: var(--spacing-4);
   row-gap: var(--spacing-2);
