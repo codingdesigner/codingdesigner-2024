@@ -11,7 +11,12 @@ export interface figureProps {
 export function Figure({ imageFile, altText, caption }: figureProps) {
   return (
     <figure className={styles.figure}>
-      <img src={imageFile.src} width={imageFile.width} height={imageFile.height} alt={altText} />
+      <img
+        src={imageFile.src}
+        // width={imageFile.width}
+        // height={imageFile.height}
+        alt={altText}
+      />
       <figcaption className={styles.figCaption}>{caption}</figcaption>
     </figure>
   );
