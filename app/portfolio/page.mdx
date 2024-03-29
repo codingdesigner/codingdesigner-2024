@@ -1,13 +1,70 @@
-# Portfolio
+import {LogoGrid} from '../components/logo-grid'
+import {FigureGallery} from '../components/FigureGallery'
+import brandlessCard from "../static/cards/card-brandless.png"
+import notVogueCard from "../static/cards/card-not-vogue.png"
+import notNewYorkerCard from "../static/cards/card-not-new-yorker.png"
+import notThemCard from "../static/cards/card-not-them.png"
 
-> Over the last 20+ years I've been a designer, developer, creative director, front end architect, design systems specialist, featured conference speaker, manager, and mentor.
+# Lead Design Systems Engineer at Condé Nast
 
-> Here is a small sampling of my latest highlights.
+## Verso: Condé Nast’s Global Design System
 
-## Condé Nast
+A tokenized system that scales design for some of the most iconic world-class brands, including *Vogue*, *The New Yorker*, *WIRED*, *Vanity Faire*, *Bon Appetite*, and *Pitchfork*.
 
-### Verso. Condé Nast Global Design System
+### Multi-brand theming through design tokens
 
-A tokenized system that scales design for some of the most iconic world-class brands, including Vogue, The New Yorker, WIRED, Vanity Faire, Bon Appetite, and Pitchfork.
+- image showing multiple brands
+- show a component with named tokens for multiple brands
+
+<LogoGrid/>
+
+<FigureGallery items={
+  [
+    {
+      file: brandlessCard,
+      altText: "brandless card",
+      caption: "A brandless/white label card"},
+    {
+      file: notVogueCard,
+      altText: "not Vogue card",
+      caption: "A card from a fashion brand"},
+    {
+      file: notNewYorkerCard,
+      altText: "not The New Yorker card",
+      caption: "A card from a news and literary brand"},
+    {
+      file: notThemCard,
+      altText: "not Them.us cardnot Them.us card",
+      caption: "A card from an LGBTQIA news brand"}
+  ]}/>
+
+### Fine-tuned editorial expression with flexible expressive layouts
+
+- show components with multiple articles
+- show a page header from multiple brands
+
+### Seemless round-trip workflow between design and enginering using Figma and custom plugins
+
+- show a figma export plugin
+- show example as JSON
+
+### Robust design options with tokens for typography, color themes, and decorations
+
+- show token sets for each type of token
+
+### Full internationalization for every brand
+
+- show asian language brand
+
+### Guidance and governance through a design system portal
+
+- show storefront site
+
+
+
+<figure>
+  <img src="http://unsplash.it/400/200?gravity=center" alt="placeholder image" />
+  <figcaption>An example from my portfolio</figcaption>
+</figure>
 
 ![placeholder image](http://unsplash.it/350/200?gravity=center)

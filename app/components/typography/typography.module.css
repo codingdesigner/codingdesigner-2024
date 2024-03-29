@@ -1,18 +1,18 @@
 .headingDefaults {
-  font-family: var(--type-display);
-  font-weight: var(--type-display-font-base-weight);
+  font-family: var(--type-display-font-family);
   font-style: var(--type-display-font-style);
   font-variation-settings: var(--type-display-font-variation-settings);
+  font-weight: var(--type-display-font-base-weight);
 }
 
 .headingOneTwo {
   composes: headingDefaults;
-  margin-block-start: var(--spacing-3);
   margin-block-end: var(--spacing-3);
+  margin-block-start: var(--spacing-3);
 }
 
 .headingThreeThroughSix {
   composes: headingDefaults;
-  margin-block-start: var(--spacing-2);
   margin-block-end: var(--spacing-2);
+  margin-block-start: var(--spacing-2);
 }
