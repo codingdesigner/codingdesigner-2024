@@ -7,7 +7,7 @@
 }
 
 .figCaption {
-  /* display: inline; */
+  color: var(--color-grayscale-gray3);
 }
 
 .image {
