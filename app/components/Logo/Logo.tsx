@@ -3,6 +3,7 @@ import * as logoSvgs from './logos/index'; // Import all logos from the logos di
 
 // import styles from './Logo.module.css';
 
+// Define a map of logo components, where the key is the logo name and the value is the corresponding React component
 const logoComponents: { [key: string]: React.ComponentType } = {
   'allure': logoSvgs.Allure,
   'architectural-digest': logoSvgs.ArchitecturalDigest,
@@ -28,14 +29,14 @@ const logoComponents: { [key: string]: React.ComponentType } = {
 
 // Define the props for the Logo component
 export interface LogoProps {
-  logoName: string;
+  logoName: string; // The name of the logo to be rendered
 }
 
 // Define the Logo component as a functional component
 export const Logo: React.FC<LogoProps> = ({ logoName }) => {
-  const LogoSvg = logoComponents[logoName]; // Get the component from the map
+  const LogoSvg = logoComponents[logoName]; // Get the component from the map using the provided logoName
   if (LogoSvg) {
-    return <LogoSvg />; // Render the corresponding logo component
+    return <LogoSvg />; // If the corresponding logo component is found, render it
   } else {
     return null; // If the logo component is not found, render nothing
   }
