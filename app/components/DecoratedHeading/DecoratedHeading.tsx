@@ -15,18 +15,13 @@ const colorVariables: { [key: string]: string } = {
   'page': 'var(--main-bg-color)'
 };
 
-// Define props for color variables
-export interface ColorVariableProps {
-  color: 'pink' | 'blue' | 'green' | 'peach' | 'lavender' | 'black' | 'white' | 'page' | 'page-text';
-}
-
 // Define props for DecoratedHeading component
 export interface DecoratedHeadingProps {
   children: React.ReactNode;
   as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'div';
-  background?: ColorVariableProps['color'];
-  text?: ColorVariableProps['color'];
-  shadow?: ColorVariableProps['color'];
+  background?: 'pink' | 'blue' | 'green' | 'peach' | 'lavender' | 'black' | 'white' | 'page' | 'page-text';
+  text?: 'pink' | 'blue' | 'green' | 'peach' | 'lavender' | 'black' | 'white' | 'page' | 'page-text';
+  shadow?: 'pink' | 'blue' | 'green' | 'peach' | 'lavender' | 'black' | 'white' | 'page' | 'page-text';
 }
 
 // Define DecoratedHeading component
