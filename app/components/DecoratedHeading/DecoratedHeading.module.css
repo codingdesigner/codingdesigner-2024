@@ -1,0 +1,17 @@
+.DecoratedHeading {
+  text-decoration: underline solid .75em var(--color-accent-5);
+  text-underline-offset: -1.75rem;
+  text-decoration-skip-ink: none;
+}
+
+.DecoratedHeading1 {
+  composes: DecoratedHeading;
+  text-decoration-color: var(--color-accent-5);
+  text-shadow: 0.08em 0.08em var(--main-bg-color);
+}
+
+.DecoratedHeading2 {
+  composes: DecoratedHeading;
+  text-decoration-color: var(--color-accent-5);
+  text-shadow: 0.08em 0.08em var(--color-accent-1);
+}
