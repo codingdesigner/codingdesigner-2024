@@ -56,5 +56,11 @@
 }
 
 .logo {
-  max-height: 35px;
+  /* max-height: 35px; */
+}
+
+.logo svg {
+  width: 100%;
+  height: auto;
+  /* outline: 1px solid pink; */
 }
