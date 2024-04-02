@@ -1,10 +1,8 @@
 import React from 'react';
 import * as logoSvgs from './logos/index'; // Import all logos from the logos directory
 
-import styles from './Logo.module.css';
+// import styles from './Logo.module.css';
 
-
-console.log(['yer moms logos', logoSvgs])
 const logoComponents: { [key: string]: React.ComponentType } = {
   'allure': logoSvgs.Allure,
   'architectural-digest': logoSvgs.ArchitecturalDigest,

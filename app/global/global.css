@@ -1,5 +1,4 @@
 :root {
-  --main-bg-color: rgb(255, 255, 255);
 
   --type-text-font-family: "gill-sans-nova", Verdana, Arial, -apple-system, sans-serif;
   --type-text-font-optical-sizing: auto;
@@ -50,6 +49,9 @@
   --color-transparent-black: rgba(0, 0, 0, 0);
   --color-transparent-black-40: rgba(0, 0, 0, 0.4);
   --color-transparent-white: rgba(255, 255, 255, 0);
+
+  --main-bg-color: var(--color-grayscale-white);
+  --main-text-color: var(--color-grayscale-black);
 
   --spacing-0-5: 4px;
   --spacing-baseline: 8px;
@@ -151,6 +153,7 @@ body {
 body,
 .sb-show-main.sb-main-padded {
   background-color: var(--main-bg-color);
+  color: var(--main-text-color);
   font-size: var(--type-scale-1);
   line-height: var(--line-height-1);
   margin: 0 auto;
