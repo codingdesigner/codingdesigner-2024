@@ -1,5 +1,5 @@
 import React from 'react';
-import { Logo } from '../logos/components/Logo';
+import { Logo } from '../Logo';
 
 import styles from './logo-grid.module.css';
 
