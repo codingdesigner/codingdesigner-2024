@@ -1,0 +1,1 @@
+export {Allure} from './Logo';
