@@ -4,8 +4,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   justify-items: center;
-  margin-left: auto;
-  margin-right: auto;
   row-gap: var(--spacing-2);
   /* one column */
   min-width: calc(var(--spacing-baseline) * 16);

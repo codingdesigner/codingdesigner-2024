@@ -3,7 +3,7 @@
   column-gap: var(--spacing-4);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
-  justify-content: center;
+  justify-content: start;
   margin-block-end: var(--spacing-4);
   margin-block-start: var(--spacing-4);
   row-gap: var(--spacing-2);
