@@ -9,20 +9,20 @@
   row-gap: var(--spacing-2);
   /* one column */
   min-width: calc(var(--spacing-baseline) * 16);
-  height: calc(var(--spacing-baseline) * 126);
+  height: calc(var(--spacing-baseline) * 65);
 }
 
 @media screen and (min-width: 280px) {
   /* two columns */
   .logoGrid {
-    height: calc(var(--spacing-baseline) * 62);
+    height: calc(var(--spacing-baseline) * 71);
   }
 }
 
 @media screen and (min-width: 412px) {
   /* three columns */
   .logoGrid {
-    height: calc(var(--spacing-baseline) * 43);
+    height: calc(var(--spacing-baseline) * 50);
   }
 }
 
@@ -36,21 +36,21 @@
 @media screen and (min-width: 676px) {
   /* five columns */
   .logoGrid {
-    height: calc(var(--spacing-baseline) * 24);
+    height: calc(var(--spacing-baseline) * 27);
   }
 }
 
 @media screen and (min-width: 808px) {
   /* six columns */
   .logoGrid {
-    height: calc(var(--spacing-baseline) * 24);
+    height: calc(var(--spacing-baseline) * 27);
   }
 }
 
 @media screen and (min-width: 940px) {
   /* six columns */
   .logoGrid {
-    height: calc(var(--spacing-baseline) * 18);
+    height: calc(var(--spacing-baseline) * 20);
     max-width: calc(var(--spacing-baseline) * 112);
   }
 }
