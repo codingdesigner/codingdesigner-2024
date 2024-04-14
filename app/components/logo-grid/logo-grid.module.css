@@ -10,42 +10,42 @@
   height: calc(var(--spacing-baseline) * 65);
 }
 
-@media screen and (min-width: 280px) {
+@container (min-width: 280px) {
   /* two columns */
   .logoGrid {
     height: calc(var(--spacing-baseline) * 71);
   }
 }
 
-@media screen and (min-width: 412px) {
+@container (min-width: 412px) {
   /* three columns */
   .logoGrid {
     height: calc(var(--spacing-baseline) * 50);
   }
 }
 
-@media screen and (min-width: 544px) {
+@container (min-width: 544px) {
   /* four columns */
   .logoGrid {
     height: calc(var(--spacing-baseline) * 43);
   }
 }
 
-@media screen and (min-width: 676px) {
+@container (min-width: 676px) {
   /* five columns */
   .logoGrid {
     height: calc(var(--spacing-baseline) * 27);
   }
 }
 
-@media screen and (min-width: 808px) {
+@container (min-width: 808px) {
   /* six columns */
   .logoGrid {
     height: calc(var(--spacing-baseline) * 27);
   }
 }
 
-@media screen and (min-width: 940px) {
+@container (min-width: 940px) {
   /* six columns */
   .logoGrid {
     height: calc(var(--spacing-baseline) * 20);

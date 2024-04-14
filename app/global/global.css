@@ -146,6 +146,10 @@ body {
   font-variation-settings: var(--type-text-font-variation-settings);
 }
 
+#storybook-root {
+  container-type: inline-size;
+}
+
 .sb-show-main.sb-main-padded .section-heading {
   h2 {
     color: var(--color-accent-1);
