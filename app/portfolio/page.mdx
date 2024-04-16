@@ -1,3 +1,4 @@
+import {LayoutColumns, Column} from '../components/LayoutColumns'
 import {LogoGrid} from '../components/logo-grid'
 import {FigureGallery} from '../components/FigureGallery'
 import {DecoratedHeading} from '../components/DecoratedHeading'
@@ -8,12 +9,15 @@ import notThemCard from "../static/cards/card-not-them.png"
 
 <DecoratedHeading>Lead Design Systems Engineer at Condé Nasty</DecoratedHeading>
 
+<LayoutColumns>
+<Column>
 ## Verso: Condé Nast’s Global Design System
 A tokenized system that scales design for some of the most iconic world-class brands, including *Vogue*, *The New Yorker*, *WIRED*, *Vanity Faire*, *Bon Appetite*, and *Pitchfork*.
 
 <LogoGrid/>
+</Column>
 
-
+<Column>
 ### Multi-brand theming through design tokens
 Each brand's design is controled via a "Brand Identity", allowing for any component in the design system to work with every brand.
 
@@ -39,7 +43,8 @@ Each brand's design is controled via a "Brand Identity", allowing for any compon
 
   {/* - image showing multiple brands */}
 {/* - show a component with named tokens for multiple brands */}
-
+</Column>
+</LayoutColumns>
 
 ### Fine-tuned editorial expression with flexible expressive layouts
 
