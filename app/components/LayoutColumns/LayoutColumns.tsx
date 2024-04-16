@@ -1,11 +1,28 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 import styles from './LayoutColumns.module.css';
 
+// Define the props for LayoutColumns component
 export interface LayoutColumnsProps {
-  prop?: string;
+  children?: ReactNode;
 }
 
-export function LayoutColumns({prop = 'default value'}: LayoutColumnsProps) {
-  return <div className={styles.LayoutColumns}>LayoutColumns {prop}</div>;
+// Define the props for Column component
+export interface ColumnsProps {
+  children?: ReactNode;
+}
+
+// Column component with correct prop type
+export const Column = ({children} : ColumnsProps) => {
+  return (
+    <div className={styles.Column}>{children}</div>
+  )
+}
+
+// LayoutColumns component that can contain multiple Column components
+export function LayoutColumns({children} : LayoutColumnsProps) {
+  return (
+    <div className={styles.LayoutColumns}>
+      {children}
+    </div>);
 }

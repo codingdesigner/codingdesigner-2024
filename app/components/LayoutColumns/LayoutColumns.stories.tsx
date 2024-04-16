@@ -1,7 +1,7 @@
 import React from 'react';
 import type {Meta, StoryObj} from '@storybook/react';
 
-import {LayoutColumns} from './LayoutColumns';
+import {LayoutColumns, Column} from './LayoutColumns';
 
 const meta: Meta<typeof LayoutColumns> = {
   component: LayoutColumns,
