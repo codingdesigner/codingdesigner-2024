@@ -1,11 +1,11 @@
-import {LayoutColumns, Column} from '../components/LayoutColumns'
-import {LogoGrid} from '../components/logo-grid'
-import {FigureGallery} from '../components/FigureGallery'
-import {DecoratedHeading} from '../components/DecoratedHeading'
-import brandlessCard from "../static/cards/card-brandless.png"
-import notVogueCard from "../static/cards/card-not-vogue.png"
-import notNewYorkerCard from "../static/cards/card-not-new-yorker.png"
-import notThemCard from "../static/cards/card-not-them.png"
+import { LayoutColumns, Column } from "../components/LayoutColumns";
+import { LogoGrid } from "../components/logo-grid";
+import { FigureGallery } from "../components/FigureGallery";
+import { DecoratedHeading } from "../components/DecoratedHeading";
+import brandlessCard from "../static/cards/card-brandless.png";
+import notVogueCard from "../static/cards/card-not-vogue.png";
+import notNewYorkerCard from "../static/cards/card-not-new-yorker.png";
+import notThemCard from "../static/cards/card-not-them.png";
 
 <DecoratedHeading>Lead Design Systems Engineer at Condé Nasty</DecoratedHeading>
 
@@ -21,58 +21,71 @@ A tokenized system that scales design for some of the most iconic world-class br
 ### Multi-brand theming through design tokens
 Each brand's design is controled via a "Brand Identity", allowing for any component in the design system to work with every brand.
 
-<FigureGallery items={
-  [
+<FigureGallery
+  items={[
     {
       file: brandlessCard,
       altText: "brandless card",
-      caption: "A brandless/white label card"},
+      caption: "A brandless/white label card",
+    },
     {
       file: notVogueCard,
       altText: "not Vogue card",
-      caption: "A card from a fashion brand"},
+      caption: "A card from a fashion brand",
+    },
     {
       file: notNewYorkerCard,
       altText: "not The New Yorker card",
-      caption: "A card from a news and literary brand"},
+      caption: "A card from a news and literary brand",
+    },
     {
       file: notThemCard,
       altText: "not Them.us cardnot Them.us card",
-      caption: "A card from an LGBTQIA news brand"}
-  ]}/>
+      caption: "A card from an LGBTQIA news brand",
+    },
+  ]}
+/>
 
-  {/* - image showing multiple brands */}
+{/* - image showing multiple brands */}
 {/* - show a component with named tokens for multiple brands */}
+
 </Column>
 </LayoutColumns>
 
+<LayoutColumns>
+<Column>
 ### Fine-tuned editorial expression with flexible expressive layouts
 
 - show components with multiple articles
 - show a page header from multiple brands
+</Column>
+<Column>
 
 ### Seemless round-trip workflow between design and enginering using Figma and custom plugins
 
 - show a figma export plugin
 - show example as JSON
+</Column>
+</LayoutColumns>
+<LayoutColumns>
+<Column>
 
 ### Robust design options with tokens for typography, color themes, and decorations
 
 - show token sets for each type of token
+</Column>
+<Column>
 
 ### Full internationalization for every brand
 
 - show asian language brand
+</Column>
+</LayoutColumns>
+<LayoutColumns>
+<Column>
 
 ### Guidance and governance through a design system portal
 
 - show storefront site
-
-
-
-<figure>
-  <img src="http://unsplash.it/400/200?gravity=center" alt="placeholder image" />
-  <figcaption>An example from my portfolio</figcaption>
-</figure>
-
-![placeholder image](http://unsplash.it/350/200?gravity=center)
+</Column>
+</LayoutColumns>
