@@ -5,6 +5,7 @@ import styles from './LayoutColumns.module.css';
 // Define the props for LayoutColumns component
 export interface LayoutColumnsProps {
   children?: ReactNode;
+  count?: number;
 }
 
 // Define the props for Column component
