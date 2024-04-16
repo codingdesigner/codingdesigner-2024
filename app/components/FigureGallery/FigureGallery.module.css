@@ -2,7 +2,7 @@
   align-items: start;
   column-gap: var(--layout-gap);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   justify-content: start;
   margin-block-end: var(--spacing-4);
   margin-block-start: var(--spacing-4);
