@@ -109,6 +109,7 @@
   --overlay-menu-width: 350px;
 
   --layout-gap: var(--spacing-2);
+  --layout-gap-wide: var(--spacing-6);
   --layout-padding: var(--spacing-3);
   --nav-bar-height: var(--spacing-8);
   --nav-bar-gap: var(--spacing-4);
