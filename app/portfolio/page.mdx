@@ -9,6 +9,11 @@ import notVogueCard from "../static/cards/card-not-vogue.png";
 import notNewYorkerCard from "../static/cards/card-not-new-yorker.png";
 import notThemCard from "../static/cards/card-not-them.png";
 
+import newYorkerArticle from "..//static/articles/newyorker_half.png"
+import pitchforkArticle from "..//static/articles/pitchfork_half.png"
+import themArticle from "..//static/articles/them_half.png"
+import vogueArticle from "..//static/articles/vogue_half.png"
+
 <DecoratedHeading>Lead Design Systems Engineer at Condé Nast</DecoratedHeading>
 
 <LayoutColumns>
@@ -56,13 +61,39 @@ Each brand's design is controled via a "Brand Identity", allowing for any compon
 />
 
 
-<LayoutColumns>
-<Column>
+
+
+
 ### Fine-tuned editorial expression with flexible expressive layouts
 
-- show components with multiple articles
-- show a page header from multiple brands
-</Column>
+Using design tokens and layout configurations gives editors plenty of control over the expressiveness of the brand, and of each piece of content within it.
+
+<FigureGallery
+  items={[
+    {
+      file: newYorkerArticle,
+      altText: "a screenshot of an article from The New Yorker",
+      caption: "An article header from The New Yorker",
+    },
+    {
+      file: pitchforkArticle,
+      altText: "a screenshot of an article from Pitchfork",
+      caption: "An article header from Pitchfork",
+    },
+    {
+      file: themArticle,
+      altText: "a screenshot of an article from them.us",
+      caption: "An article header from them.us",
+    },
+    {
+      file: vogueArticle,
+      altText: "a screenshot of an article from Vogue",
+      caption: "An article header from Vogue",
+    },
+  ]}
+/>
+
+<LayoutColumns>
 <Column>
 
 ### Seemless round-trip workflow between design and enginering using Figma and custom plugins
