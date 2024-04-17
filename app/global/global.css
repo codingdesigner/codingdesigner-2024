@@ -31,6 +31,8 @@
   --color-accent-5: rgb(253, 210, 217);
   --color-accent-6: rgb(246, 237, 172);
 
+  --color-accent-strong-5: rgb(220, 91, 113);
+
   --color-feedback-link: rgba(0, 127, 173, 1);
   --color-feedback-link_hover: rgba(8, 96, 128, 1);
   --color-feedback-positive: rgba(0, 136, 88, 1);
