@@ -2,6 +2,8 @@ import { LayoutColumns, Column } from "../components/LayoutColumns";
 import { LogoGrid } from "../components/logo-grid";
 import { FigureGallery } from "../components/FigureGallery";
 import { DecoratedHeading } from "../components/DecoratedHeading";
+import { AnnotatedCard } from "../components/AnnotatedCard"
+
 import brandlessCard from "../static/cards/card-brandless.png";
 import notVogueCard from "../static/cards/card-not-vogue.png";
 import notNewYorkerCard from "../static/cards/card-not-new-yorker.png";
@@ -18,6 +20,13 @@ A tokenized system that scales design for some of the most iconic world-class br
 </Column>
 
 <Column>
+### Token-driven design
+Each component in the design system is styled using a set of design tokens. Below is a Card component with each of the `color` and `type` tokens annotized.
+
+<AnnotatedCard/>
+</Column>
+</LayoutColumns>
+
 ### Multi-brand theming through design tokens
 Each brand's design is controled via a "Brand Identity", allowing for any component in the design system to work with every brand.
 
@@ -49,8 +58,7 @@ Each brand's design is controled via a "Brand Identity", allowing for any compon
 {/* - image showing multiple brand cards */}
 {/* - show a component with named tokens for multiple brands */}
 
-</Column>
-</LayoutColumns>
+
 
 <LayoutColumns>
 <Column>
