@@ -1,8 +1,7 @@
 import React from 'react';
 import { StaticImageData } from 'next/image';
+import { LayoutColumns } from '../LayoutColumns';
 import { Figure } from '../figure/figure';
-
-import styles from './FigureGallery.module.css';
 
 /**
  * Represents the properties of an individual figure image.
@@ -27,10 +26,10 @@ export interface FigureGalleryProps {
  */
 export function FigureGallery({ items = [] }: FigureGalleryProps) {
   return (
-    <div className={styles.FigureGallery}>
+    <LayoutColumns>
       {items.map((item, index) => (
         <Figure key={index} imageFile={item.file} altText={item.altText} caption={item.caption} />
       ))}
-    </div>
+    </LayoutColumns>
   );
 }

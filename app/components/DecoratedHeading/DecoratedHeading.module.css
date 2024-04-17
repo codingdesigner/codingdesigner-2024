@@ -3,8 +3,18 @@
   --color-text: var(--main-text-color);
   --color-shadow: var(--main-bg-color);
   color: var(--color-text);
-  text-decoration-skip-ink: none;
-  text-decoration: underline solid .75em var(--color-background);
-  text-shadow: 0.08em 0.08em var(--color-shadow);
-  text-underline-offset: -1.75rem;
+}
+
+@supports (text-decoration-skip-ink: none) and
+  (text-decoration-thickness: 1em) and
+  (text-underline-offset: -1.75rem) {
+  .DecoratedHeading {
+    text-decoration-color: var(--color-background);
+    text-decoration-line: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1em;
+    text-shadow: 0.08em 0.08em var(--color-shadow);
+    text-underline-offset: -1.75rem;
+  }
 }

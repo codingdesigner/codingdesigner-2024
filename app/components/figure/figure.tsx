@@ -30,7 +30,6 @@ if (!imageFile || !imageFile.src || !imageFile.width) {
   return (
     <figure className={styles.figure}>
       <img
-        className={styles.image}
         src={imageFile.src}
         width={imageFile.width}
         alt={altText || ''}

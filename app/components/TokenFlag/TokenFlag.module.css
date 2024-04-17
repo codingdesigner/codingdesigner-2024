@@ -1,0 +1,51 @@
+.TokenFlag {
+  align-items: center;
+  background-color: var(--color-grayscale-white);
+  border: 1px solid;
+  border-color: var(--color-grayscale-gray5);
+  border-radius: var(--spacing-3);
+  display: inline-flex;
+  gap: var(--spacing-baseline);
+  overflow: hidden;
+  padding: var(--spacing-baseline) var(--spacing-2);
+  position: relative;
+  width: fit-content;
+}
+
+.icon {
+  height: var(--spacing-3);
+  position: relative;
+  width: var(--spacing-3);
+}
+
+.line {
+  height: var(--spacing-2);
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+
+.tokenName {
+  color: var(--color-grayscale-black);
+  font-family: var(--type-text-font-family);
+  font-weight: var(--type-text-font-base-weight);
+  width: fit-content;
+}
+
+.footnote {
+  color: var(--color-accent-strong-5);
+}
+
+.tokenMarker {
+  border: 1px solid var(--color-accent-strong-5);
+  color: var(--color-accent-strong-5);
+  background-color: var(--main-bg-color);
+  min-width: var(--spacing-3);
+  width: fit-content;
+  height: var(--spacing-3);
+  border-radius: var(--spacing-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-0-5) var(--spacing-baseline);
+}
