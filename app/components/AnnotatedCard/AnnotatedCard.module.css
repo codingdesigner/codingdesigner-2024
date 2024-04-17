@@ -1,0 +1,27 @@
+.AnnotatedCard {
+  align-items: center;
+  background-color: var(--color-grayscale-white);
+  display: grid;
+  gap: var(--layout-gap);
+  grid-auto-flow: dense;
+  align-items: center;
+}
+
+@container (min-width: 618px) {
+  .AnnotatedCard {
+    grid-template-columns: 300px 1fr;
+  }
+}
+
+.exampleGroup {
+  position: relative;
+}
+
+.annotationGroup {
+  display: grid;
+  gap: var(--spacing-baseline);
+}
+
+.marker {
+  position: absolute;
+}
