@@ -4,7 +4,7 @@
   display: grid;
   gap: var(--layout-gap);
   grid-auto-flow: dense;
-  align-items: center;
+  align-items: start;
 }
 
 @container (min-width: 618px) {
@@ -20,6 +20,7 @@
 .annotationGroup {
   display: grid;
   gap: var(--spacing-baseline);
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
 }
 
 .marker {
