@@ -4,8 +4,15 @@
   margin-block-start: unset;
   margin-inline-end: unset;
   margin-inline-start: unset;
+  padding: var(--spacing-baseline);
+  border-bottom: 1px solid var(--color-grayscale-gray6);
+  width: fit-content;
 }
 
 .figCaption {
-  color: var(--color-grayscale-gray3);
+  color: var(--color-grayscale-gray2);
+}
+
+.img {
+  box-shadow: 2px 2px 8px var(--color-grayscale-gray5), -2px -2px 8px var(--color-grayscale-gray5);
 }
