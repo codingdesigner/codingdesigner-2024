@@ -18,17 +18,22 @@ export const AnnotatedCard = () => {
         <TokenMarker
           className={styles.marker}
           footnote='2, 3, 4'
-          style={{ top: 182, left: 6 }}
+          style={{ top: 280 , left: 6 }}
         />
         <TokenMarker
           className={styles.marker}
           footnote='5, 6'
-          style={{ top: 254, left: 6 }}
+          style={{ top: 350, left: 6 }}
         />
         <TokenMarker
           className={styles.marker}
           footnote='7, 8'
-          style={{ top: 322, left: 6 }}
+          style={{ top: 410, left: 6 }}
+        />
+        <TokenMarker
+          className={styles.marker}
+          footnote='9, 10'
+          style={{ top: 480, left: 6 }}
         />
       </div>
       <div className={styles.annotationGroup}>
@@ -71,6 +76,16 @@ export const AnnotatedCard = () => {
           text="type.card.subheading"
           type="type"
           footnote="8"
+        />
+        <TokenFlag
+          text="color.card.accreditation"
+          type="color"
+          footnote="9"
+        />
+        <TokenFlag
+          text="type.card.accreditation"
+          type="type"
+          footnote="10"
         />
       </div>
     </div>
