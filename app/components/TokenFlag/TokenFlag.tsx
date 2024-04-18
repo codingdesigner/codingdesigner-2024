@@ -22,8 +22,6 @@ export const TokenFlag: React.FC<TokenFlagProps> = ({
   const isType = type === "type";
   const imageSrc = isType ? iconText : iconBrush;
 
-  console.log(['imageSrc', imageSrc])
-
   return (
     <div className={`${styles.TokenFlag} ${styles.type} ${styles.direction} ${className}`}>
       <img className={styles.icon} alt="Icon" src={imageSrc.src} />

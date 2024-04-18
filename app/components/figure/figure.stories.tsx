@@ -1,7 +1,6 @@
 import React from 'react';
 import type {Meta, StoryObj} from '@storybook/react';
 import brandlessCard from "../../static/cards/card-brandless.png"
-console.log(['brandlessCard', brandlessCard])
 
 import {Figure} from './figure';
 
