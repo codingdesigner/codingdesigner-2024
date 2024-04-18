@@ -31,7 +31,7 @@ export function LogoGrid() {
     <div className={styles.logoGrid}>
       {logos.map((logo, index) => {
         return (
-          <div className={styles.logo}>
+          <div className={styles.logo} key={index}>
             <Logo logoName={logo} />
           </div>
         )
