@@ -17,6 +17,7 @@ export const Basic: Story = {
   args: {
     imageFile: brandlessCard,
     altText: "some alt text",
-    caption: "A basic caption"
+    caption: "A basic caption",
+    imageFirst: true
   }
 };
