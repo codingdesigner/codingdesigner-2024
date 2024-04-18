@@ -6,6 +6,7 @@
   grid-auto-flow: dense;
   margin-block-start: var(--spacing-4);
   margin-block-end: var(--spacing-8);
+  align-items: start;
 }
 
 .Column {
