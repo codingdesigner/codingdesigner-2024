@@ -8,6 +8,7 @@ import { TokenDrivenDesign } from "./content/TokenDrivenDesign";
 import { CardExamples } from "./content/CardExamples";
 import { EditorialExpression } from "./content/EditorialExpression";
 import { BrandIdentityProcess } from "./content/BrandIdentityProcess";
+import { TokenTypes } from "./content/TokenTypes";
 
 
 const Page = () => {
@@ -31,10 +32,7 @@ const Page = () => {
       </LayoutColumns>
       <LayoutColumns>
         <Column>
-
-          ### Robust design options with tokens for typography, color themes, and decorations
-
-          - show token sets for each type of token
+          <TokenTypes/>
         </Column>
         <Column>
 
