@@ -7,13 +7,13 @@ import { PortfolioIntro } from "./content/PortfolioIntro"
 import { TokenDrivenDesign } from "./content/TokenDrivenDesign";
 import { CardExamples } from "./content/CardExamples";
 import { EditorialExpression } from "./content/EditorialExpression";
+import { BrandIdentityProcess } from "./content/BrandIdentityProcess";
 
 
 const Page = () => {
   return (
     <React.Fragment>
       <DecoratedHeading>Lead Design Systems Engineer at Condé Nast</DecoratedHeading>
-
       <LayoutColumns>
         <Column>
           <PortfolioIntro />
@@ -22,18 +22,11 @@ const Page = () => {
           <TokenDrivenDesign />
         </Column>
       </LayoutColumns>
-
-      <CardExamples/>
-
-      <EditorialExpression/>
-
+      <CardExamples />
+      <EditorialExpression />
       <LayoutColumns>
         <Column>
-
-          ### Seemless round-trip workflow between design and enginering using Figma and custom plugins
-
-          - show a figma export plugin
-          - show example as JSON
+          <BrandIdentityProcess />
         </Column>
       </LayoutColumns>
       <LayoutColumns>
