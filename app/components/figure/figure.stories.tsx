@@ -1,7 +1,6 @@
 import React from 'react';
 import type {Meta, StoryObj} from '@storybook/react';
 import brandlessCard from "../../static/cards/card-brandless.png"
-console.log(['brandlessCard', brandlessCard])
 
 import {Figure} from './figure';
 
@@ -18,6 +17,7 @@ export const Basic: Story = {
   args: {
     imageFile: brandlessCard,
     altText: "some alt text",
-    caption: "A basic caption"
+    caption: "A basic caption",
+    imageFirst: true
   }
 };

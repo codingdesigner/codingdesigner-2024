@@ -1,0 +1,11 @@
+.jsonContainer {
+  align-self: stretch;
+  display: grid;
+  grid-template-rows: max-content;
+  padding-top: var(--spacing-baseline);
+}
+
+.jsonDescription {
+  max-width: fit-content;
+  justify-self: center;
+}
