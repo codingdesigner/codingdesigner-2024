@@ -24,4 +24,5 @@
 
 .img {
   box-shadow: 2px 2px 8px var(--color-grayscale-gray5), -2px -2px 8px var(--color-grayscale-gray5);
+  height: unset;
 }

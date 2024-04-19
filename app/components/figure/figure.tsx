@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 import styles from './figure.module.css';
 
@@ -9,6 +10,7 @@ export interface FigureProps {
   altText?: string; // The alternative text for the image.
   caption?: string; // The caption for the figure.
   imageFile?: {
+    height: number | `${number}` | undefined;
     src: string; // The image source file path.
     width: number; // The width of the image.
   };
@@ -34,10 +36,11 @@ if (!imageFile || !imageFile.src || !imageFile.width) {
 
   return (
     <figure className={figureClass}>
-      <img
+      <Image
         className={styles.img}
         src={imageFile.src}
         width={imageFile.width}
+        height={imageFile.height}
         alt={altText || ''}
       />
       <figcaption className={styles.figCaption}>{caption || ''}</figcaption>
