@@ -8,7 +8,8 @@ import styles from './BrandIdentityProcess.module.css'
 import { LayoutColumns } from "../../components/LayoutColumns";
 import { Figure } from "../../components/figure";
 
-import figmaExportPlugin from "../../static/brand-identity/figma-export-plugin_full.png";
+import figmaExportPlugin from "../../static/brand-identity/figma-export-plugin_half.png";
+import figmaExportPlugin2x from "../../static/brand-identity/figma-export-plugin_full.png";
 import biJson from "../../static/brand-identity/brand-id-example.json";
 
 const BrandIdentityProcess = () => {
@@ -21,6 +22,7 @@ const BrandIdentityProcess = () => {
           altText="a custom Figma plugin to export and import brand identity files"
           caption="a custom Figma plugin to export and import brand identity files"
           imageFirst={false}
+          modalImageFile={figmaExportPlugin2x}
         />
 
         <div className={styles.jsonContainer}>

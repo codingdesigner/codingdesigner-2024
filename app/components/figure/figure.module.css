@@ -26,3 +26,41 @@
   box-shadow: 2px 2px 8px var(--color-grayscale-gray5), -2px -2px 8px var(--color-grayscale-gray5);
   height: unset;
 }
+
+.dialog {
+  padding: var(--spacing-2);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--color-grayscale-gray3);
+  position: relative;
+}
+
+
+.dialogImage {
+  border: 1px solid var(--color-grayscale-gray5);
+  height: unset;
+}
+
+.dialogClose {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  visibility: hidden;
+  z-index: 2;
+}
+
+.dialogClose::after {
+  background-image: url('../menu/images/menu-close-hover.svg');
+  color: var(--main-bg-color);
+  content: '.';
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 40px;
+  margin: var(--spacing-baseline);
+  position: absolute;
+  right: 0;
+  top: 0;
+  visibility: visible;
+  width: 40px;
+}

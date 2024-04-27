@@ -7,9 +7,10 @@ import { Figure } from '../figure/figure';
  * Represents the properties of an individual figure image.
  */
 export interface FigureImageProps {
-  file: StaticImageData; // The image file to be displayed.
+  imageFile: StaticImageData; // The image file to be displayed.
   altText: string; // The alternative text for the image.
   caption: string; // The caption for the image.
+  modalImageFile: StaticImageData;
 }
 
 /**
@@ -28,7 +29,7 @@ export function FigureGallery({ items = [] }: FigureGalleryProps) {
   return (
     <LayoutColumns>
       {items.map((item, index) => (
-        <Figure key={index} imageFile={item.file} altText={item.altText} caption={item.caption} />
+        <Figure key={index} imageFile={item.imageFile} altText={item.altText} caption={item.caption} modalImageFile={item.modalImageFile} />
       ))}
     </LayoutColumns>
   );

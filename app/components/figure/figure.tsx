@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import Image from 'next/image';
 
@@ -10,7 +11,12 @@ export interface FigureProps {
   altText?: string; // The alternative text for the image.
   caption?: string; // The caption for the figure.
   imageFile?: {
-    height: number | `${number}` | undefined;
+    height: number;
+    src: string; // The image source file path.
+    width: number; // The width of the image.
+  };
+  modalImageFile?: {
+    height: number;
     src: string; // The image source file path.
     width: number; // The width of the image.
   };
@@ -26,13 +32,20 @@ export interface FigureProps {
  * @throws Error if the imageFile object is invalid.
  * @returns A React component representing the figure with image and caption.
  */
-export function Figure({ imageFile, altText, caption, imageFirst = true }: FigureProps) {
-if (!imageFile || !imageFile.src || !imageFile.width) {
+export function Figure({ imageFile, altText, caption, imageFirst = true, modalImageFile = {height: 0, width: 0, src: ''} }: FigureProps) {
+
+  if (!imageFile || !imageFile.src || !imageFile.width || !imageFile.height) {
+    console.log(['imageFile', imageFile, altText])
     throw new Error('Invalid imageFile object');
   }
 
   const figureClass = (imageFirst === true) ? styles.imageFirst : styles.captionFirst;
 
+  const handleDialog = (e) => {
+    const parent = e.target.parentNode;
+    const dialog = parent.querySelector("dialog")
+    dialog.showModal();
+  };
 
   return (
     <figure className={figureClass}>
@@ -42,7 +55,20 @@ if (!imageFile || !imageFile.src || !imageFile.width) {
         width={imageFile.width}
         height={imageFile.height}
         alt={altText || ''}
+        onClick={handleDialog}
       />
+      <dialog className={styles.dialog}>
+        <form method="dialog">
+          <button className={styles.dialogClose} type="submit" id="normal-close">X</button>
+          <Image
+            className={styles.dialogImage}
+            src={modalImageFile.src}
+            width={modalImageFile.width}
+            height={modalImageFile.height}
+            alt={altText || ''}
+          />
+        </form>
+      </dialog>
       <figcaption className={styles.figCaption}>{caption || ''}</figcaption>
     </figure>
   );
