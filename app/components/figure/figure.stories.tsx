@@ -1,6 +1,7 @@
 import React from 'react';
 import type {Meta, StoryObj} from '@storybook/react';
 import brandlessCard from "../../static/cards/card-brandless.png"
+import brandlessCard2x from "../../static/cards/card-brandless@2x.png"
 
 import {Figure} from './figure';
 
@@ -18,6 +19,7 @@ export const Basic: Story = {
     imageFile: brandlessCard,
     altText: "some alt text",
     caption: "A basic caption",
-    imageFirst: true
+    imageFirst: true,
+    modalImageFile: brandlessCard2x,
   }
 };
