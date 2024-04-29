@@ -9,6 +9,7 @@ import { CardExamples } from "./content/CardExamples";
 import { EditorialExpression } from "./content/EditorialExpression";
 import { BrandIdentityProcess } from "./content/BrandIdentityProcess";
 import { TokenTypes } from "./content/TokenTypes";
+import { Storefront } from "./content/Storefront";
 
 
 const Page = () => {
@@ -25,30 +26,9 @@ const Page = () => {
       </LayoutColumns>
       <CardExamples />
       <EditorialExpression />
-      <LayoutColumns>
-        <Column>
-          <BrandIdentityProcess />
-        </Column>
-      </LayoutColumns>
-      <LayoutColumns>
-        <Column>
-          <TokenTypes/>
-        </Column>
-        <Column>
-
-          ### Full internationalization for every brand
-
-          - show asian language brand
-        </Column>
-      </LayoutColumns>
-      <LayoutColumns>
-        <Column>
-
-          ### Guidance and governance through a design system portal
-
-          - show storefront site
-        </Column>
-      </LayoutColumns>
+      <BrandIdentityProcess />
+      <TokenTypes/>
+      <Storefront/>
     </React.Fragment>
   );
 }
