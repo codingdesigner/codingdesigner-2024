@@ -12,7 +12,7 @@ import decorationTokens2x from "../../static/brand-identity/decoration-tokens@2x
 
 const TokenTypes = () => {
   return (
-    <React.Fragment>
+    <div>
       <h2>Robust Design Options with Comprehensive Token System</h2>
       <ParagraphWrapper>
         <p>This design system offers a comprehensive suite of tokens for typography, color themes, and decorative elements, providing unmatched versatility and customization options.</p>
@@ -46,7 +46,7 @@ const TokenTypes = () => {
           }
         ]}
       />
-    </React.Fragment>
+    </div>
   )
 }
 

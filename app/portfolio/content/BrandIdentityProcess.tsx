@@ -15,7 +15,7 @@ import biJson from "../../static/brand-identity/brand-id-example.json";
 
 const BrandIdentityProcess = () => {
   return (
-    <React.Fragment>
+    <div>
       <h2>Seamless Workflow Integration between Design and Engineering</h2>
 
       <ParagraphWrapper>
@@ -46,7 +46,7 @@ const BrandIdentityProcess = () => {
           /> */}
         </div>
       </LayoutColumns>
-    </React.Fragment>
+    </div>
   )
 }
 

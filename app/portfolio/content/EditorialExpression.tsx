@@ -15,7 +15,7 @@ import vogueArticle2x from "../../static/articles/vogue_full.png"
 
 const EditorialExpression = () => {
   return (
-    <React.Fragment>
+    <div>
       <h2>Enhancing Editorial Flexibility with Dynamic Layouts</h2>
 
       <ParagraphWrapper>
@@ -51,7 +51,7 @@ const EditorialExpression = () => {
           },
         ]}
       />
-    </React.Fragment>
+    </div>
   )
 }
 

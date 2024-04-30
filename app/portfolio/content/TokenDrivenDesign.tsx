@@ -5,7 +5,7 @@ import { AnnotatedCard } from "../../components/AnnotatedCard"
 
 const TokenDrivenDesign = () => {
   return (
-    <React.Fragment>
+    <div>
       <h2>Token-driven design</h2>
 
       <ParagraphWrapper>
@@ -13,7 +13,7 @@ const TokenDrivenDesign = () => {
       </ParagraphWrapper>
 
       <AnnotatedCard />
-    </React.Fragment>
+    </div>
   );
 };
 

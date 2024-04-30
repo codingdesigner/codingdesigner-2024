@@ -17,7 +17,7 @@ import storefrontButtonUsage2x from "../../static/storefront/storefrontButtonUsa
 
 const Storefront = () => {
   return (
-    <React.Fragment>
+    <div>
       <h2>Guidance and Governance through a Design System Portal</h2>
 
       <ParagraphWrapper>
@@ -58,7 +58,7 @@ const Storefront = () => {
           },
         ]}
       />
-    </React.Fragment>
+    </div>
   )
 }
 

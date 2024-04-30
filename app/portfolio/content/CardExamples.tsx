@@ -15,7 +15,7 @@ import notThemCard2x from "../../static/cards/card-not-them@2x.png";
 
 const CardExamples = () => {
   return (
-    <React.Fragment>
+    <div>
       <h2>Multi-brand theming through design tokens</h2>
       <ParagraphWrapper>
         <p>Understanding the need for brands to maintain distinct identities yet operate under a singular corporate umbrella, I engineered a solution using "Brand Identity" JSON files. This system allows each brand at Condé Nast to have its own unique design elements, tailored through the JSON file, while sharing a common structural base.</p> <p>This approach not only simplifies brand differentiation but ensures that any component within our design system can connect flawlessly with different brands, enhancing both usability and brand coherence.</p>
@@ -49,7 +49,7 @@ const CardExamples = () => {
           },
         ]}
       />
-    </React.Fragment>
+    </div>
   )
 }
 
