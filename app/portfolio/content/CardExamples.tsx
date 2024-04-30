@@ -16,7 +16,8 @@ const CardExamples = () => {
   return (
     <React.Fragment>
       <h2>Multi-brand theming through design tokens</h2>
-      <p>Each brand's design is controled via a "Brand Identity", allowing for any component in the design system to work with every brand.</p>
+
+      <p>With this innovative approach, users are empowered to manage each brand's design effortlessly through a "Brand Identity" JSON file. Despite variations in brand values, the uniform structure of these files ensures seamless compatibility across different brands. This unique system enables every component in our design framework to seamlessly adapt to the distinct identity of each brand without compromising on consistency or functionality.</p>
 
       <FigureGallery
         items={[
