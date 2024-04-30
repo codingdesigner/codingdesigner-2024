@@ -26,4 +26,4 @@ export default meta;
 
 type Story = StoryObj<typeof ParagraphWrapper>;
 
-export const Basic: Story = { args: {prop: "asdf"} };
+export const Basic: Story = { args: {} };
