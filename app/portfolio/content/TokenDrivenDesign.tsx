@@ -7,7 +7,7 @@ const TokenDrivenDesign = () => {
     <React.Fragment>
       <h2>Token-driven design</h2>
 
-      <p>Each component in the design system is styled using a set of design tokens. Below is a Card component with each of the `color` and `type` tokens annotized.</p>
+      <p>The backbone of our design system lies in the meticulous styling of each component using a unique set of design tokens. Dive into our Card component below, where each `color` and `type` token is thoughtfully annotated, letting designers, engineers, and progect owners fully understand how our tokens are used.</p>
 
       <AnnotatedCard />
     </React.Fragment>

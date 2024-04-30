@@ -15,9 +15,9 @@ import vogueArticle2x from "../../static/articles/vogue_full.png"
 const EditorialExpression = () => {
   return (
     <React.Fragment>
-      <h2>Fine-tuned editorial expression with flexible expressive layouts</h2>
+      <h2>Crafting Fine-Tuned Editorial Expression with Flexible and Expressive Layouts</h2>
 
-      <p>Using design tokens and layout configurations gives editors plenty of control over the expressiveness of the brand, and of each piece of content within it.</p>
+      <p>By leveraging design tokens and dynamic layout configurations, our design system places the power of editorial expression squarely in the hands of editors. This sophisticated system offers editors unparalleled control over the brand's narrative tone and allows for the seamless customization of each piece of content. Whether it's through subtle design tweaks or bold layout choices, our tool empowers editors to create engaging and impactful content that resonates with their audience.</p>
 
       <FigureGallery
         items={[
