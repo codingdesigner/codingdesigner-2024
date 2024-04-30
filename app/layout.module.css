@@ -23,4 +23,5 @@
 
 .holyGrailContent {
   flex: 1;
+  container-type: inline-size;
 }

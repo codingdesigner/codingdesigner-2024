@@ -1,0 +1,22 @@
+.ParagraphWrapper {
+  container-type: inline-size;
+}
+
+@container (min-width: 876px) {
+  .ParagraphWrapper {
+    column-count: 2;
+    column-width: auto;
+    column-gap: var(--layout-gap-wide);
+    column-rule: 1px solid var(--color-accent-5);
+    padding-block-start: var(--spacing-2);
+  }
+
+  .ParagraphWrapper p {
+    max-width: fit-content;
+    break-inside: avoid;
+  }
+
+  .ParagraphWrapper p:first-child {
+    margin-block-start: 0;
+  }
+}

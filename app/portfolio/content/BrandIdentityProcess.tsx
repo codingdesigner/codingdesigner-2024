@@ -5,6 +5,7 @@ import 'react-json-view-lite/dist/index.css';
 
 import styles from './BrandIdentityProcess.module.css'
 
+import { ParagraphWrapper } from "../../components/ParagraphWrapper";
 import { LayoutColumns } from "../../components/LayoutColumns";
 import { Figure } from "../../components/figure";
 
@@ -17,8 +18,9 @@ const BrandIdentityProcess = () => {
     <React.Fragment>
       <h2>Seamless Workflow Integration between Design and Engineering</h2>
 
-      <p>Another aspect of my work involves bridging the gap between design and engineering teams. I developed a custom Figma plugin that facilitates the export and import of brand identity files directly within the design tool. This tool translates a designer’s work into JSON files used by developers, maintaining the JSON as the "source of truth." This ensures that the web application is always aligned with the latest design specifications without any delays or discrepancies.</p>
-
+      <ParagraphWrapper>
+        <p>Another aspect of my work involves bridging the gap between design and engineering teams. I developed a custom Figma plugin that facilitates the export and import of brand identity files directly within the design tool. This tool translates a designer’s work into JSON files used by developers, maintaining the JSON as the "source of truth." This ensures that the web application is always aligned with the latest design specifications without any delays or discrepancies.</p>
+      </ParagraphWrapper>
 
       <LayoutColumns>
         <Figure

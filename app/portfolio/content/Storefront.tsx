@@ -1,5 +1,6 @@
 import React from "react";
 
+import { ParagraphWrapper } from "../../components/ParagraphWrapper";
 import { FigureGallery } from "../../components/FigureGallery";
 
 import storefrontHome from "../../static/storefront/storefrontHome_half.png"
@@ -19,7 +20,9 @@ const Storefront = () => {
     <React.Fragment>
       <h2>Guidance and Governance through a Design System Portal</h2>
 
-      <p>To further support and enable users within and outside our core team, I created a storefront-like site, acting as a design system portal. This platform not only provides detailed guidelines and resource accessibility but also encourages contribution and ownership across the broader team. By making the tools and elements of our design system transparent and accessible, we enhance collective creativity and ensure that our products always feel fresh, current, and connected to our users' needs.</p>
+      <ParagraphWrapper>
+        <p>To further support and enable users within and outside our core team, I created a storefront-like site, acting as a design system portal. This platform not only provides detailed guidelines and resource accessibility but also encourages contribution and ownership across the broader team. By making the tools and elements of our design system transparent and accessible, we enhance collective creativity and ensure that our products always feel fresh, current, and connected to our users' needs.</p>
+      </ParagraphWrapper>
 
       <FigureGallery
         items={[

@@ -1,5 +1,6 @@
 import React from "react";
 
+import { ParagraphWrapper } from "../../components/ParagraphWrapper";
 import { FigureGallery } from "../../components/FigureGallery";
 
 import brandlessCard from "../../static/cards/card-brandless.png";
@@ -16,8 +17,9 @@ const CardExamples = () => {
   return (
     <React.Fragment>
       <h2>Multi-brand theming through design tokens</h2>
-
-      <p>Understanding the need for brands to maintain distinct identities yet operate under a singular corporate umbrella, I engineered a solution using "Brand Identity" JSON files. This system allows each brand at Condé Nast to have its own unique design elements, tailored through the JSON file, while sharing a common structural base. This approach not only simplifies brand differentiation but ensures that any component within our design system can connect flawlessly with different brands, enhancing both usability and brand coherence.</p>
+      <ParagraphWrapper>
+        <p>Understanding the need for brands to maintain distinct identities yet operate under a singular corporate umbrella, I engineered a solution using "Brand Identity" JSON files. This system allows each brand at Condé Nast to have its own unique design elements, tailored through the JSON file, while sharing a common structural base.</p> <p>This approach not only simplifies brand differentiation but ensures that any component within our design system can connect flawlessly with different brands, enhancing both usability and brand coherence.</p>
+      </ParagraphWrapper>
 
       <FigureGallery
         items={[
