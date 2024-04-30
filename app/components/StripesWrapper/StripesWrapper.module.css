@@ -1,0 +1,7 @@
+.StripesWrapper > *:nth-child(2n + 2) {
+  background-color: var(--color-grayscale-gray6);
+  margin-left: calc(var(--spacing-3) * -1);
+  margin-right: calc(var(--spacing-3) * -1);
+  padding-left: var(--spacing-3);
+  padding-right: var(--spacing-3);
+}
