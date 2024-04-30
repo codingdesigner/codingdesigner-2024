@@ -15,9 +15,9 @@ import biJson from "../../static/brand-identity/brand-id-example.json";
 const BrandIdentityProcess = () => {
   return (
     <React.Fragment>
-      <h2>Creating a Seamless Round-Trip Workflow Between Design and Engineering with Figma and Custom Plugins</h2>
+      <h2>Seamless Workflow Integration between Design and Engineering</h2>
 
-      <p>Our innovative approach facilitates a fluid back-and-forth process between design and engineering teams. By harnessing the power of Figma and custom plugins, we've developed a solution that streamlines the translation of design elements into the web application, ensuring a harmonious collaboration between designers and developers. I created a custom Figma plugin tailored to export and import brand identity files, designers can effortlessly translate their visual design concepts into the JSON format required by the web application. This not only accelerates the design-to-development process but also maintains the integrity of the JSON file as the definitive "source of truth," guaranteeing that the web application is always in sync with the latest design updates.</p>
+      <p>Another aspect of my work involves bridging the gap between design and engineering teams. I developed a custom Figma plugin that facilitates the export and import of brand identity files directly within the design tool. This tool translates a designer’s work into JSON files used by developers, maintaining the JSON as the "source of truth." This ensures that the web application is always aligned with the latest design specifications without any delays or discrepancies.</p>
 
 
       <LayoutColumns>

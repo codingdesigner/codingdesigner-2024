@@ -17,9 +17,9 @@ import storefrontButtonUsage2x from "../../static/storefront/storefrontButtonUsa
 const Storefront = () => {
   return (
     <React.Fragment>
-      <h2>Empowering Users through our Design System Portal</h2>
+      <h2>Guidance and Governance through a Design System Portal</h2>
 
-      <p>To provide comprehensive guidance and governance, we have developed a user-friendly storefront site dedicated to showcasing the capabilities of our design system. This portal serves as a hub for users, offering insights into the vast array of resources available and encouraging collaboration and contribution from individuals beyond our core design team. By fostering a sense of ownership and inclusivity, we aim to cultivate a dynamic environment where users can explore, engage, and actively contribute to the growth and evolution of our design system.</p>
+      <p>To further support and enable users within and outside our core team, I created a storefront-like site, acting as a design system portal. This platform not only provides detailed guidelines and resource accessibility but also encourages contribution and ownership across the broader team. By making the tools and elements of our design system transparent and accessible, we enhance collective creativity and ensure that our products always feel fresh, current, and connected to our users' needs.</p>
 
       <FigureGallery
         items={[
