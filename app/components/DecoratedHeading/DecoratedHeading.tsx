@@ -7,8 +7,11 @@ const colorVariables: { [key: string]: string } = {
   'pink': 'var(--color-accent-5)',
   'blue': 'var(--color-accent-1)',
   'green': 'var(--color-accent-2)',
-  'peach': 'var(--color-accent-5)',
+  'peach': 'var(--color-accent-6)',
   'lavender': 'var(--color-accent-4)',
+  'cyan': 'var(--color-accent-7)',
+  'mulberry': 'var(--color-accent-7)',
+  'moss': 'var(--color-accent-7)',
   'black': 'var(--color-grayscale-black)',
   'white': 'var(--color-grayscale-white)',
   'page-text': 'var(--main-text-color)',
@@ -19,9 +22,45 @@ const colorVariables: { [key: string]: string } = {
 export interface DecoratedHeadingProps {
   children: React.ReactNode;
   as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'div';
-  background?: 'pink' | 'blue' | 'green' | 'peach' | 'lavender' | 'black' | 'white' | 'page' | 'page-text';
-  text?: 'pink' | 'blue' | 'green' | 'peach' | 'lavender' | 'black' | 'white' | 'page' | 'page-text';
-  shadow?: 'pink' | 'blue' | 'green' | 'peach' | 'lavender' | 'black' | 'white' | 'page' | 'page-text';
+  background?:
+    'pink' |
+    'blue' |
+    'green' |
+    'peach' |
+    'lavender' |
+    'cyan' |
+    'mulberry' |
+    'moss' |
+    'black' |
+    'white' |
+    'page' |
+    'page-text';
+  text?:
+    'pink' |
+    'blue' |
+    'green' |
+    'peach' |
+    'lavender' |
+    'cyan' |
+    'mulberry' |
+    'moss' |
+    'black' |
+    'white' |
+    'page' |
+    'page-text';
+  shadow?:
+    'pink' |
+    'blue' |
+    'green' |
+    'peach' |
+    'lavender' |
+    'cyan' |
+    'mulberry' |
+    'moss' |
+    'black' |
+    'white' |
+    'page' |
+    'page-text';
 }
 
 // Define DecoratedHeading component
