@@ -61,10 +61,11 @@ export interface DecoratedHeadingProps {
     'white' |
     'page' |
     'page-text';
+  className?: string;
 }
 
 // Define DecoratedHeading component
-export function DecoratedHeading({ children, as: Element = 'h1', background = 'pink', text = 'page-text', shadow = 'page' }: DecoratedHeadingProps) {
+export function DecoratedHeading({ children, as: Element = 'h1', background = 'pink', text = 'page-text', shadow = 'page', className = "" }: DecoratedHeadingProps) {
   // Set inline styles using color variables
   const style = {
     '--color-background': colorVariables[background],
@@ -74,7 +75,7 @@ export function DecoratedHeading({ children, as: Element = 'h1', background = 'p
 
   // Render DecoratedHeading component with specified styles
   return (
-    <Element className={styles.DecoratedHeading} style={style}>
+    <Element className={`${styles.DecoratedHeading} ${className}`} style={style}>
       {children}
     </Element>
   );
