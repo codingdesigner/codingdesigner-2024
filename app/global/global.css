@@ -24,12 +24,15 @@
   --test-sidebar-color: rgb(222, 222, 222);
   --test-grid-color: rgba(0, 213, 255, 0.2);
 
-  --color-accent-1: rgba(163, 207, 239, 1);
-  --color-accent-2: rgba(182, 220, 66, 1);
-  --color-accent-3: rgba(241, 193, 146, 1);
-  --color-accent-4: rgba(227, 183, 213, 1);
+  --color-accent-1: rgb(163, 207, 239);
+  --color-accent-2: rgb(182, 220, 66);
+  --color-accent-3: rgb(241, 193, 146);
+  --color-accent-4: rgb(227, 183, 213);
   --color-accent-5: rgb(253, 210, 217);
-  --color-accent-6: rgb(246, 237, 172);
+  --color-accent-6: rgb(255, 229, 180);
+  --color-accent-7: rgb(158, 255, 250);
+  --color-accent-8: rgb(191, 94, 162);
+  --color-accent-9: rgb(83, 183, 152);
 
   --color-accent-strong-5: rgb(220, 91, 113);
 

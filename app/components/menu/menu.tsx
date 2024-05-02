@@ -10,13 +10,13 @@ export function MenuList() {
         <a href="/portfolio" className={styles.menuLink}>Portfolio</a>
       </li>
       <li className={styles.menuItem}>
-        <a href="/cv" className={styles.menuLink}>CV</a>
-      </li>
-      <li className={styles.menuItem}>
         <a href="/about" className={styles.menuLink}>About</a>
       </li>
       <li className={styles.menuItem}>
-        <a href="/contact" className={styles.menuLink}>Contact</a>
+        <a href="https://www.linkedin.com/in/gwenwendell/" className={styles.menuLink}>LinkedIn</a>
+      </li>
+      <li className={styles.menuItem}>
+        <a href="mailto:gwendyisapunk@gmail.com" className={styles.menuLink}>Contact</a>
       </li>
     </ul>
   );
