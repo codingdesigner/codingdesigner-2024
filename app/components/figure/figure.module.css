@@ -9,10 +9,12 @@
   width: fit-content;
 }
 
-.centerFigure {
-  composes: figure;
-  margin-left: auto;
-  margin-right: auto;
+@container (min-width: 924px) {
+  .centerFigure {
+    composes: figure;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .imageFirst {
