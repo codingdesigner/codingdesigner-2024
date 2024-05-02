@@ -22,14 +22,18 @@ export interface FigureProps {
   } | null;
   imageFirst?: boolean // Render direction of the figure
   centerFigure?: boolean // Whether to center the figure
+  circleCrop?: boolean // Whether to center the figure
+  grayScale?: boolean // Whether to center the figure
 }
 
 export function Figure({
   imageFile,
-  altText,
-  caption,
+  altText = "",
+  caption = "",
   imageFirst = true,
   centerFigure = false,
+  circleCrop = false,
+  grayScale = false,
   modalImageFile
 }: FigureProps) {
   // Validate the imageFile object
@@ -41,6 +45,9 @@ export function Figure({
   // Determine the CSS class based on the imageFirst prop
   const figureClass = imageFirst ? styles.imageFirst : styles.captionFirst;
   const justifyClass = centerFigure ? styles.centerFigure : "";
+  const circleClass = circleCrop ? styles.circleCrop : "";
+  const grayscaleClass = grayScale ? styles.grayScale : "";
+  const bottomBorderClass = circleCrop ? "" : styles.bottomBorder;
 
   // Handler for opening the modal dialog
   const handleDialog = (e) => {
@@ -49,9 +56,9 @@ export function Figure({
   };
 
   return (
-    <figure className={`${figureClass} ${justifyClass}`}>
+    <figure className={`${figureClass} ${justifyClass} ${bottomBorderClass}`}>
       <Image
-        className={styles.img}
+        className={`${styles.img} ${circleClass} ${grayscaleClass}`}
         src={imageFile.src}
         width={imageFile.width}
         height={imageFile.height}
@@ -72,7 +79,9 @@ export function Figure({
           </form>
         </dialog>
       )}
-      <figcaption className={styles.figCaption}>{caption || ''}</figcaption>
+      {caption && (
+        <figcaption className={styles.figCaption}>{caption || ''}</figcaption>
+      )}
     </figure>
   );
 }

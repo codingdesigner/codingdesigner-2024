@@ -1,5 +1,4 @@
 .figure {
-  border-bottom: 1px solid var(--color-grayscale-gray6);
   display: flex;
   margin-block-end: unset;
   margin-block-start: unset;
@@ -7,6 +6,11 @@
   margin-inline-start: unset;
   padding: var(--spacing-baseline);
   width: fit-content;
+}
+
+.bottomBorder {
+  composes: figure;
+  border-bottom: 1px solid var(--color-grayscale-gray6);
 }
 
 @container (min-width: 924px) {
@@ -24,6 +28,14 @@
 .captionFirst {
   composes: figure;
   flex-direction: column-reverse;
+}
+
+.circleCrop {
+  border-radius: 50%;
+}
+
+.grayScale {
+  filter: grayscale(1) contrast(1.25);
 }
 
 .figCaption {
