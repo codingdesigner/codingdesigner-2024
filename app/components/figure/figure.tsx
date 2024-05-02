@@ -19,56 +19,59 @@ export interface FigureProps {
     height: number;
     src: string; // The image source file path.
     width: number; // The width of the image.
-  };
+  } | null;
   imageFirst?: boolean // Render direction of the figure
+  centerFigure?: boolean // Whether to center the figure
 }
 
-/**
- * Represents a figure component that displays an image with optional caption.
- * @param imageFile - The image file object containing src and width properties.
- * @param altText - The alternative text for the image.
- * @param caption - The caption for the figure.
- * @param imageFirst - Render direction of the figure.
- * @throws Error if the imageFile object is invalid.
- * @returns A React component representing the figure with image and caption.
- */
-export function Figure({ imageFile, altText, caption, imageFirst = true, modalImageFile = {height: 0, width: 0, src: ''} }: FigureProps) {
-
+export function Figure({
+  imageFile,
+  altText,
+  caption,
+  imageFirst = true,
+  centerFigure = false,
+  modalImageFile
+}: FigureProps) {
+  // Validate the imageFile object
   if (!imageFile || !imageFile.src || !imageFile.width || !imageFile.height) {
-    console.log(['imageFile', imageFile, altText])
+    console.error('Invalid imageFile object:', imageFile);
     throw new Error('Invalid imageFile object');
   }
 
-  const figureClass = (imageFirst === true) ? styles.imageFirst : styles.captionFirst;
+  // Determine the CSS class based on the imageFirst prop
+  const figureClass = imageFirst ? styles.imageFirst : styles.captionFirst;
+  const justifyClass = centerFigure ? styles.centerFigure : "";
 
+  // Handler for opening the modal dialog
   const handleDialog = (e) => {
-    const parent = e.target.parentNode;
-    const dialog = parent.querySelector("dialog")
-    dialog.showModal();
+    const dialog = e.target.parentNode.querySelector("dialog");
+    if (dialog) dialog.showModal();
   };
 
   return (
-    <figure className={figureClass}>
+    <figure className={`${figureClass} ${justifyClass}`}>
       <Image
         className={styles.img}
         src={imageFile.src}
         width={imageFile.width}
         height={imageFile.height}
         alt={altText || ''}
-        onClick={handleDialog}
+        onClick={modalImageFile ? handleDialog : undefined}
       />
-      <dialog className={styles.dialog}>
-        <form method="dialog">
-          <button className={styles.dialogClose} type="submit" id="normal-close">X</button>
-          <Image
-            className={styles.dialogImage}
-            src={modalImageFile.src}
-            width={modalImageFile.width}
-            height={modalImageFile.height}
-            alt={altText || ''}
-          />
-        </form>
-      </dialog>
+      {modalImageFile && (
+        <dialog className={styles.dialog}>
+          <form method="dialog">
+            <button className={styles.dialogClose} type="submit">X</button>
+            <Image
+              className={styles.dialogImage}
+              src={modalImageFile.src}
+              width={modalImageFile.width}
+              height={modalImageFile.height}
+              alt={altText || ''}
+            />
+          </form>
+        </dialog>
+      )}
       <figcaption className={styles.figCaption}>{caption || ''}</figcaption>
     </figure>
   );
