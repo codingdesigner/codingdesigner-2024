@@ -11,12 +11,15 @@
     padding-block-start: var(--spacing-2);
   }
 
-  .ParagraphWrapper p {
+  .ParagraphWrapper p,
+  .ParagraphWrapper li {
     max-width: fit-content;
     break-inside: avoid;
   }
 
-  .ParagraphWrapper p:first-child {
+  .ParagraphWrapper p:first-child,
+  .ParagraphWrapper ul:first-child,
+  .ParagraphWrapper ol:first-child {
     margin-block-start: 0;
   }
 }
