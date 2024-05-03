@@ -4,4 +4,8 @@
   margin-right: calc(var(--spacing-3) * -1);
   padding-left: var(--spacing-3);
   padding-right: var(--spacing-3);
+  padding-block-start: var(--spacing-baseline);
+  padding-block-end: var(--spacing-baseline);
+  margin-block-start: var(--spacing-4);
+  margin-block-end: var(--spacing-4);
 }
