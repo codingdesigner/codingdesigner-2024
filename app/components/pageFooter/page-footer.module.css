@@ -1,3 +1,11 @@
 .pageFooter {
-  color: inherit;
+  margin-left: calc(var(--spacing-3) * -1);
+  margin-right: calc(var(--spacing-3) * -1);
+  padding-left: var(--spacing-3);
+  padding-right: var(--spacing-3);
+  background-color: var(--color-grayscale-gray1);
+  color: var(--color-grayscale-gray6);
+  margin-block-start: var(--spacing-8);
+  padding-block-start: var(--spacing-8);
+  padding-block-end: var(--spacing-4);
 }
