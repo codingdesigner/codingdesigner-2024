@@ -2,6 +2,7 @@
   composes: extendMarginToEdge from "../components/StripesWrapper/StripesWrapper.module.css";
   align-items: center;
   background-color: var(--color-accent-5);
+  background-image: linear-gradient(to bottom right, var(--color-accent-5), var(--color-accent-6));
   display: flex;
   flex-direction: column;
   padding-block-end: var(--spacing-3);
@@ -23,7 +24,9 @@
 }
 
 .svgCurve text {
+  --color-shadow: var(--color-accent-7);
   fill: var(--color-accent-8);
+  text-shadow: 0.4em 0.4em 0px var(--color-shadow);
 }
 
 .homeFigure {
