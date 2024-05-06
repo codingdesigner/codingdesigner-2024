@@ -24,6 +24,7 @@ export interface FigureProps {
   centerFigure?: boolean // Whether to center the figure
   circleCrop?: boolean // Whether to center the figure
   grayScale?: boolean // Whether to center the figure
+  className?: string
 }
 
 export function Figure({
@@ -34,7 +35,8 @@ export function Figure({
   centerFigure = false,
   circleCrop = false,
   grayScale = false,
-  modalImageFile
+  modalImageFile,
+  className = ""
 }: FigureProps) {
   // Validate the imageFile object
   if (!imageFile || !imageFile.src || !imageFile.width || !imageFile.height) {
@@ -56,7 +58,7 @@ export function Figure({
   };
 
   return (
-    <figure className={`${figureClass} ${justifyClass} ${bottomBorderClass}`}>
+    <figure className={`${figureClass} ${justifyClass} ${bottomBorderClass} ${className}`}>
       <Image
         className={`${styles.img} ${circleClass} ${grayscaleClass}`}
         src={imageFile.src}
