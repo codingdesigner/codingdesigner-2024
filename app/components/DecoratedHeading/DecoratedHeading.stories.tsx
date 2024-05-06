@@ -18,4 +18,4 @@ export default meta;
 
 type Story = StoryObj<typeof DecoratedHeading>;
 
-export const Base: Story = {args: {children: "Default Heading Content"}};
+export const Base: Story = {args: {children: "Gwendy Wendell - The Coding Designer"}};
