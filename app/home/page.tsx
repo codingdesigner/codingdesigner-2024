@@ -14,8 +14,10 @@ export default function HomePage() {
 
       <div className={styles.titleLockup}>
         <DecoratedHeading
-          className={styles.homeHeading} background="pink"
-          text="mulberry">
+          className={styles.homeHeading}
+          background="page"
+          text="mulberry"
+          shadow="cyan">
           Design Systems for Big&nbsp;Needs
         </DecoratedHeading>
 
