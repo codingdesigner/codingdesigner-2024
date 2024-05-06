@@ -11,20 +11,49 @@ import gwenGoodLight from "../static/gwendy/gwendy-good-light.png"
 export default function HomePage() {
   return (
     <React.Fragment>
-      <DecoratedHeading className={styles.homeHeading} background="peach">Design Systems for Big Needs</DecoratedHeading>
-      <Figure
-        imageFile={gwenGoodLight}
-        altText="Gwendy Wendell looking at the camera"
-        modalImageFile={null}
-        circleCrop={true}
-        grayScale={true}
-      />
+
+      <div className={styles.titleLockup}>
+        <DecoratedHeading
+          className={styles.homeHeading} background="pink"
+          text="mulberry">
+          Design Systems for Big&nbsp;Needs
+        </DecoratedHeading>
+
+        <svg
+          viewBox="0 0 100 100"
+          xmlns="http://www.w3.org/2000/svg"
+          className={styles.svgCurve}
+        >
+          <path
+            id="circlePath"
+            d="
+              M 10, 50
+              a 40,40 0 1,1 80,0
+              40,40 0 1,1 -80,0
+              "
+          />
+          <text>
+            <textPath href="#circlePath">
+              • Design Systems for Big Needs •
+            </textPath>
+          </text>
+        </svg>
+
+        <Figure
+          imageFile={gwenGoodLight}
+          altText="Gwendy Wendell looking at the camera"
+          modalImageFile={null}
+          circleCrop={true}
+          grayScale={true}
+          className={styles.homeFigure}
+        />
+      </div>
+
 
       <h2>Hello There!</h2>
 
       <StripesWrapper>
         <section>
-          <h3>About Me</h3>
           <ParagraphWrapper>
             <p>
               I've spent over two decades in the web design field, but my true passion lies in developing large, impactful design systems. I've had the privilege of leading projects for prestigious brands like Condé Nast, utilizing my core skills in Responsive Web Design, UX and Visual Design, CSS, Sass, and React. These skills have been essential in bringing numerous sophisticated websites to life.
