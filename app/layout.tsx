@@ -1,6 +1,7 @@
 import { Header } from './components/header'
 import { PageFooter } from './components/pageFooter'
-import './global/global.css'
+import './global/global-variables.css'
+import './global/global-base.css'
 import styles from './layout.module.css'
 
 export default function RootLayout({
