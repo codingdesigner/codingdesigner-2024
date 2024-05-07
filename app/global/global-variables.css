@@ -6,11 +6,11 @@
   --color-accent-2: light-dark(rgb(182, 220, 66), rgb(123, 150, 44));
   --color-accent-3: light-dark(rgb(241, 193, 146), rgb(213, 156, 98));
   --color-accent-4: light-dark(rgb(227, 183, 213), rgb(154, 110, 140));
-  --color-accent-5: light-dark(rgb(253, 210, 217), rgb(253, 210, 217));
-  --color-accent-6: light-dark(rgb(255, 229, 180), rgb(255, 229, 180));
-  --color-accent-7: light-dark(rgb(158, 255, 250), rgb(158, 255, 250));
-  --color-accent-8: light-dark(rgb(191, 94, 162), rgb(191, 94, 162));
-  --color-accent-9: light-dark(rgb(83, 183, 152), rgb(83, 183, 152));
+  --color-accent-5: light-dark(rgb(253, 210, 217), rgb(194, 134, 144));
+  --color-accent-6: light-dark(rgb(255, 229, 180), rgb(201, 166, 101));
+  --color-accent-7: light-dark(rgb(158, 255, 250), rgb(88, 199, 194));
+  --color-accent-8: light-dark(rgb(191, 94, 162), rgb(148, 61, 122));
+  --color-accent-9: light-dark(rgb(83, 183, 152), rgb(48, 136, 108));
 
   --color-accent-strong-5: light-dark(rgb(220, 91, 113), rgb(250, 163, 177));
 
