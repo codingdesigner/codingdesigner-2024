@@ -42,16 +42,9 @@ export function DecoratedHeading({
     '--color-shadow': colorVariables[shadow]
   } as React.CSSProperties;
 
-  const SpanWrappedWords = ({ text }: { text: React.ReactNode }) => {
-    if (typeof text === "string") {
-      return <>{text.split(' ').map((word, index) => <span key={index}>{word} </span>)}</>;
-    }
-    return <>{text}</>; // Properly handle non-string ReactNode
-  }
-
   return (
     <Element className={`${styles.DecoratedHeading} ${className}`} style={style}>
-      <SpanWrappedWords text={children} />
+      {children}
     </Element>
   );
 }

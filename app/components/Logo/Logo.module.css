@@ -1,3 +1,13 @@
-/* .logo {
+.logo path {
+ fill: var(--main-text-color);
+}
 
-} */
+.logo path[fill="#FF0000"],
+.logo g[fill="#FF0000"] path {
+  fill: light-dark(#E7131A, #ff7878);
+}
+
+.logo path[fill="#C6A348"],
+.logo g[fill="#C6A348"] path {
+  fill: #C6A348;
+}

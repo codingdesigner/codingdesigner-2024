@@ -1,6 +1,9 @@
 import * as React from "react"
+import styles from "../Logo.module.css"
+
 const BonAppetit = (props) => (
   <svg
+    className={styles.logo}
     xmlns="http://www.w3.org/2000/svg"
     width={179}
     height={36}

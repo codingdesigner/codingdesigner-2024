@@ -1,16 +1,18 @@
 :root {
   /* Color */
-  --color-accent-1: rgb(163, 207, 239);
-  --color-accent-2: rgb(182, 220, 66);
-  --color-accent-3: rgb(241, 193, 146);
-  --color-accent-4: rgb(227, 183, 213);
-  --color-accent-5: rgb(253, 210, 217);
-  --color-accent-6: rgb(255, 229, 180);
-  --color-accent-7: rgb(158, 255, 250);
-  --color-accent-8: rgb(191, 94, 162);
-  --color-accent-9: rgb(83, 183, 152);
+  color-scheme: light dark;
 
-  --color-accent-strong-5: rgb(220, 91, 113);
+  --color-accent-1: light-dark(rgb(163, 207, 239), rgb(109, 138, 160));
+  --color-accent-2: light-dark(rgb(182, 220, 66), rgb(123, 150, 44));
+  --color-accent-3: light-dark(rgb(241, 193, 146), rgb(213, 156, 98));
+  --color-accent-4: light-dark(rgb(227, 183, 213), rgb(154, 110, 140));
+  --color-accent-5: light-dark(rgb(253, 210, 217), rgb(194, 134, 144));
+  --color-accent-6: light-dark(rgb(255, 229, 180), rgb(201, 166, 101));
+  --color-accent-7: light-dark(rgb(158, 255, 250), rgb(88, 199, 194));
+  --color-accent-8: light-dark(rgb(191, 94, 162), rgb(148, 61, 122));
+  --color-accent-9: light-dark(rgb(83, 183, 152), rgb(48, 136, 108));
+
+  --color-accent-strong-5: light-dark(rgb(220, 91, 113), rgb(250, 163, 177));
 
   --color-feedback-link: rgba(0, 127, 173, 1);
   --color-feedback-link_hover: rgba(8, 96, 128, 1);
@@ -24,8 +26,8 @@
   --color-grayscale-gray6: rgba(247, 247, 247, 1);
   --color-grayscale-white: rgba(255, 255, 255, 1);
 
-  --main-bg-color: var(--color-grayscale-white);
-  --main-text-color: var(--color-grayscale-gray1);
+  --main-bg-color: light-dark(var(--color-grayscale-white), var(--color-grayscale-gray1));
+  --main-text-color: light-dark(var(--color-grayscale-gray1), var(--color-grayscale-white));
 
   --test-grid-color: rgba(0, 213, 255, 0.2);
 

@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from "react";
+import { MenuButton } from "./images/MenuButton";
 
 import styles from './menu.module.css';
 
@@ -33,8 +34,7 @@ export function Menu() {
   return (
     <React.Fragment>
       <React.Fragment>
-        <div className={styles.menuButton}
-          onClick={onHamburgerClick}>Menu</div>
+        <MenuButton onClick={onHamburgerClick}/>
         <div className={(menuActive) ? styles.drawerOpen : styles.drawerClosed}>
           <MenuList />
         </div>

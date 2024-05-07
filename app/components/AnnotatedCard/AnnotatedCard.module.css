@@ -1,6 +1,6 @@
 .AnnotatedCard {
   align-items: center;
-  background-color: var(--color-grayscale-white);
+  background-color: var(--main-bg-color);
   display: grid;
   gap: var(--layout-gap);
   grid-auto-flow: dense;

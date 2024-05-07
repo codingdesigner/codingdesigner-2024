@@ -2,6 +2,8 @@
 import React from 'react';
 import Image from 'next/image';
 
+import { DialogCloseButton } from './images/DialogCloseButton';
+
 import styles from './figure.module.css';
 
 /**
@@ -70,7 +72,9 @@ export function Figure({
       {modalImageFile && (
         <dialog className={styles.dialog}>
           <form method="dialog">
-            <button className={styles.dialogClose} type="submit">X</button>
+            <button className={styles.dialogClose} type="submit">
+              <DialogCloseButton />
+            </button>
             <Image
               className={styles.dialogImage}
               src={modalImageFile.src}

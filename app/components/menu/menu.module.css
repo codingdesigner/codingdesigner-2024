@@ -5,16 +5,16 @@
 
 .menuLink {
   composes: typeBasic;
-  color: var(--color-grayscale-black);
+  color: light-dark(var(--color-grayscale-black), var(--color-grayscale-white));
   text-underline-offset: 2px;
 }
 .menuLink:hover {
-  color: var(--color-grayscale-gray3);
+  color: light-dark(var(--color-grayscale-gray3), var(--color-grayscale-gray4));
 }
 
 .drawer {
   align-items: center;
-  background: var(--color-grayscale-gray6);
+  background: light-dark(var(--color-grayscale-gray6), var(--color-grayscale-gray2));
   display: flex;
   display: flex;
   justify-content: flex-end;
@@ -36,29 +36,21 @@
 }
 
 .menuButton {
+  cursor: pointer;
+  height: 40px;
   position: absolute;
   right: var(--spacing-2);
   top: var(--spacing-2);
-  visibility: hidden;
+  width: 40px;
   z-index: 2;
 }
-.menuButton::after {
-  background-image: url('images/menu.svg');
-  color: var(--main-bg-color);
-  content: '.';
-  cursor: pointer;
-  display: block;
-  font-size: 0;
-  height: 40px;
-  margin: var(--spacing-baseline);
-  position: absolute;
-  right: 0;
-  top: 0;
-  visibility: visible;
-  width: 40px;
+
+.menuButton path {
+  fill: var(--main-text-color);
 }
-.menuButton:hover::after {
-  background-image: url('images/menu-hover.svg');
+
+.menuButton:hover path {
+  fill: light-dark(var(--color-grayscale-gray3), var(--color-grayscale-gray4));
 }
 
 .menu {
