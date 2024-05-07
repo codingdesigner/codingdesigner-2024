@@ -10,8 +10,8 @@ const colorVariables: { [key: string]: string } = {
   'peach': 'var(--color-accent-6)',
   'lavender': 'var(--color-accent-4)',
   'cyan': 'var(--color-accent-7)',
-  'mulberry': 'var(--color-accent-7)',
-  'moss': 'var(--color-accent-7)',
+  'mulberry': 'var(--color-accent-8)',
+  'moss': 'var(--color-accent-9)',
   'black': 'var(--color-grayscale-black)',
   'white': 'var(--color-grayscale-white)',
   'page-text': 'var(--main-text-color)',
@@ -22,60 +22,36 @@ const colorVariables: { [key: string]: string } = {
 export interface DecoratedHeadingProps {
   children: React.ReactNode;
   as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'div';
-  background?:
-    'pink' |
-    'blue' |
-    'green' |
-    'peach' |
-    'lavender' |
-    'cyan' |
-    'mulberry' |
-    'moss' |
-    'black' |
-    'white' |
-    'page' |
-    'page-text';
-  text?:
-    'pink' |
-    'blue' |
-    'green' |
-    'peach' |
-    'lavender' |
-    'cyan' |
-    'mulberry' |
-    'moss' |
-    'black' |
-    'white' |
-    'page' |
-    'page-text';
-  shadow?:
-    'pink' |
-    'blue' |
-    'green' |
-    'peach' |
-    'lavender' |
-    'cyan' |
-    'mulberry' |
-    'moss' |
-    'black' |
-    'white' |
-    'page' |
-    'page-text';
+  background?: keyof typeof colorVariables;
+  text?: keyof typeof colorVariables;
+  shadow?: keyof typeof colorVariables;
+  className?: string;
 }
 
-// Define DecoratedHeading component
-export function DecoratedHeading({ children, as: Element = 'h1', background = 'pink', text = 'page-text', shadow = 'page' }: DecoratedHeadingProps) {
-  // Set inline styles using color variables
+export function DecoratedHeading({
+  children,
+  as: Element = 'h1',
+  background = 'pink',
+  text = 'page-text',
+  shadow = 'page',
+  className = ""
+}: DecoratedHeadingProps) {
   const style = {
     '--color-background': colorVariables[background],
     '--color-text': colorVariables[text],
     '--color-shadow': colorVariables[shadow]
   } as React.CSSProperties;
 
-  // Render DecoratedHeading component with specified styles
+  const SpanWrappedWords = ({ text }: { text: React.ReactNode }) => {
+    if (typeof text === "string") {
+      return <>{text.split(' ').map((word, index) => <span key={index}>{word} </span>)}</>;
+    }
+    return <>{text}</>; // Properly handle non-string ReactNode
+  }
+
   return (
-    <Element className={styles.DecoratedHeading} style={style}>
-      {children}
+    <Element className={`${styles.DecoratedHeading} ${className}`} style={style}>
+      <SpanWrappedWords text={children} />
     </Element>
   );
 }

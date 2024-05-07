@@ -1,0 +1,64 @@
+.titleLockup {
+  composes: extendMarginToEdge from "../components/StripesWrapper/StripesWrapper.module.css";
+  align-items: center;
+  background-color: var(--color-accent-5);
+  background-image: linear-gradient(to bottom right, var(--color-accent-5), var(--color-accent-6));
+  display: flex;
+  flex-direction: column;
+  padding-block-end: var(--spacing-3);
+}
+
+.svgCurve {
+  --text-arc-width: 400px;
+  display: none;
+  font-family: var(--type-display-font-family);
+  font-size: 7.26px;
+  font-style: var(--type-display-font-style);
+  font-variation-settings: var(--type-display-font-variation-settings);
+  font-weight: var(--type-display-font-base-weight);
+  width: var(--text-arc-width);
+}
+
+.svgCurve path {
+  fill: transparent;
+}
+
+.svgCurve text {
+  --color-shadow: var(--color-accent-7);
+  fill: var(--color-accent-8);
+  text-shadow: 0.4em 0.4em 0px var(--color-shadow);
+}
+
+.homeFigure {
+  border-radius: 50%;
+  border: 4px solid var(--color-accent-8);
+  max-width: 100%;
+  position: relative;
+  width: 300px;
+  z-index: 1;
+}
+
+@container (min-width: 380px) {
+  .homeHeading {
+    display: none;
+  }
+
+  .svgCurve {
+    display: block;
+  }
+
+  .homeFigure {
+    margin-top: -350px;
+  }
+}
+
+@container (min-width: 800px) {
+  .svgCurve {
+    --text-arc-width: 600px;
+  }
+
+  .homeFigure {
+    margin-top: -520px;
+    width: unset;
+  }
+}

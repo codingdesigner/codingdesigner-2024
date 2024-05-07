@@ -17,7 +17,7 @@ import { Storefront } from "./content/Storefront";
 const Page = () => {
   return (
     <React.Fragment>
-      <DecoratedHeading>Lead Design Systems Engineer at Condé Nast</DecoratedHeading>
+      <DecoratedHeading>Lead Design Systems Engineer at Condé&nbsp;Nast</DecoratedHeading>
       <ParagraphWrapper>
         <p>Welcome to my professional portfolio! I'm a seasoned web designer and front-end developer with a specialized focus on developing comprehensive design systems. Here, I've assembled a showcase of projects that reflect my commitment to marrying form with function, creating user-centric designs that drive business success.</p>
       </ParagraphWrapper>
