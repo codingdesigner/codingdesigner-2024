@@ -4,7 +4,7 @@
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  min-height: var(--vh);
+  min-height: 100vh;
 }
 
 .holyGrailBody {
