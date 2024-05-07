@@ -147,7 +147,7 @@
 }
 
 body {
-  font-family: var(--type-text);
+  font-family: var(--type-text-font-family);
   font-optical-sizing: var(--type-text-font-optical-sizing);
   font-weight: var(--type-text-font-base-weight);
   font-style: var(--type-text-font-style);
