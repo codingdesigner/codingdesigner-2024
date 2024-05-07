@@ -1,8 +1,7 @@
 import React from 'react';
-
-import iconBrush from './images/icon-brush.svg';
-import iconText from './images/icon-text.svg';
-import vertLine from './images/vert-line.svg';
+import { IconBrush } from './images/IconBrush';
+import { IconText } from './images/IconText';
+import { VertLine } from './images/VertLine';
 
 import styles from './TokenFlag.module.css';
 
@@ -13,20 +12,26 @@ interface TokenFlagProps {
   footnote?: string;
 }
 
+const Icon = ({ type }) => {
+  const isType = type === "type";
+  const IconCheck = () => (isType ? <IconText /> : <IconBrush />);
+  return (
+    <IconCheck />
+  )
+}
+
 export const TokenFlag: React.FC<TokenFlagProps> = ({
   type,
   className = '',
   text = "a.token.name",
   footnote = '',
 }) => {
-  const isType = type === "type";
-  const imageSrc = isType ? iconText : iconBrush;
 
   return (
     <div className={`${styles.TokenFlag} ${styles.type} ${styles.direction} ${className}`}>
-      <img className={styles.icon} alt="Icon" src={imageSrc.src} />
+      <Icon type={type} />
       <sup className={styles.footnote}>{footnote}</sup>
-      <img className={styles.line} alt="Line" src={vertLine.src} />
+      <VertLine />
       <div className={styles.tokenName}>{text}</div>
     </div>
   );

@@ -1,8 +1,8 @@
 .TokenFlag {
   align-items: center;
-  background-color: var(--color-grayscale-white);
+  background-color: light-dark(var(--color-grayscale-white), var(--color-grayscale-gray1));
   border: 1px solid;
-  border-color: var(--color-grayscale-gray5);
+  border-color: light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray2));
   border-radius: var(--spacing-3);
   display: inline-flex;
   gap: var(--spacing-baseline);
@@ -18,15 +18,23 @@
   width: var(--spacing-3);
 }
 
-.line {
+.icon path {
+  fill: light-dark(var(--color-grayscale-gray3), var(--color-grayscale-gray5));
+}
+
+.vertLine {
   height: var(--spacing-2);
   object-fit: cover;
   position: relative;
   width: 1px;
 }
 
+.vertLine line {
+  stroke: light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray2));
+}
+
 .tokenName {
-  color: var(--color-grayscale-black);
+  color: light-dark(var(--color-grayscale-black), var(--color-grayscale-white));
   font-family: var(--type-text-font-family);
   font-weight: var(--type-text-font-base-weight);
   width: fit-content;
