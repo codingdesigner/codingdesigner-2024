@@ -44,8 +44,8 @@
 
 .img {
   box-shadow:
-    2px 2px 8px light-dark(var(--color-grayscale-gray5), var(--color-grayscale-black)),
-    -2px -2px 8px light-dark(var(--color-grayscale-gray5), var(--color-grayscale-black));
+    2px 2px 8px light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray1)),
+    -2px -2px 8px light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray1));
   height: unset;
 }
 
