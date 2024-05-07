@@ -10,7 +10,7 @@
 
 .bottomBorder {
   composes: figure;
-  border-bottom: 1px solid var(--color-grayscale-gray6);
+  border-bottom: 1px solid light-dark(var(--color-grayscale-gray6), var(--color-grayscale-black));
 }
 
 @container (min-width: 924px) {
@@ -39,13 +39,13 @@
 }
 
 .figCaption {
-  color: var(--color-grayscale-gray2);
+  color: light-dark(var(--color-grayscale-gray2), var(--color-grayscale-gray5));
 }
 
 .img {
   box-shadow:
-    2px 2px 8px var(--color-grayscale-gray5),
-    -2px -2px 8px var(--color-grayscale-gray5);
+    2px 2px 8px light-dark(var(--color-grayscale-gray5), var(--color-grayscale-black)),
+    -2px -2px 8px light-dark(var(--color-grayscale-gray5), var(--color-grayscale-black));
   height: unset;
 }
 
@@ -53,35 +53,34 @@
   padding: var(--spacing-2);
   border-width: 1px;
   border-style: solid;
-  border-color: var(--color-grayscale-gray3);
+  border-color: light-dark(var(--color-grayscale-gray3), var(--color-grayscale-gray2));
   position: relative;
 }
 
 .dialogImage {
-  border: 1px solid var(--color-grayscale-gray5);
+  border: 1px solid light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray2));
   height: unset;
 }
 
 .dialogClose {
-  position: absolute;
-  right: -8px;
-  top: -8px;
-  visibility: hidden;
-  z-index: 2;
-}
-
-.dialogClose::after {
-  background-image: url("../menu/images/menu-close-hover.svg");
-  color: var(--main-bg-color);
-  content: ".";
   cursor: pointer;
-  display: block;
-  font-size: 0;
-  height: 40px;
-  margin: var(--spacing-baseline);
   position: absolute;
   right: 0;
-  top: 0;
-  visibility: visible;
+  top: 2px;
+  z-index: 2;
+  background-color: transparent;
+  border: none;
+}
+
+.dialogCloseButton {
+  height: 40px;
   width: 40px;
+}
+
+.dialogCloseButton circle {
+  fill: light-dark(var(--color-grayscale-gray1), var(--color-grayscale-gray3))
+}
+
+.dialogCloseButton path {
+  fill: light-dark(var(--color-grayscale-white), var(--color-grayscale-black))
 }
