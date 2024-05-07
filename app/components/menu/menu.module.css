@@ -5,16 +5,16 @@
 
 .menuLink {
   composes: typeBasic;
-  color: var(--color-grayscale-black);
+  color: light-dark(var(--color-grayscale-black), var(--color-grayscale-white));
   text-underline-offset: 2px;
 }
 .menuLink:hover {
-  color: var(--color-grayscale-gray3);
+  color: light-dark(var(--color-grayscale-gray3), var(--color-grayscale-gray4));
 }
 
 .drawer {
   align-items: center;
-  background: var(--color-grayscale-gray6);
+  background: light-dark(var(--color-grayscale-gray6), var(--color-grayscale-gray2));
   display: flex;
   display: flex;
   justify-content: flex-end;
