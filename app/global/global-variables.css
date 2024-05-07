@@ -1,26 +1,5 @@
 :root {
-
-  --type-text-font-family: "gill-sans-nova", Verdana, Arial, -apple-system, sans-serif;
-  --type-text-font-optical-sizing: auto;
-  --type-text-font-base-weight: 400;
-  --type-text-font-style: normal;
-
-  --type-display-font-family: "gill-sans-nova-shadowed-outl", Verdana, Arial, -apple-system,
-    sans-serif;
-  --type-display-font-base-weight: 400;
-  --type-display-font-style: normal;
-  --type-display-font-variation-settings: "liga", "salt";
-
-  --type-display2-font-family: "gill-sans-nova-condensed", Verdana, Arial, -apple-system,
-    sans-serif;
-  --type-display2-font-base-weight: 500;
-  --type-display2-font-style: normal;
-  --type-display2-font-variation-settings: "liga";
-
-  --type-mono: "source-code-pro", monospace;
-  --type-mono-font-base-weight: 400;
-  --type-mono-font-style: normal;
-
+  /* Color */
   --test-grid-color: rgba(0, 213, 255, 0.2);
 
   --color-accent-1: rgb(163, 207, 239);
@@ -50,6 +29,7 @@
   --main-bg-color: var(--color-grayscale-white);
   --main-text-color: var(--color-grayscale-gray1);
 
+  /* Spacing */
   --spacing-0-5: 4px;
   --spacing-baseline: 8px;
   --spacing-1-5: 12px;
@@ -66,8 +46,30 @@
   --spacing-11: 88px;
   --spacing-12: 96px;
 
-  --vh: 100vh;
+  /* Typography */
+  --type-text-font-family: "gill-sans-nova", Verdana, Arial, -apple-system,
+    sans-serif;
+  --type-text-font-optical-sizing: auto;
+  --type-text-font-base-weight: 400;
+  --type-text-font-style: normal;
 
+  --type-display-font-family: "gill-sans-nova-shadowed-outl", Verdana, Arial,
+    -apple-system, sans-serif;
+  --type-display-font-base-weight: 400;
+  --type-display-font-style: normal;
+  --type-display-font-variation-settings: "liga", "salt";
+
+  --type-display2-font-family: "gill-sans-nova-condensed", Verdana, Arial,
+    -apple-system, sans-serif;
+  --type-display2-font-base-weight: 500;
+  --type-display2-font-style: normal;
+  --type-display2-font-variation-settings: "liga";
+
+  --type-mono: "source-code-pro", monospace;
+  --type-mono-font-base-weight: 400;
+  --type-mono-font-style: normal;
+
+  /* Type Scale */
   --type-scale-seed: var(--spacing-2);
   --type-scale-multiplier: 1.2;
   --type-scale-1: var(--type-scale-seed);
@@ -100,11 +102,15 @@
   --line-height-6: var(--spacing-5);
   --line-height-7: var(--spacing-7);
 
+  --line-measure: 28em;
+
+  /* Layout */
   --layout-gap: var(--spacing-2);
   --layout-gap-wide: var(--spacing-6);
   --nav-bar-padding: var(--spacing-1-5);
   --border-width: 1px;
 
+  /* Baseline */
   --baseline-grid: 8px;
   --baseline-grid-background: 7px;
   --baseline-bg-image: repeating-linear-gradient(
@@ -113,6 +119,4 @@
     var(--main-bg-color) var(--baseline-grid-background),
     var(--test-grid-color) var(--baseline-grid)
   );
-
-  --line-measure: 28em;
 }
