@@ -1,7 +1,5 @@
 :root {
   /* Color */
-  --test-grid-color: rgba(0, 213, 255, 0.2);
-
   --color-accent-1: rgb(163, 207, 239);
   --color-accent-2: rgb(182, 220, 66);
   --color-accent-3: rgb(241, 193, 146);
@@ -29,22 +27,7 @@
   --main-bg-color: var(--color-grayscale-white);
   --main-text-color: var(--color-grayscale-gray1);
 
-  /* Spacing */
-  --spacing-0-5: 4px;
-  --spacing-baseline: 8px;
-  --spacing-1-5: 12px;
-  --spacing-2: 16px;
-  --spacing-2-5: 20px;
-  --spacing-3: 24px;
-  --spacing-4: 32px;
-  --spacing-5: 40px;
-  --spacing-6: 48px;
-  --spacing-7: 56px;
-  --spacing-8: 64px;
-  --spacing-9: 72px;
-  --spacing-10: 80px;
-  --spacing-11: 88px;
-  --spacing-12: 96px;
+  --test-grid-color: rgba(0, 213, 255, 0.2);
 
   /* Typography */
   --type-text-font-family: "gill-sans-nova", Verdana, Arial, -apple-system,
@@ -68,6 +51,23 @@
   --type-mono: "source-code-pro", monospace;
   --type-mono-font-base-weight: 400;
   --type-mono-font-style: normal;
+
+  /* Spacing */
+  --spacing-0-5: 4px;
+  --spacing-baseline: 8px;
+  --spacing-1-5: 12px;
+  --spacing-2: 16px;
+  --spacing-2-5: 20px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-5: 40px;
+  --spacing-6: 48px;
+  --spacing-7: 56px;
+  --spacing-8: 64px;
+  --spacing-9: 72px;
+  --spacing-10: 80px;
+  --spacing-11: 88px;
+  --spacing-12: 96px;
 
   /* Type Scale */
   --type-scale-seed: var(--spacing-2);
