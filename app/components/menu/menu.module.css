@@ -36,29 +36,21 @@
 }
 
 .menuButton {
+  cursor: pointer;
+  height: 40px;
   position: absolute;
   right: var(--spacing-2);
   top: var(--spacing-2);
-  visibility: hidden;
+  width: 40px;
   z-index: 2;
 }
-.menuButton::after {
-  background-image: url('images/menu.svg');
-  color: var(--main-bg-color);
-  content: '.';
-  cursor: pointer;
-  display: block;
-  font-size: 0;
-  height: 40px;
-  margin: var(--spacing-baseline);
-  position: absolute;
-  right: 0;
-  top: 0;
-  visibility: visible;
-  width: 40px;
+
+.menuButton path {
+  fill: var(--main-text-color);
 }
-.menuButton:hover::after {
-  background-image: url('images/menu-hover.svg');
+
+.menuButton:hover path {
+  fill: light-dark(var(--color-grayscale-gray3), var(--color-grayscale-gray4));
 }
 
 .menu {

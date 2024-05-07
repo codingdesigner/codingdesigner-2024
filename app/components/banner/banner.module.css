@@ -23,12 +23,12 @@
 }
 
 .bannerLink {
-  color: var(--color-grayscale-black);
+  color: light-dark(var(--color-grayscale-black), var(--color-grayscale-white));
   text-decoration: none;
 }
 
 .bannerLink:hover {
-  color: var(--color-grayscale-black);
+  color: light-dark(var(--color-grayscale-black), var(--color-grayscale-white));
 }
 
 .bannerWrapper {

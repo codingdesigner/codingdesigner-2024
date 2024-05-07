@@ -23,7 +23,7 @@
 .header {
   align-items: end;
   background-color: var(--main-bg-color);
-  border-bottom: 2px dashed var(--color-grayscale-gray5);
+  border-bottom: 2px dashed light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray2));
   display: grid;
   gap: var(--spacing-2);
   grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
