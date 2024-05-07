@@ -1,5 +1,6 @@
 .typeBasic {
-  composes: typeBasic from '../../global/typography.module.css'
+  composes: typeBasic from '../../global/typography.module.css';
+  letter-spacing: 0.75px;
 }
 
 .menuLink {
@@ -65,7 +66,6 @@
   flex-wrap: wrap;
   font-family: var(--type-display-font-family);
   font-weight: 700;
-  letter-spacing: -0.5px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -79,14 +79,26 @@
 @media (min-width: 360px) {
   .menu {
     flex-direction: row;
+    justify-self: flex-end;
     text-transform: uppercase;
     width: fit-content;
-    justify-self: flex-end;
   }
   .menuItem:first-child {
     padding-left: 0;
   }
   .menuItem:last-child {
     padding-right: 0;
+  }
+}
+
+@media (min-width: 641px) {
+  .menu {
+    max-width: 14em;
+  }
+}
+
+@media (min-width: 780px) {
+  .menu {
+    max-width: unset;
   }
 }
