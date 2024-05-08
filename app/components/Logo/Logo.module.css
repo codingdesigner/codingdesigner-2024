@@ -1,13 +1,27 @@
 .logo path {
- fill: var(--main-text-color);
+  fill: var(--main-text-color);
 }
 
 .logo path[fill="#FF0000"],
 .logo g[fill="#FF0000"] path {
-  fill: light-dark(#E7131A, #ff7878);
+  fill: light-dark(#e7131a, #ff7878);
 }
 
 .logo path[fill="#C6A348"],
 .logo g[fill="#C6A348"] path {
-  fill: #C6A348;
+  fill: #c6a348;
+}
+
+/* only Safari needs this */
+@supports not (color: light-dark(red, pink)) {
+  .logo path[fill="#FF0000"],
+  .logo g[fill="#FF0000"] path {
+    fill: #e7131a;
+  }
+  @media (prefers-color-scheme: dark) {
+    .logo path[fill="#FF0000"],
+    .logo g[fill="#FF0000"] path {
+      fill: #ff7878;
+    }
+  }
 }
