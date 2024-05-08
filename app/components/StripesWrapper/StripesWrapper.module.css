@@ -6,7 +6,10 @@
 }
 
 .StripesWrapper > *:nth-child(2n + 2) {
-  background-color: light-dark(var(--color-grayscale-gray6), var(--color-grayscale-gray2));
+  background-color: light-dark(
+    var(--color-grayscale-gray6),
+    var(--color-grayscale-gray2)
+  );
   margin-block-end: var(--spacing-4);
   margin-block-start: var(--spacing-4);
   margin-left: calc(var(--spacing-3) * -1);
@@ -15,4 +18,16 @@
   padding-block-start: var(--spacing-baseline);
   padding-left: var(--spacing-3);
   padding-right: var(--spacing-3);
+}
+
+/* only Safari needs this */
+@supports not (color: light-dark(red, pink)) {
+  .StripesWrapper > *:nth-child(2n + 2) {
+    background-color: var(--color-grayscale-gray6);
+  }
+  @media (prefers-color-scheme: dark) {
+    .StripesWrapper > *:nth-child(2n + 2) {
+      background-color: var(--color-grayscale-gray2);
+    }
+  }
 }

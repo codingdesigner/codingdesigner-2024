@@ -26,10 +26,44 @@
   --color-grayscale-gray6: rgba(247, 247, 247, 1);
   --color-grayscale-white: rgba(255, 255, 255, 1);
 
-  --main-bg-color: light-dark(var(--color-grayscale-white), var(--color-grayscale-gray1));
-  --main-text-color: light-dark(var(--color-grayscale-gray1), var(--color-grayscale-white));
+  --main-bg-color: light-dark(
+    var(--color-grayscale-white),
+    var(--color-grayscale-gray1)
+  );
+  --main-text-color: light-dark(
+    var(--color-grayscale-gray1),
+    var(--color-grayscale-white)
+  );
 
   --test-grid-color: rgba(0, 213, 255, 0.2);
+
+  /* only Safari needs this */
+  @supports not (color: light-dark(red, pink)) {
+    --color-accent-1: rgb(163, 207, 239);
+    --color-accent-2: rgb(182, 220, 66);
+    --color-accent-3: rgb(241, 193, 146);
+    --color-accent-4: rgb(227, 183, 213);
+    --color-accent-5: rgb(253, 210, 217);
+    --color-accent-6: rgb(255, 229, 180);
+    --color-accent-7: rgb(158, 255, 250);
+    --color-accent-8: rgb(191, 94, 162);
+    --color-accent-9: rgb(83, 183, 152);
+    --main-bg-color: var(--color-grayscale-white);
+    --main-text-color: var(--color-grayscale-gray1);
+    @media (prefers-color-scheme: dark) {
+      --color-accent-1: rgb(109, 138, 160);
+      --color-accent-2: rgb(123, 150, 44);
+      --color-accent-3: rgb(213, 156, 98);
+      --color-accent-4: rgb(154, 110, 140);
+      --color-accent-5: rgb(194, 134, 144);
+      --color-accent-6: rgb(201, 166, 101);
+      --color-accent-7: rgb(88, 199, 194);
+      --color-accent-8: rgb(148, 61, 122);
+      --color-accent-9: rgb(48, 136, 108);
+      --main-bg-color: var(--color-grayscale-gray1);
+      --main-text-color: var(--color-grayscale-white);
+    }
+  }
 
   /* Typography */
   --type-text-font-family: "gill-sans-nova", Verdana, Arial, -apple-system,

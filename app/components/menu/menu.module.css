@@ -1,5 +1,5 @@
 .typeBasic {
-  composes: typeBasic from '../../global/typography.module.css';
+  composes: typeBasic from "../../global/typography.module.css";
   letter-spacing: 0.75px;
 }
 
@@ -14,8 +14,10 @@
 
 .drawer {
   align-items: center;
-  background: light-dark(var(--color-grayscale-gray6), var(--color-grayscale-gray2));
-  display: flex;
+  background: light-dark(
+    var(--color-grayscale-gray6),
+    var(--color-grayscale-gray2)
+  );
   display: flex;
   justify-content: flex-end;
   left: 0;
@@ -92,5 +94,37 @@
 @media (min-width: 780px) {
   .menu {
     max-width: unset;
+  }
+}
+
+/* only Safari needs this */
+@supports not (color: light-dark(red, pink)) {
+  .menuLink {
+    color: var(--color-grayscale-black);
+  }
+  .menuLink:hover {
+    color: var(--color-grayscale-gray3);
+  }
+
+  .drawer {
+    background: var(--color-grayscale-gray6);
+  }
+  .menuButton:hover path {
+    fill: var(--color-grayscale-gray3);
+  }
+  @media (prefers-color-scheme: dark) {
+    .menuLink {
+      color: var(--color-grayscale-white);
+    }
+    .menuLink:hover {
+      color: var(--color-grayscale-gray4);
+    }
+
+    .drawer {
+      background: var(--color-grayscale-gray2);
+    }
+    .menuButton:hover path {
+      fill: var(--color-grayscale-gray4);
+    }
   }
 }

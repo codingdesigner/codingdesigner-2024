@@ -10,7 +10,8 @@
 
 .bottomBorder {
   composes: figure;
-  border-bottom: 1px solid light-dark(var(--color-grayscale-gray6), var(--color-grayscale-black));
+  border-bottom: 1px solid
+    light-dark(var(--color-grayscale-gray6), var(--color-grayscale-black));
 }
 
 @container (min-width: 924px) {
@@ -25,6 +26,7 @@
   composes: figure;
   flex-direction: column;
 }
+
 .captionFirst {
   composes: figure;
   flex-direction: column-reverse;
@@ -44,8 +46,10 @@
 
 .img {
   box-shadow:
-    2px 2px 8px light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray1)),
-    -2px -2px 8px light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray1));
+    2px 2px 8px
+      light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray1)),
+    -2px -2px 8px
+      light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray1));
   height: unset;
 }
 
@@ -53,12 +57,16 @@
   padding: var(--spacing-2);
   border-width: 1px;
   border-style: solid;
-  border-color: light-dark(var(--color-grayscale-gray3), var(--color-grayscale-gray2));
+  border-color: light-dark(
+    var(--color-grayscale-gray3),
+    var(--color-grayscale-gray2)
+  );
   position: relative;
 }
 
 .dialogImage {
-  border: 1px solid light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray2));
+  border: 1px solid
+    light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray2));
   height: unset;
 }
 
@@ -78,9 +86,74 @@
 }
 
 .dialogCloseButton circle {
-  fill: light-dark(var(--color-grayscale-gray1), var(--color-grayscale-gray3))
+  fill: light-dark(var(--color-grayscale-gray1), var(--color-grayscale-gray3));
 }
 
 .dialogCloseButton path {
-  fill: light-dark(var(--color-grayscale-white), var(--color-grayscale-black))
+  fill: light-dark(var(--color-grayscale-white), var(--color-grayscale-black));
+}
+
+/* only Safari needs this */
+@supports not (color: light-dark(red, pink)) {
+  .bottomBorder {
+    border-bottom: 1px solid var(--color-grayscale-gray6);
+  }
+
+  .figCaption {
+    color: var(--color-grayscale-gray2);
+  }
+
+  .img {
+    box-shadow:
+      2px 2px 8px var(--color-grayscale-gray5),
+      -2px -2px 8px var(--color-grayscale-gray5);
+  }
+
+  .dialog {
+    border-color: var(--color-grayscale-gray3);
+  }
+
+  .dialogImage {
+    border-color: var(--color-grayscale-gray5);
+  }
+
+  .dialogCloseButton circle {
+    fill: var(--color-grayscale-gray1);
+  }
+
+  .dialogCloseButton path {
+    fill: var(--color-grayscale-white);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .bottomBorder {
+      border-bottom: 1px solid var(--color-grayscale-black);
+    }
+
+    .figCaption {
+      color: var(--color-grayscale-gray5);
+    }
+
+    .img {
+      box-shadow:
+        2px 2px 8px var(--color-grayscale-gray1),
+        -2px -2px 8px var(--color-grayscale-gray1);
+    }
+
+    .dialog {
+      border-color: var(--color-grayscale-gray2);
+    }
+
+    .dialogImage {
+      border-color: var(--color-grayscale-gray2);
+    }
+
+    .dialogCloseButton circle {
+      fill: var(--color-grayscale-gray3);
+    }
+
+    .dialogCloseButton path {
+      fill: var(--color-grayscale-black);
+    }
+  }
 }

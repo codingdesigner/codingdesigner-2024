@@ -102,3 +102,23 @@
   composes: bannerItem;
   transform: rotate(2deg) translate3d(-3px, 3px, 0);
 }
+
+/* only Safari needs this */
+@supports not (color: light-dark(red, pink)) {
+  .bannerLink {
+    color: var(--color-grayscale-black);
+  }
+
+  .bannerLink:hover {
+    color: var(--color-grayscale-black);
+  }
+  @media (prefers-color-scheme: dark) {
+    .bannerLink {
+      color: var(--color-grayscale-white);
+    }
+
+    .bannerLink:hover {
+      color: var(--color-grayscale-white);
+    }
+  }
+}

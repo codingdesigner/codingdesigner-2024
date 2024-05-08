@@ -1,8 +1,14 @@
 .TokenFlag {
   align-items: center;
-  background-color: light-dark(var(--color-grayscale-white), var(--color-grayscale-gray1));
+  background-color: light-dark(
+    var(--color-grayscale-white),
+    var(--color-grayscale-gray1)
+  );
   border: 1px solid;
-  border-color: light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray2));
+  border-color: light-dark(
+    var(--color-grayscale-gray5),
+    var(--color-grayscale-gray2)
+  );
   border-radius: var(--spacing-3);
   display: inline-flex;
   gap: var(--spacing-baseline);
@@ -30,7 +36,10 @@
 }
 
 .vertLine line {
-  stroke: light-dark(var(--color-grayscale-gray5), var(--color-grayscale-gray2));
+  stroke: light-dark(
+    var(--color-grayscale-gray5),
+    var(--color-grayscale-gray2)
+  );
 }
 
 .tokenName {
@@ -56,4 +65,36 @@
   justify-content: center;
   align-items: center;
   padding: var(--spacing-0-5) var(--spacing-baseline);
+}
+
+/* only Safari needs this */
+@supports not (color: light-dark(red, pink)) {
+  .TokenFlag {
+    background-color: var(--color-grayscale-white);
+    border-color: var(--color-grayscale-gray5);
+  }
+  .icon path {
+    fill: var(--color-grayscale-gray3);
+  }
+  .vertLine line {
+    stroke: var(--color-grayscale-gray5);
+  }
+  .tokenName {
+    color: var(--color-grayscale-black);
+  }
+  @media (prefers-color-scheme: dark) {
+    .TokenFlag {
+      background-color: var(--color-grayscale-gray1);
+      border-color: var(--color-grayscale-gray2);
+    }
+    .icon path {
+      fill: var(--color-grayscale-gray5);
+    }
+    .vertLine line {
+      stroke: var(--color-grayscale-gray2);
+    }
+    .tokenName {
+      color: var(--color-grayscale-white);
+    }
+  }
 }
