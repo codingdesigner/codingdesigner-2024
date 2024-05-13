@@ -1,5 +1,7 @@
 import React from "react";
 
+import typography from "../components/typography/typography.module.css"
+
 import { LayoutColumns, Column } from "../components/LayoutColumns";
 import { DecoratedHeading } from "../components/DecoratedHeading";
 import { ParagraphWrapper } from "../components/ParagraphWrapper";
@@ -18,9 +20,7 @@ const Page = () => {
   return (
     <React.Fragment>
       <DecoratedHeading>Lead Design Systems Engineer at Condé&nbsp;Nast</DecoratedHeading>
-      <ParagraphWrapper>
-        <p>Welcome to my professional portfolio! I'm a seasoned web designer and front-end developer with a specialized focus on developing comprehensive design systems. Here, I've assembled a showcase of projects that reflect my commitment to marrying form with function, creating user-centric designs that drive business success.</p>
-      </ParagraphWrapper>
+        <p className={typography.leadIn}>I‘m a seasoned web designer and front-end developer with a specialized focus on developing comprehensive design systems. Here, I‘ve assembled a showcase of projects that reflect my commitment to marrying form with function, creating user-centric designs that drive business success.</p>
       <StripesWrapper>
         <LayoutColumns>
           <Column>
@@ -37,9 +37,9 @@ const Page = () => {
         <Storefront />
       </StripesWrapper>
       <ParagraphWrapper>
-        <p>As an expert in web design and front-end development, my goal is to create systems that are not just functional but also adjustable, scalable, and intuitively aligned with each brand’s ethos. I've focused on ensuring that every project I handle is infused with strategic thought, precision, and a keen eye toward future needs, enabling seamless digital experiences that stand the test of time.</p>
+        <p>As an expert in web design and front-end development, my goal is to create systems that are not just functional but also adjustable, scalable, and intuitively aligned with each brand’s ethos. I‘ve focused on ensuring that every project I handle is infused with strategic thought, precision, and a keen eye toward future needs, enabling seamless digital experiences that stand the test of time.</p>
 
-        <p>Looking to bring visionary design and meticulous execution to your projects? Let's connect and explore how we can elevate your brand together. <strong>Let's create something exceptional.</strong></p>
+        <p>Looking to bring visionary design and meticulous execution to your projects? Let‘s connect and explore how we can elevate your brand together. <strong>Let‘s create something exceptional.</strong></p>
       </ParagraphWrapper>
     </React.Fragment>
   );

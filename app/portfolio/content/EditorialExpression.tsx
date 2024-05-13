@@ -19,9 +19,9 @@ const EditorialExpression = () => {
       <h2>Enhancing Editorial Flexibility with Dynamic Layouts</h2>
 
       <ParagraphWrapper>
-        <p>In this design system, I emphasize empowering editors through the strategic use of design tokens and adaptable layout configurations. This approach ensures that the control over the brand's narrative remains firmly in the hands of those who curate it—our editors. The system I developed provides unmatched flexibility, allowing editors to fine-tune the narrative tone and customize the presentation of content to meet their vision precisely.</p>
+        <p>In this design system, I emphasize empowering editors through the strategic use of design tokens and adaptable layout configurations. This approach ensures that the control over the brand‘s narrative remains firmly in the hands of those who curate it—our editors. The system I developed provides unmatched flexibility, allowing editors to fine-tune the narrative tone and customize the presentation of content to meet their vision precisely.</p>
 
-        <p>Whether editors are making subtle refinements or opting for more dramatic layout changes, the tools I've integrated ensure each piece of content not only engages but also leaves a lasting impression on the audience. The result is a powerful platform that supports creative freedom while maintaining brand coherence across all mediums.</p></ParagraphWrapper>
+        <p>Whether editors are making subtle refinements or opting for more dramatic layout changes, the tools I‘ve integrated ensure each piece of content not only engages but also leaves a lasting impression on the audience. The result is a powerful platform that supports creative freedom while maintaining brand coherence across all mediums.</p></ParagraphWrapper>
 
       <FigureGallery
         items={[
