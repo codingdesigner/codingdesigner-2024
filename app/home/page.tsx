@@ -5,6 +5,7 @@ import { ParagraphWrapper } from "../components/ParagraphWrapper"
 import { StripesWrapper } from "../components/StripesWrapper"
 
 import styles from "./home.module.css"
+import typography from "../components/typography/typography.module.css"
 
 import gwenGoodLight from "../static/gwendy/gwendy-good-light.png"
 
@@ -52,19 +53,22 @@ export default function HomePage() {
       </div>
 
 
-      <h2>Hello There!</h2>
+      <h2>Hello Friend!</h2>
 
       <StripesWrapper>
         <section>
+          <p className={typography.leadIn}>
+            I’ve spent over two decades doing all aspects of web design and development, leading to my focus and passion in developing <strong>large, impactful design systems.</strong> I’ve had the privilege of leading projects for prestigious brands like <strong><a href="./portfolio">Condé Nast</a> and NBC</strong>, utilizing my core skills in Leadership and mentoring, UX, Visual and Responsive Design, CSS, Sass, and React. These skills and experiences have been essential in bringing some of the world’s best known websites to life.
+          </p>
+          <p className={typography.leadInColor}>
+            I revel in tackling the big juicy design system challenges.
+          </p>
           <ParagraphWrapper>
             <p>
-              I've spent over two decades in the web design field, but my true passion lies in developing large, impactful design systems. I've had the privilege of leading projects for prestigious brands like Condé Nast, utilizing my core skills in Responsive Web Design, UX and Visual Design, CSS, Sass, and React. These skills have been essential in bringing numerous sophisticated websites to life.
+              From the start of my career, I’ve been deeply involved in community-building, leading meetups focused on Sass and design in Philadelphia and New York. I love contributing to the community and have developed tools like Sass Breakpoint and co-created Sassy Modular Scale. I’ve also shared my knowledge through numerous articles for The Sass Way.
             </p>
             <p>
-              From the start of my career, I’ve been deeply involved in community-building, leading meetups focused on Sass and design in Philadelphia. I love contributing to the community and have developed tools like Breakpoint and co-created Sassy Modular Scale. I’ve also shared my knowledge through numerous articles for The Sass Way.
-            </p>
-            <p>
-              Public speaking is another one of my joys—I regularly discuss how creative visions can be seamlessly integrated with technical executions in web design. I do most of my design work directly in the browser, turning CSS into a playground of creative possibilities.
+              Public speaking is another one of my joys &mdash; I like to discuss how creative visions can be seamlessly integrated with technical executions in web design. I do most of my design work directly in the browser, turning CSS into a playground of creative possibilities.
             </p>
           </ParagraphWrapper>
         </section>
@@ -72,38 +76,56 @@ export default function HomePage() {
           <h3>Experience & Impact</h3>
           <ParagraphWrapper>
             <ul>
-              <li><strong>Lead Design Systems Engineer at Condé Nast:</strong> Here, I’ve really focused on crafting and refining robust design systems that solve complex brand challenges on a global scale.</li>
-              <li><strong>Coding Designer LLC:</strong> I led responsive web design projects, delivering top-tier results for major clients like USA Network and Oxygen Network.</li>
-              <li><strong>Zivtech:</strong> As the creative lead, I steered strategy, mentored incredible teams, and rolled out designs that truly make a user’s experience better.</li>
+              <li>
+                <strong>Lead Design Systems Engineer at Condé Nast</strong>: For the last 7 years, I’ve really focused on crafting and refining robust design systems that solve complex brand challenges on a global scale, with brands like Vogue, The New Yorker, WIRED, Bon Appetit, Pitchfork, and Vanity Faire.
+              </li>
+              <li>
+                <strong>NBC</strong>: I led responsive web engineering projects, delivering top-tier results for major clients like USA Network and Oxygen Network.
+              </li>
+              <li>
+                <strong>Phase2</strong>: As the agency’s first designer/engineer, I was able to rapidly design and prototype designs for global clients like the United Nations and Estée Lauder.
+              </li>
+              <li>
+                <strong>Zivtech</strong>: As the creative director, I steered strategy, mentored incredible teams, and rolled out designs that truly make a user’s experience better.
+              </li>
             </ul>
           </ParagraphWrapper>
         </section>
         <section>
-          <h3>Core Specialties</h3>
+          <h3>Design Systems</h3>
           <ParagraphWrapper>
             <p>
-              I specialize in making web interfaces both beautiful and practical, with particular expertise in Responsive Web Design, UX and Visual Design, Leading Design System Projects, CSS3, HTML5, JavaScript, Art Direction, and Graphic Design. I love bringing designs to life right in the browser where I can tweak and perfect them in real time.
+              I specialize in creating design systems that meet the needs of large organizations. Whether that’s a design agency needing to more efficiently deliver projects to many clients, or a global media company with household name brands, no challenge is too intimidating. Instead, these are the challenges that are the most exciting to dive into. I enjoy working with large and small focused teams, and revel in the thrill of seeing a big project meet the world.
             </p>
           </ParagraphWrapper>
         </section>
         <section>
           <h3>Selected Projects Highlight</h3>
           <ParagraphWrapper>
-            <p>I'm proud of every project I've touched, especially:</p>
+            <p>I’m proud of every project I’ve touched, especially:</p>
             <ul>
-              <li><strong>SCORE.org redesign:</strong> I revamped their website to reflect the personal connections at the heart of their service.</li>
-              <li><strong>Innovative design systems for Condé Nast and UN ReliefWeb:</strong> Here, I led the creation of design systems that not only looked good but also facilitated better user navigation during crises.</li>
-              <li><strong>Brand revamps for Esteelauder.com and MAC Cosmetics:</strong> I directed the responsive design strategies that revamped their online presence, making it sleeker and more user-friendly.</li>
+              <li>
+                <strong>
+                  Innovative design system for Condé Nast</strong>: I initiated and helped lead the creation of the first global design system to unify all of the prestigeous and unique brands under the Condé Nast umbrella. <a href="./portfolio">Learn more.</a>
+              </li>
+              <li>
+                <strong> New design system for UN ReliefWeb</strong>: Here, I led the creation of design systems that not only looked good but also facilitated better user navigation for aid workers during global crises.
+              </li>
+              <li>
+                <strong>Brand revamps for Esteelauder.com and MAC Cosmetics</strong>: I directed the responsive design strategies that revamped their online presence, making it sleeker and more user-friendly.
+              </li>
+              <li>
+                <strong>SCORE.org</strong>: I revamped their website to reflect the personal connections at the heart of their service, as well as creating a design system that let their many local branches look as professional as the national organization.
+              </li>
             </ul>
           </ParagraphWrapper>
         </section>
         <section>
-          <h3>Let's Connect</h3>
-          <ParagraphWrapper>
-            <p>
-              If you think my skills and experiences might be what your project needs, or if you're on the lookout for a speaker who mixes practical expertise with a dash of creative flair, please do reach out. I’d love to collaborate with you to create something visually stunning and supremely functional. Let’s make something great together!
-            </p>
-          </ParagraphWrapper>
+          <h3>Let‘s Connect</h3>
+          <p>
+            If you think my skills and experiences might be what your organization needs, or if you’re on the lookout for a speaker who mixes practical expertise with a more than a dash of creative flair, please do reach out.</p>
+          <p>I’d love to collaborate with you to create something visually stunning and supremely functional. Let’s make something great together!
+          </p>
         </section>
       </StripesWrapper>
     </React.Fragment>
