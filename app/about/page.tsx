@@ -6,6 +6,10 @@ import { Figure } from "../components/figure";
 import gwenFace from "../static/about/gwen-face.png"
 import gwenLookUp from "../static/about/gwen-look-up.png"
 
+export const metadata = {
+  title: "About",
+}
+
 const Page = () => {
   return (
     <React.Fragment>
