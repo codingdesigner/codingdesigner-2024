@@ -10,12 +10,13 @@
   --color-accent-6: light-dark(rgb(255, 229, 180), rgb(201, 166, 101));
   --color-accent-7: light-dark(rgb(158, 255, 250), rgb(88, 199, 194));
   --color-accent-8: light-dark(rgb(191, 94, 162), rgb(148, 61, 122));
+  --color-accent-8b: light-dark(rgb(191, 94, 162), rgb(227, 132, 199));
   --color-accent-9: light-dark(rgb(83, 183, 152), rgb(48, 136, 108));
 
   --color-accent-strong-5: light-dark(rgb(220, 91, 113), rgb(250, 163, 177));
 
-  --color-feedback-link: rgba(0, 127, 173, 1);
-  --color-feedback-link_hover: rgba(8, 96, 128, 1);
+  --color-feedback-link: light-dark(rgba(0, 127, 173, 1), rgb(27, 194, 255));
+  --color-feedback-link_hover: light-dark(rgba(8, 96, 128, 1), rgb(88, 169, 198));
 
   --color-grayscale-black: rgba(0, 0, 0, 1);
   --color-grayscale-gray1: rgba(51, 51, 51, 1);
