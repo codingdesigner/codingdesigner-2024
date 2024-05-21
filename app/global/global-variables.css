@@ -48,9 +48,12 @@
     --color-accent-6: rgb(255, 229, 180);
     --color-accent-7: rgb(158, 255, 250);
     --color-accent-8: rgb(191, 94, 162);
+    --color-accent-8b: rgb(191, 94, 162);
     --color-accent-9: rgb(83, 183, 152);
     --main-bg-color: var(--color-grayscale-white);
     --main-text-color: var(--color-grayscale-gray1);
+    --color-feedback-link: rgba(0, 127, 173, 1);
+    --color-feedback-link_hover: rgba(8, 96, 128, 1);
     @media (prefers-color-scheme: dark) {
       --color-accent-1: rgb(109, 138, 160);
       --color-accent-2: rgb(123, 150, 44);
@@ -60,9 +63,12 @@
       --color-accent-6: rgb(201, 166, 101);
       --color-accent-7: rgb(88, 199, 194);
       --color-accent-8: rgb(148, 61, 122);
+      --color-accent-8b: rgb(227, 132, 199);
       --color-accent-9: rgb(48, 136, 108);
       --main-bg-color: var(--color-grayscale-gray1);
       --main-text-color: var(--color-grayscale-white);
+      --color-feedback-link: rgb(27, 194, 255);
+      --color-feedback-link_hover: rgb(88, 169, 198);
     }
   }
 
