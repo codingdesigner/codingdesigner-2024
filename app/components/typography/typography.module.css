@@ -24,6 +24,6 @@
 
 .leadInColor {
   composes: leadIn;
-  color: var(--color-accent-8);
+  color: var(--color-accent-8b);
   font-weight: 700;
 }
