@@ -15,6 +15,9 @@ import { BrandIdentityProcess } from "./content/BrandIdentityProcess";
 import { TokenTypes } from "./content/TokenTypes";
 import { Storefront } from "./content/Storefront";
 
+export const metadata = {
+  title: "Portfolio",
+}
 
 const Page = () => {
   return (
