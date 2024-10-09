@@ -29,14 +29,17 @@ const logoComponents: { [key: string]: React.ComponentType } = {
 
 // Define the props for the Logo component
 export interface LogoProps {
-  logoName: string; // The name of the logo to be rendered
+  logoName?: string; // The name of the logo to be rendered
 }
 
 // Define the Logo component as a functional component
 export const Logo: React.FC<LogoProps> = ({ logoName }) => {
-  const LogoSvg = logoComponents[logoName]; // Get the component from the map using the provided logoName
+  let LogoSvg
+  if (logoName) {
+    LogoSvg = logoComponents[logoName]; // Get the component from the map using the provided logoName
+  }
   if (LogoSvg) {
-    return <LogoSvg />; // If the corresponding logo component is found, render it
+    return <LogoSvg data-testid="logo"/>; // If the corresponding logo component is found, render it
   } else {
     return null; // If the logo component is not found, render nothing
   }
