@@ -28,7 +28,7 @@ export const TokenFlag: React.FC<TokenFlagProps> = ({
 }) => {
 
   return (
-    <div className={`${styles.TokenFlag} ${styles.type} ${styles.direction} ${className}`}>
+    <div className={`${styles.TokenFlag} ${styles.type} ${styles.direction} ${className}`} data-testid="token-flag">
       <Icon type={type} />
       <sup className={styles.footnote}>{footnote}</sup>
       <VertLine />
@@ -49,6 +49,6 @@ export const TokenMarker: React.FC<TokenMarkerProps> = ({
   style = {}
 }) => {
   return (
-    <small className={`${styles.tokenMarker} ${className}`} style={style}>{footnote}</small>
+    <small className={`${styles.tokenMarker} ${className}`} style={style} data-testid="token-marker">{footnote}</small>
   );
 };

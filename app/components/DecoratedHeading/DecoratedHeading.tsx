@@ -20,7 +20,7 @@ const colorVariables: { [key: string]: string } = {
 
 // Define props for DecoratedHeading component
 export interface DecoratedHeadingProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'div';
   background?: keyof typeof colorVariables;
   text?: keyof typeof colorVariables;

@@ -28,10 +28,10 @@ const logos = [
 
 export function LogoGrid() {
   return (
-    <div className={styles.logoGrid}>
+    <div className={styles.logoGrid} >
       {logos.map((logo, index) => {
         return (
-          <div className={styles.logo} key={index}>
+          <div className={styles.logo} key={index} data-testid="logo-grid">
             <Logo logoName={logo} />
           </div>
         )

@@ -16,14 +16,14 @@ export interface ColumnsProps {
 // Column component with correct prop type
 export const Column = ({children} : ColumnsProps) => {
   return (
-    <div className={styles.Column}>{children}</div>
+    <div className={styles.Column} data-testid="column">{children}</div>
   )
 }
 
 // LayoutColumns component that can contain multiple Column components
 export function LayoutColumns({children} : LayoutColumnsProps) {
   return (
-    <div className={styles.LayoutColumns}>
+    <div className={styles.LayoutColumns} data-testid="layout-columns">
       {children}
     </div>);
 }
