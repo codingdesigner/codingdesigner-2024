@@ -70,7 +70,7 @@ export function Figure({
         onClick={modalImageFile ? handleDialog : undefined}
       />
       {modalImageFile && (
-        <dialog className={styles.dialog}>
+        <dialog className={styles.dialog} data-testid="dialog">
           <form method="dialog">
             <button className={styles.dialogClose} type="submit">
               <DialogCloseButton />
@@ -81,12 +81,13 @@ export function Figure({
               width={modalImageFile.width}
               height={modalImageFile.height}
               alt={altText || ''}
+              data-testid="modal-image"
             />
           </form>
         </dialog>
       )}
       {caption && (
-        <figcaption className={styles.figCaption}>{caption || ''}</figcaption>
+        <figcaption className={styles.figCaption} data-testid="figcaption" >{caption || ''}</figcaption>
       )}
     </figure>
   );

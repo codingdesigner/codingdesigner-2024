@@ -4,7 +4,7 @@ import styles from './banner.module.css';
 
 export function Banner() {
   return (
-    <div role='banner' className={styles.banner}>
+    <div role='banner' className={styles.banner} >
       <a href='/' className={styles.gwendyWendell}>
         <span className={styles.gwendyWrapper}>
           <span className={styles.gwendy}>Gwendy </span>
