@@ -1,13 +1,10 @@
 import React from "react";
 import { DecoratedHeading } from "../components/DecoratedHeading";
 import { ParagraphWrapper } from "../components/ParagraphWrapper";
-import { Figure } from "../components/figure";
-
-import gwenFace from "../static/about/gwen-face.png"
-import gwenLookUp from "../static/about/gwen-look-up.png"
+import { Recharts } from "../components/experiments/components";
 
 export const metadata = {
-  title: "About",
+  title: "Experiments",
 }
 
 const Page = () => {
@@ -18,6 +15,8 @@ const Page = () => {
       <ParagraphWrapper>
         {/* content tktk */}
       </ParagraphWrapper>
+
+      <Recharts/>
 
 
     </React.Fragment>

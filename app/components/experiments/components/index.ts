@@ -1,0 +1,1 @@
+export {Recharts} from './Recharts';
