@@ -1,5 +1,5 @@
-import React from 'react';
+// import React from 'react';
 
-import {LayoutColumns} from '../LayoutColumns';
+// import {LayoutColumns} from '../LayoutColumns';
 
-describe('<LayoutColumns />', () => {});
+// describe('<LayoutColumns />', () => {});

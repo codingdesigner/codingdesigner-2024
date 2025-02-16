@@ -1,5 +1,5 @@
-import React from 'react';
+// import React from 'react';
 
-import {StripesWrapper} from '../StripesWrapper';
+// import {StripesWrapper} from '../StripesWrapper';
 
-describe('<StripesWrapper />', () => {});
+// describe('<StripesWrapper />', () => {});
