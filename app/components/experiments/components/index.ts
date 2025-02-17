@@ -1,1 +1,4 @@
-export {RechartsTest} from './RechartsTest';
+export {
+  RechartsTestLine,
+  RechartsTestRadar
+} from './RechartsTest';
