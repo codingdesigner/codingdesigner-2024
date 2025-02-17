@@ -1,7 +1,12 @@
+// 'use client';
+
 import React from "react";
+import dynamic from "next/dynamic"
 import { DecoratedHeading } from "../components/DecoratedHeading";
 import { ParagraphWrapper } from "../components/ParagraphWrapper";
-import { RechartsTest } from "../components/experiments/components";
+// import { RechartsTest } from "../components/experiments/components";
+
+const RechartsTest = dynamic(() => import("../components/experiments/components"), { ssr: false })
 
 export const metadata = {
   title: "Experiments",

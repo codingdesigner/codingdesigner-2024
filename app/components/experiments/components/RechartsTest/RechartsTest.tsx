@@ -1,5 +1,4 @@
 import React from 'react';
-import dynamic from "next/dynamic"
 import { LineChart, Line } from 'recharts';
 
 import styles from './RechartsTest.module.css';
@@ -39,9 +38,9 @@ const RechartsTest = ({ prop = 'default value' }: RechartsTestProps) => {
   return (
     <React.Fragment>
       <div className={styles.RechartsTest}>RechartsTest {prop}</div>
-      {/* <LineChart width={400} height={400} data={data}>
+      <LineChart width={400} height={400} data={data}>
         <Line type="monotone" dataKey="uv" stroke="#8884d8" />
-      </LineChart> */}
+      </LineChart>
 
     </React.Fragment>
   );
