@@ -1,5 +1,7 @@
+'use client';
+
 import React from 'react';
-import { LineChart, Line } from 'recharts';
+import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
 
 import styles from './RechartsTest.module.css';
 
@@ -38,8 +40,14 @@ const RechartsTest = ({ prop = 'default value' }: RechartsTestProps) => {
   return (
     <React.Fragment>
       <div className={styles.RechartsTest}>RechartsTest {prop}</div>
-      <LineChart width={400} height={400} data={data}>
-        <Line type="monotone" dataKey="uv" stroke="#8884d8" />
+      <LineChart width={600} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+        <Line type="monotone" strokeWidth={5} dataKey="uv" stroke="var(--color-accent-2)" />
+        <Line type="monotone" strokeWidth={5} dataKey="pv" stroke="var(--color-accent-3)" />
+        <Line type="monotone" strokeWidth={5} dataKey="amt" stroke="var(--color-accent-4)" />
+        <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
       </LineChart>
 
     </React.Fragment>
