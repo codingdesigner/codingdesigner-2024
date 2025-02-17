@@ -39,7 +39,6 @@ export interface RechartsTestProps {
 const RechartsTest = ({ prop = 'default value' }: RechartsTestProps) => {
   return (
     <React.Fragment>
-      <div className={styles.RechartsTest}>RechartsTest {prop}</div>
       <LineChart width={600} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
         <Line type="monotone" strokeWidth={5} dataKey="uv" stroke="var(--color-accent-2)" />
         <Line type="monotone" strokeWidth={5} dataKey="pv" stroke="var(--color-accent-3)" />
