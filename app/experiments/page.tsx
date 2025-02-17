@@ -1,7 +1,9 @@
+// 'use client';
+
 import React from "react";
 import { DecoratedHeading } from "../components/DecoratedHeading";
 import { ParagraphWrapper } from "../components/ParagraphWrapper";
-import { Recharts } from "../components/experiments/components";
+// import { RechartsExample } from "../components/experiments/components/Recharts";
 
 export const metadata = {
   title: "Experiments",
@@ -13,10 +15,10 @@ const Page = () => {
       <DecoratedHeading background="pink">Experiments</DecoratedHeading>
 
       <ParagraphWrapper>
-        {/* content tktk */}
+        Recharts - FAILED
       </ParagraphWrapper>
 
-      <Recharts/>
+      {/* <RechartsExample/> */}
 
 
     </React.Fragment>
