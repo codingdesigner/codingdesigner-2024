@@ -1,1 +1,1 @@
-export {Recharts} from './Recharts';
+export {RechartsTest} from './RechartsTest';
