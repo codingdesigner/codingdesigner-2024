@@ -2,6 +2,27 @@
   /* Color */
   color-scheme: light dark;
 
+  --color-accent-1-light: rgb(163, 207, 239);
+  --color-accent-1-dark: rgb(109, 138, 160);
+  --color-accent-2-light: rgb(182, 220, 66);
+  --color-accent-2-dark: rgb(123, 150, 44);
+  --color-accent-3-light: rgb(241, 193, 146);
+  --color-accent-3-dark: rgb(213, 156, 98);
+  --color-accent-4-light: rgb(227, 183, 213);
+  --color-accent-4-dark: rgb(154, 110, 140);
+  --color-accent-5-light: rgb(253, 210, 217);
+  --color-accent-5-dark: rgb(194, 134, 144);
+  --color-accent-6-light: rgb(255, 229, 180);
+  --color-accent-6-dark: rgb(201, 166, 101);
+  --color-accent-7-light: rgb(158, 255, 250);
+  --color-accent-7-dark: rgb(88, 199, 194);
+  --color-accent-8-light: rgb(191, 94, 162);
+  --color-accent-8-dark: rgb(148, 61, 122);
+  --color-accent-8b-light: rgb(191, 94, 162);
+  --color-accent-8b-dark: rgb(227, 132, 199);
+  --color-accent-9-light: rgb(83, 183, 152);
+  --color-accent-9-dark: rgb(48, 136, 108);
+
   --color-accent-1: light-dark(rgb(163, 207, 239), rgb(109, 138, 160));
   --color-accent-2: light-dark(rgb(182, 220, 66), rgb(123, 150, 44));
   --color-accent-3: light-dark(rgb(241, 193, 146), rgb(213, 156, 98));

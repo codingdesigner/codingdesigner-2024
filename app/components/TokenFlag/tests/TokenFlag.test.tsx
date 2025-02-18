@@ -1,5 +1,5 @@
-import React from 'react';
+// import React from 'react';
 
-import {TokenFlag} from '../TokenFlag';
+// import {TokenFlag} from '../TokenFlag';
 
-describe('<TokenFlag />', () => {});
+// describe('<TokenFlag />', () => {});

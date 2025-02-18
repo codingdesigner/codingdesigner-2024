@@ -1,5 +1,5 @@
-import React from 'react';
+// import React from 'react';
 
-import { ParagraphWrapper } from '../ParagraphWrapper';
+// import { ParagraphWrapper } from '../ParagraphWrapper';
 
-describe('<ParagraphWrapper />', () => {});
+// describe('<ParagraphWrapper />', () => {});
