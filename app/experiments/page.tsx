@@ -2,7 +2,7 @@ import React from "react";
 import { DecoratedHeading } from "../components/DecoratedHeading";
 import { ParagraphWrapper } from "../components/ParagraphWrapper";
 import {
-  RechartsTestLine,
+  RechartsStrainRadar,
   RechartsTestRadar
 } from "../components/experiments/components";
 
@@ -12,12 +12,9 @@ const filterData = (data, formFilter: null | string = null) => {
   if (formFilter ) {
     data = data.filter((item) => item.Form === formFilter)
   }
-
   data.forEach((item) => {
     item = calculateTHC(item)
   })
-  console.log(['data', data])
-
   return data
 }
 
@@ -38,7 +35,6 @@ const calculateTHC = (item) => {
       default:
         item["hybridTHC"] = item["combinedTHC"]
     }
-
   return item
 }
 
@@ -55,8 +51,12 @@ const Page = () => {
         Recharts
       </ParagraphWrapper>
       <RechartsTestRadar data={filterData(weedData, "Flower")} />
-      {/* {items.map((item, index) => (
-        <Figure key={index} imageFile={item.imageFile} altText={item.altText} caption={item.caption} modalImageFile={item.modalImageFile} />
+      <RechartsStrainRadar data={filterData(weedData, "Flower")} />
+      {/* {weedData.map((item, index) => (
+        <React.Fragment>
+          <h3>{item.Strain}</h3>
+          <RechartsStrainRadar data={calculateTHC(item)} />
+        </React.Fragment>
       ))} */}
       {/* <RechartsTestLine /> */}
 
