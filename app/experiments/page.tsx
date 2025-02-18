@@ -6,18 +6,40 @@ import {
   RechartsTestRadar
 } from "../components/experiments/components";
 
-import data from "../components/experiments/components/data/weed.json"
+import weedData from "../components/experiments/components/data/weed.json"
 
-const transformData = (data) => {
-  let transformedData =
-    data.filter((item) => item.Form === "Flower")
+const filterData = (data, formFilter: null | string = null) => {
+  if (formFilter ) {
+    data = data.filter((item) => item.Form === formFilter)
+  }
 
-  transformedData.forEach((item) => {
-    // console.log(['item', item])
-    item["combinedTHC"] = item.THC + item.THCVa + item.THCa + item['Δ9-THC']
+  data.forEach((item) => {
+    item = calculateTHC(item)
   })
+  console.log(['data', data])
 
-  return transformedData
+  return data
+}
+
+const calculateTHC = (item) => {
+    item["combinedTHC"] = item.THC + item.THCVa + item.THCa + item['Δ9-THC']
+    item["indicaTHC"] = 0
+    item["hybridTHC"] = 0
+    item["sativaTHC"] = 0
+    switch (item["Strain Dominance"]) {
+      case "Indica":
+      case "Indica Hybrid":
+        item["indicaTHC"] = item["combinedTHC"]
+        break
+      case "Sativa":
+      case "Sativa Hybrid":
+        item["sativaTHC"] = item["combinedTHC"]
+        break
+      default:
+        item["hybridTHC"] = item["combinedTHC"]
+    }
+
+  return item
 }
 
 export const metadata = {
@@ -32,7 +54,10 @@ const Page = () => {
       <ParagraphWrapper>
         Recharts
       </ParagraphWrapper>
-      <RechartsTestRadar data={transformData(data)} />
+      <RechartsTestRadar data={filterData(weedData, "Flower")} />
+      {/* {items.map((item, index) => (
+        <Figure key={index} imageFile={item.imageFile} altText={item.altText} caption={item.caption} modalImageFile={item.modalImageFile} />
+      ))} */}
       {/* <RechartsTestLine /> */}
 
     </React.Fragment>
