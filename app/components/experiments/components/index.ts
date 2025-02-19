@@ -1,5 +1,5 @@
 export {
-  RechartsStrainRadar,
+  RechartsStrainBar,
   RechartsTestLine,
   RechartsTestRadar
 } from './RechartsTest';

@@ -2,7 +2,7 @@ import React from "react";
 import { DecoratedHeading } from "../components/DecoratedHeading";
 import { ParagraphWrapper } from "../components/ParagraphWrapper";
 import {
-  RechartsStrainRadar,
+  RechartsStrainBar,
   RechartsTestRadar
 } from "../components/experiments/components";
 
@@ -50,8 +50,8 @@ const Page = () => {
       <ParagraphWrapper>
         Recharts
       </ParagraphWrapper>
-      <RechartsTestRadar data={filterData(weedData, "Flower")} />
-      <RechartsStrainRadar data={filterData(weedData, "Flower")} />
+      {/* <RechartsTestRadar data={filterData(weedData, "Flower")} /> */}
+      <RechartsStrainBar data={filterData(weedData, "Flower")} />
       {/* {weedData.map((item, index) => (
         <React.Fragment>
           <h3>{item.Strain}</h3>

@@ -18,6 +18,8 @@ import {
   Radar,
   RadarChart,
   ResponsiveContainer,
+  Scatter,
+  ScatterChart,
   Tooltip,
   XAxis,
   YAxis,
@@ -26,11 +28,9 @@ import {
 
 import styles from './RechartsTest.module.css';
 
-export interface RechartsTestLineProps {
-  prop?: string;
-}
 
-const RechartsTestLine = ({ prop = 'default value' }: RechartsTestLineProps) => {
+
+const RechartsTestLine = ({ data }) => {
   return (
     <ResponsiveContainer width="100%" height={400} >
       <LineChart data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
@@ -157,7 +157,7 @@ const RechartsTestRadar = ({ data }: RechartsTestRadarProps) => {
 //   )
 // }
 
-const RechartsStrainRadar = ({ data }: RechartsTestRadarProps) => {
+const RechartsStrainBar = ({ data }: RechartsTestRadarProps) => {
   return (
     <ResponsiveContainer width="100%" height={600} >
       <BarChart
@@ -177,7 +177,7 @@ const RechartsStrainRadar = ({ data }: RechartsTestRadarProps) => {
         <YAxis yAxisId="right" orientation="right" stroke="var(--color-accent-2-dark" />
         <Tooltip labelStyle={{color: "var(--color-grayscale-gray1)"}} />
         <Legend />
-        <Bar yAxisId="right" stackId="a" dataKey="THCa" fill="var(--color-accent-1-light)" />
+        <Bar yAxisId="right" stackId="a" dataKey="THCa" name="THCa" fill="var(--color-accent-1-light)" />
         <Bar yAxisId="left" stackId="b" dataKey="Δ9-THC" fill="var(--color-accent-2-light)" />
         <Bar yAxisId="left" stackId="b" dataKey="THCVa" fill="var(--color-accent-3-light)" />
         <Bar yAxisId="left" stackId="b" dataKey="CBD" fill="var(--color-accent-4-light)" />
@@ -191,7 +191,7 @@ const RechartsStrainRadar = ({ data }: RechartsTestRadarProps) => {
 }
 
 export {
-  RechartsStrainRadar,
+  RechartsStrainBar,
   RechartsTestLine,
   RechartsTestRadar
 }
