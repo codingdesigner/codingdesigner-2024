@@ -7,7 +7,7 @@ import { StripesWrapper } from "../components/StripesWrapper"
 import styles from "./home.module.css"
 import typography from "../components/typography/typography.module.css"
 
-import gwenGoodLight from "../static/gwendy/gwendy-good-light.png"
+import gwenRedDress from "../static/gwendy/red-dress-1.png"
 
 export default function HomePage() {
   return (
@@ -43,17 +43,19 @@ export default function HomePage() {
         </svg>
 
         <Figure
-          imageFile={gwenGoodLight}
-          altText="Gwendy Wendell looking at the camera"
+          imageFile={gwenRedDress}
+          altText="Gwendy Wendell in the woods, looking at the camera"
           modalImageFile={null}
           circleCrop={true}
-          grayScale={true}
+          grayScale={false}
           className={styles.homeFigure}
         />
       </div>
 
 
-      <h2>Hello Friend!</h2>
+      <h1 className={typography.leadInColor}>
+        I love tackling the big juicy design system challenges.
+      </h1>
 
       <StripesWrapper>
         <section>
@@ -61,11 +63,11 @@ export default function HomePage() {
             I’ve spent over two decades doing all aspects of web design and development, leading to my focus and passion in developing <strong>large, impactful design systems.</strong> I’ve had the privilege of leading projects for prestigious brands like <strong><a href="./portfolio">Condé Nast</a> and NBC</strong>, utilizing my core skills in Leadership and mentoring, UX, Visual and Responsive Design, CSS, Sass, and React. These skills and experiences have been essential in bringing some of the world’s best known websites to life.
           </p>
           <p className={typography.leadInColor}>
-            I revel in tackling the big juicy design system challenges.
+            My approach is holistic, blending creativity with technical expertise to deliver solutions that are not only visually stunning but also highly functional and user-centric.
           </p>
           <ParagraphWrapper>
             <p>
-              From the start of my career, I’ve been deeply involved in community-building, leading meetups focused on Sass and design in Philadelphia and New York. I love contributing to the community and have developed tools like Sass Breakpoint and co-created Sassy Modular Scale. I’ve also shared my knowledge through numerous articles for The Sass Way.
+              Creating cohesive, scalable systems that not only look great but also function seamlessly across diverse platforms and user needs is what drives me. From the start of my career, I’ve been deeply involved in community-building, leading meetups focused on Sass and design in Philadelphia and New York. I love contributing to the community and have developed tools like <strong>Sass Breakpoint</strong> and co-created <strong>Sassy Modular Scale</strong>. 
             </p>
             <p>
               Public speaking is another one of my joys &mdash; I like to discuss how creative visions can be seamlessly integrated with technical executions in web design. I do most of my design work directly in the browser, turning CSS into a playground of creative possibilities.
