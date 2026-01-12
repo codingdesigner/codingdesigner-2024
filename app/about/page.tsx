@@ -3,8 +3,8 @@ import { DecoratedHeading } from "../components/DecoratedHeading";
 import { ParagraphWrapper } from "../components/ParagraphWrapper";
 import { Figure } from "../components/figure";
 
-import gwenFace from "../static/about/pink-hair-at-desk.png"
-import gwenLookUp from "../static/about/bass-on-stage.png"
+import gwenAtDesk from "../static/about/pink-hair-at-desk.png"
+import gwenOnStage from "../static/about/bass-on-stage.png"
 
 export const metadata = {
   title: "About",
@@ -17,7 +17,7 @@ const Page = () => {
 
       <ParagraphWrapper>
         <Figure
-          imageFile={gwenFace}
+          imageFile={gwenAtDesk}
           altText="Gwendy Wendell in her office"
           caption="Let‘s work together"
           modalImageFile={null}
@@ -33,7 +33,7 @@ const Page = () => {
         <p>This blend of professional fulfillment and personal happiness truly motivates me in all aspects of my life.</p>
 
         <Figure
-          imageFile={gwenLookUp}
+          imageFile={gwenOnStage}
           altText="Gwendy Wendell looking away from the camera"
           caption="Oh look, a bird"
           modalImageFile={null}

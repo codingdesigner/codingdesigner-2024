@@ -7,7 +7,7 @@ import { StripesWrapper } from "../components/StripesWrapper"
 import styles from "./home.module.css"
 import typography from "../components/typography/typography.module.css"
 
-import gwenGoodLight from "../static/gwendy/red-dress-1.png"
+import gwenRedDress from "../static/gwendy/red-dress-1.png"
 
 export default function HomePage() {
   return (
@@ -43,7 +43,7 @@ export default function HomePage() {
         </svg>
 
         <Figure
-          imageFile={gwenGoodLight}
+          imageFile={gwenRedDress}
           altText="Gwendy Wendell in the woods, looking at the camera"
           modalImageFile={null}
           circleCrop={true}
