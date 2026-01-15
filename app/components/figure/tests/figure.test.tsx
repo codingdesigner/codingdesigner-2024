@@ -1,5 +1,5 @@
-import React from 'react';
+// import React from 'react';
 
-import {figure} from '../figure';
+// import {figure} from '../figure';
 
-describe('<figure />', () => {});
+// describe('<figure />', () => {});

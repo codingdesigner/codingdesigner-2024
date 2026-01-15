@@ -7,5 +7,5 @@ export function PageFooter() {
   const date = new Date();
   const thisYear = date.getFullYear();
   let yearString = (thisYear > creationYear) ? `${creationYear} - ${thisYear}` : thisYear;
-  return <div className={styles.pageFooter}>Copyright {yearString} Gwendy Wendell. All rights reserved.</div>;
+  return <div className={styles.pageFooter}>Copyright {yearString} Gwendy Wendell. All rights reserved. <a href="/experiments" className={styles.menuLink}>Experiments</a></div>;
 }
