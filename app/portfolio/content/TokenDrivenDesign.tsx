@@ -9,7 +9,7 @@ const TokenDrivenDesign = () => {
       <h2>Token-driven design</h2>
 
       <ParagraphWrapper>
-        <p>In building design systems, I rely heavily on a token-driven approach, which allows every design element to be defined by specific tokens. For example, in the card components that I developed, I annotated each <code>color</code> and <code>type</code> token to illustrate how foundational design consistency can be achieved across varied applications. This method not only streamlines the development process but also fortifies the design’s adaptability.</p>
+        <p>Verso’s components are built around explicit token decisions. In this annotated card example, each <code>color</code> and <code>type</code> token maps a visual choice back to the system, making it clear which parts of the component are shared and which parts can change by brand.</p>
       </ParagraphWrapper>
 
       <AnnotatedCard />

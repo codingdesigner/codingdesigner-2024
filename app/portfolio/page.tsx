@@ -23,7 +23,7 @@ const Page = () => {
   return (
     <React.Fragment>
       <DecoratedHeading>Lead Design Systems Engineer at Condé&nbsp;Nast</DecoratedHeading>
-        <p className={typography.leadIn}>I‘m a seasoned web designer and front-end developer with a specialized focus on developing comprehensive design systems. Here, I‘ve assembled a showcase of projects that reflect my commitment to marrying form with function, creating user-centric designs that drive business success.</p>
+        <p className={typography.leadIn}>Verso is Condé Nast’s multi-brand design system for 15+ publications. I helped architect the shared component foundation, token-driven theming, and tooling that allow brands like Vogue, The New Yorker, WIRED, Vanity Fair, Bon Appétit, and Pitchfork to keep distinct editorial identities inside one system.</p>
       <StripesWrapper>
         <LayoutColumns>
           <Column>
@@ -40,9 +40,9 @@ const Page = () => {
         <Storefront />
       </StripesWrapper>
       <ParagraphWrapper>
-        <p>As an expert in web design and front-end development, my goal is to create systems that are not just functional but also adjustable, scalable, and intuitively aligned with each brand’s ethos. I‘ve focused on ensuring that every project I handle is infused with strategic thought, precision, and a keen eye toward future needs, enabling seamless digital experiences that stand the test of time.</p>
+        <p>This case study shows the kind of system work I build: architecture for shared UI, tokens that carry brand decisions, tooling that connects Figma and code, and documentation that helps teams adopt the system.</p>
 
-        <p>Looking to bring visionary design and meticulous execution to your projects? Let‘s connect and explore how we can elevate your brand together. <strong>Let‘s create something exceptional.</strong></p>
+        <p>If your team is building a design system, UI platform, or design-to-code workflow across multiple products or brands, <strong>let’s talk.</strong></p>
       </ParagraphWrapper>
     </React.Fragment>
   );

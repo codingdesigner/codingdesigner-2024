@@ -18,7 +18,7 @@ const CardExamples = () => {
     <div>
       <h2>Multi-brand theming through design tokens</h2>
       <ParagraphWrapper>
-        <p>Understanding the need for brands to maintain distinct identities yet operate under a singular corporate umbrella, I engineered a solution using "Brand Identity" JSON files. This system allows each brand at Condé Nast to have its own unique design elements, tailored through the JSON file, while sharing a common structural base.</p> <p>This approach not only simplifies brand differentiation but ensures that any component within our design system can connect flawlessly with different brands, enhancing both usability and brand coherence.</p>
+        <p>Brand Identity JSON files act as the theming layer for shared components. Each brand can define its own color, typography, and decorative tokens while using the same component structure.</p> <p>The card examples show one component responding to different brand configurations. The system keeps the implementation consistent while letting each publication carry its own editorial tone.</p>
       </ParagraphWrapper>
 
       <FigureGallery
