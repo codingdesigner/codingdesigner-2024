@@ -18,10 +18,10 @@ import storefrontButtonUsage2x from "../../static/storefront/storefrontButtonUsa
 const Storefront = () => {
   return (
     <div>
-      <h2>Guidance and Governance through a Design System Portal</h2>
+      <h2>Documentation through a design system portal</h2>
 
       <ParagraphWrapper>
-        <p>To further support and enable users within and outside our core team, I created a storefront-like site, acting as a design system portal. This platform not only provides detailed guidelines and resource accessibility but also encourages contribution and ownership across the broader team. By making the tools and elements of our design system transparent and accessible, we enhance collective creativity and ensure that our products always feel fresh, current, and connected to our users‘ needs.</p>
+        <p>I created a portal for Verso documentation, component guidance, implementation examples, and usage patterns. The site gives designers and engineers a shared place to understand the system, find component APIs, review variations, and contribute back to the platform.</p>
       </ParagraphWrapper>
 
       <FigureGallery

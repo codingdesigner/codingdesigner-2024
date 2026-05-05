@@ -16,12 +16,12 @@ import vogueArticle2x from "../../static/articles/vogue_full.png"
 const EditorialExpression = () => {
   return (
     <div>
-      <h2>Enhancing Editorial Flexibility with Dynamic Layouts</h2>
+      <h2>Editorial expression through layout options</h2>
 
       <ParagraphWrapper>
-        <p>In this design system, I emphasize empowering editors through the strategic use of design tokens and adaptable layout configurations. This approach ensures that the control over the brand‘s narrative remains firmly in the hands of those who curate it—our editors. The system I developed provides unmatched flexibility, allowing editors to fine-tune the narrative tone and customize the presentation of content to meet their vision precisely.</p>
+        <p>Verso supports editorial variation through layout options and brand tokens. Article headers can shift tone across publications while staying inside the same system architecture.</p>
 
-        <p>Whether editors are making subtle refinements or opting for more dramatic layout changes, the tools I‘ve integrated ensure each piece of content not only engages but also leaves a lasting impression on the audience. The result is a powerful platform that supports creative freedom while maintaining brand coherence across all mediums.</p></ParagraphWrapper>
+        <p>The examples show how different brands can use composition, typography, color, and decorative details to shape the reading experience. The system gives teams room for editorial expression without requiring a separate implementation for every brand.</p></ParagraphWrapper>
 
       <FigureGallery
         items={[

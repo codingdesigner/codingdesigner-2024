@@ -16,10 +16,10 @@ import biJson from "../../static/brand-identity/brand-id-example.json";
 const BrandIdentityProcess = () => {
   return (
     <div>
-      <h2>Seamless Workflow Integration between Design and Engineering</h2>
+      <h2>Figma tooling for design-to-code workflows</h2>
 
       <ParagraphWrapper>
-        <p>Another aspect of my work involves bridging the gap between design and engineering teams. I developed a custom Figma plugin that facilitates the export and import of brand identity files directly within the design tool. This tool translates a designer’s work into JSON files used by developers, maintaining the JSON as the "source of truth." This ensures that the web application is always aligned with the latest design specifications without any delays or discrepancies.</p>
+        <p>I built a custom Figma plugin for exporting and importing Brand Identity files inside the design tool. The plugin connected design decisions to JSON used by the web application, keeping tokens and implementation pointed at the same source of truth.</p>
       </ParagraphWrapper>
 
       <LayoutColumns>
@@ -32,7 +32,7 @@ const BrandIdentityProcess = () => {
         />
 
         <div className={styles.jsonContainer}>
-          <div className={styles.jsonDescription}>All design tokens are expressed as JSON for the web app.</div>
+          <div className={styles.jsonDescription}>Design tokens expressed as JSON for the web app.</div>
 
           <JsonView
             data={biJson}

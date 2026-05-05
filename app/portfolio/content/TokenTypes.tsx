@@ -13,15 +13,15 @@ import decorationTokens2x from "../../static/brand-identity/decoration-tokens@2x
 const TokenTypes = () => {
   return (
     <div>
-      <h2>Robust Design Options with Comprehensive Token System</h2>
+      <h2>Color, typography, and decoration tokens</h2>
       <ParagraphWrapper>
-        <p>This design system offers a comprehensive suite of tokens for typography, color themes, and decorative elements, providing unmatched versatility and customization options.</p>
+        <p>Verso’s Brand Identity files include tokens for color, typography, and decorative details. These token groups give each brand a defined place to express visual choices while keeping component APIs consistent.</p>
 
-        <p><strong>Color tokens</strong> are meticulously crafted to enable effortless custom coloring of every design element, ensuring a harmonious visual experience without overwhelming users with an abundance of options.</p>
+        <p><strong>Color tokens</strong> control theme values used across components, from text and backgrounds to borders and accents.</p>
 
-        <p><strong>Typography tokens</strong> are thoughtfully designed to strike the perfect balance between creativity and performance. Through meticulous analysis, I‘ve developed a responsive text system that empowers designers with precise control over their typographic choices.</p>
+        <p><strong>Typography tokens</strong> define responsive type choices so publications can tune hierarchy, scale, and voice within the shared system.</p>
 
-        <p>And the <strong>decoration tokens</strong> feature is a unique addition to this system that allows for the fine-tuning of decorative elements such as border radius and line styles. From customizing badges and borders to uploading bespoke assets for backgrounds, this innovative feature adds an extra layer of creativity to our brand sites.</p>
+        <p><strong>Decoration tokens</strong> handle details such as border radius, line styles, badges, borders, and brand-specific assets. They give the system a way to support expressive editorial surfaces without hard-coding those details into components.</p>
       </ParagraphWrapper>
 
       <FigureGallery
