@@ -1,5 +1,5 @@
-import React from 'react';
+// import React from 'react';
 
-import {AnnotatedCard} from '../AnnotatedCard';
+// import {AnnotatedCard} from '../AnnotatedCard';
 
-describe('<AnnotatedCard />', () => {});
+// describe('<AnnotatedCard />', () => {});
