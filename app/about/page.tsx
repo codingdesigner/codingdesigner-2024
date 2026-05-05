@@ -13,29 +13,29 @@ export const metadata = {
 const Page = () => {
   return (
     <React.Fragment>
-      <DecoratedHeading background="lavender">Hi, I‘m Gwendy.</DecoratedHeading>
+      <DecoratedHeading background="lavender">Hi, I’m Gwendy.</DecoratedHeading>
 
       <ParagraphWrapper>
         <Figure
           imageFile={gwenAtDesk}
           altText="Gwendy Wendell in her office"
-          caption="Let‘s work together"
+          caption="Let’s work together"
           modalImageFile={null}
           centerFigure={true}
         />
 
-        <p>Over the past two decades, my career has evolved through various roles including designer, developer, creative director, front-end architect, design systems specialist, and even a featured conference speaker. My experiences have also allowed me the opportunity to lead as a manager and guide as a mentor.</p>
+        <p>I’ve spent more than two decades working across design, front-end engineering, creative direction, and design systems. That path has made me comfortable moving between visual design, code, architecture, documentation, leadership, and mentoring.</p>
 
-        <p>Most recently, I‘ve taken on the role of pioneering design systems that cater to the expansive needs of global brands. This role perfectly amalgamates my expertise in engineering, creative design, and team management, ensuring that each project not only meets but exceeds expectations.</p>
+        <p>My current work centers on large design systems and UI platforms: tokens, components, tooling, and workflows that help teams build with a shared foundation. I like the practical middle space where a system has to serve real products, real brands, and real people trying to get work done.</p>
 
-        <p>I reside in the picturesque Germantown neighborhood of Philadelphia, PA, where I live with my teenager. We‘re lucky to be situated next to a stunning park that offers miles of trails—an idyllic setting that lets me balance my love of the city and my need to be out in nature. Before my current professional life, I toured as a musician in punk and jazz bands, and my passion for music continues with my avid collection of vinyl records. These records often serve as a soundtrack to my workday. Outside of work, my time is spent enjoying the company of friends and family and actively advocating for LGBTQIA issues.</p>
+        <p>This page is the human layer behind that work. I live in Germantown, Philadelphia with my teenager, close to a park with miles of trails. It gives me the city I love and the trees I need.</p>
 
-        <p>This blend of professional fulfillment and personal happiness truly motivates me in all aspects of my life.</p>
+        <p>Before this professional life, I toured as a musician in punk and jazz bands. Music still runs through my days, usually through a stack of vinyl records near my desk. Away from work, I spend time with friends and family and advocate for LGBTQIA issues.</p>
 
         <Figure
           imageFile={gwenOnStage}
-          altText="Gwendy Wendell looking away from the camera"
-          caption="Oh look, a bird"
+          altText="Gwendy Wendell looking away from the camera while playing bass on stage"
+          caption="Playing bass on stage"
           modalImageFile={null}
           centerFigure={true}
         />
