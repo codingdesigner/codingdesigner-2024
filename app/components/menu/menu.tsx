@@ -17,7 +17,7 @@ export function MenuList() {
         <a href="https://www.linkedin.com/in/gwenwendell/" className={styles.menuLink}>LinkedIn</a>
       </li>
       <li className={styles.menuItem}>
-        <a href="mailto:gwendyisapunk@gmail.com" className={styles.menuLink}>Contact</a>
+        <a href="mailto:gwen@thecodingdesigner.com" className={styles.menuLink}>Contact</a>
       </li>
     </ul>
   );
