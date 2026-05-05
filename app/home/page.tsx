@@ -19,7 +19,7 @@ export default function HomePage() {
           background="page"
           text="mulberry"
           shadow="cyan">
-          Design Systems for Big&nbsp;Needs
+          Design Systems • Tooling • UI Platforms
         </DecoratedHeading>
 
         <svg
@@ -37,7 +37,7 @@ export default function HomePage() {
           />
           <text>
             <textPath href="#circlePath">
-              • Design Systems for Big Needs •
+              Design Systems • Tooling • UI Platforms
             </textPath>
           </text>
         </svg>
@@ -54,23 +54,23 @@ export default function HomePage() {
 
 
       <h1 className={typography.leadInColor}>
-        I love tackling the big juicy design system challenges.
+        Large systems. Distinct brands. Shared foundations.
       </h1>
 
       <StripesWrapper>
         <section>
           <p className={typography.leadIn}>
-            I’ve spent over two decades doing all aspects of web design and development, leading to my focus and passion in developing <strong>large, impactful design systems.</strong> I’ve had the privilege of leading projects for prestigious brands like <strong><a href="./portfolio">Condé Nast</a> and NBC</strong>, utilizing my core skills in Leadership and mentoring, UX, Visual and Responsive Design, CSS, Sass, and React. These skills and experiences have been essential in bringing some of the world’s best known websites to life.
+            I build large design systems for complex platforms. At <strong><a href="./portfolio">Condé Nast</a></strong>, I helped architect <strong>Verso</strong>, a token-driven design system used across 15+ publications including Vogue, The New Yorker, WIRED, Bon Appétit, Pitchfork, and Vanity Fair.
           </p>
           <p className={typography.leadInColor}>
-            My approach is holistic, blending creativity with technical expertise to deliver solutions that are not only visually stunning but also highly functional and user-centric.
+            I design the tokens, components, tooling, and workflows that let teams share a foundation without flattening each brand’s identity.
           </p>
           <ParagraphWrapper>
             <p>
-              Creating cohesive, scalable systems that not only look great but also function seamlessly across diverse platforms and user needs is what drives me. From the start of my career, I’ve been deeply involved in community-building, leading meetups focused on Sass and design in Philadelphia and New York. I love contributing to the community and have developed tools like <strong>Sass Breakpoint</strong> and co-created <strong>Sassy Modular Scale</strong>. 
+              I build Figma plugins and design tooling that connect design systems to production code using tokens and JSON as a shared source of truth. I work in both Figma and the browser, translating design intent into resilient components and APIs.
             </p>
             <p>
-              Public speaking is another one of my joys &mdash; I like to discuss how creative visions can be seamlessly integrated with technical executions in web design. I do most of my design work directly in the browser, turning CSS into a playground of creative possibilities.
+              I also contribute to the design and front-end community through tools, writing, speaking, and meetups. I created <strong>Sass Breakpoint</strong>, co-created <strong>Sassy Modular Scale</strong>, and have spoken about design systems, responsive architecture, and design in the browser.
             </p>
           </ParagraphWrapper>
         </section>
@@ -79,16 +79,16 @@ export default function HomePage() {
           <ParagraphWrapper>
             <ul>
               <li>
-                <strong>Lead Design Systems Engineer at Condé Nast</strong>: For the last 7 years, I’ve really focused on crafting and refining robust design systems that solve complex brand challenges on a global scale, with brands like Vogue, The New Yorker, WIRED, Bon Appetit, Pitchfork, and Vanity Faire.
+                <strong>Lead Design Systems Engineer at Condé Nast</strong>: I helped architect Verso, a multi-brand design system for 15+ publications, with token-driven architecture, shared components, brand identity configuration, and design tooling.
               </li>
               <li>
-                <strong>NBC</strong>: I led responsive web engineering projects, delivering top-tier results for major clients like USA Network and Oxygen Network.
+                <strong>NBC</strong>: I led responsive front-end engineering for large-scale redesigns, including USA Network and Oxygen.
               </li>
               <li>
-                <strong>Phase2</strong>: As the agency’s first designer/engineer, I was able to rapidly design and prototype designs for global clients like the United Nations and Estée Lauder.
+                <strong>Phase2</strong>: As the agency’s first designer/engineer, I designed and prototyped responsive web experiences for clients including the United Nations and Estée Lauder.
               </li>
               <li>
-                <strong>Zivtech</strong>: As the creative director, I steered strategy, mentored incredible teams, and rolled out designs that truly make a user’s experience better.
+                <strong>Zivtech</strong>: As creative director, I directed UX and creative strategy, built front-end processes, and mentored designers working across design and code.
               </li>
             </ul>
           </ParagraphWrapper>
@@ -97,36 +97,36 @@ export default function HomePage() {
           <h3>Design Systems</h3>
           <ParagraphWrapper>
             <p>
-              I specialize in creating design systems that meet the needs of large organizations. Whether that’s a design agency needing to more efficiently deliver projects to many clients, or a global media company with household name brands, no challenge is too intimidating. Instead, these are the challenges that are the most exciting to dive into. I enjoy working with large and small focused teams, and revel in the thrill of seeing a big project meet the world.
+              I design systems architecture for UI platforms that need to scale across products, brands, and teams. That work includes design tokens, component libraries, multi-brand theming, documentation, adoption patterns, and tooling that keeps design and engineering aligned.
             </p>
           </ParagraphWrapper>
         </section>
         <section>
-          <h3>Selected Projects Highlight</h3>
+          <h3>Selected Project Highlights</h3>
           <ParagraphWrapper>
-            <p>I’m proud of every project I’ve touched, especially:</p>
+            <p>Selected work that shows the scale and shape of my systems practice:</p>
             <ul>
               <li>
                 <strong>
-                  Innovative design system for Condé Nast</strong>: I initiated and helped lead the creation of the first global design system to unify all of the prestigeous and unique brands under the Condé Nast umbrella. <a href="./portfolio">Learn more.</a>
+                  Verso for Condé Nast</strong>: I helped architect a global design system for 15+ publications, using tokens and flexible components to share a foundation without flattening brand identity. <a href="./portfolio">Learn more.</a>
               </li>
               <li>
-                <strong> New design system for UN ReliefWeb</strong>: Here, I led the creation of design systems that not only looked good but also facilitated better user navigation for aid workers during global crises.
+                <strong>UN ReliefWeb</strong>: I led design system work that helped aid workers navigate critical information during global crises.
               </li>
               <li>
-                <strong>Brand revamps for Esteelauder.com and MAC Cosmetics</strong>: I directed the responsive design strategies that revamped their online presence, making it sleeker and more user-friendly.
+                <strong>Estée Lauder and MAC Cosmetics</strong>: I directed responsive redesign work and component-driven front-end implementation for major beauty brands.
               </li>
               <li>
-                <strong>SCORE.org</strong>: I revamped their website to reflect the personal connections at the heart of their service, as well as creating a design system that let their many local branches look as professional as the national organization.
+                <strong>SCORE.org</strong>: I created a design system that supported national consistency while giving local branches room to represent their communities.
               </li>
             </ul>
           </ParagraphWrapper>
         </section>
         <section>
-          <h3>Let‘s Connect</h3>
+          <h3>Let’s Connect</h3>
           <p>
-            If you think my skills and experiences might be what your organization needs, or if you’re on the lookout for a speaker who mixes practical expertise with a more than a dash of creative flair, please do reach out.</p>
-          <p>I’d love to collaborate with you to create something visually stunning and supremely functional. Let’s make something great together!
+            If your team needs a design systems engineer for UI platforms, multi-brand theming, design tooling, or design-to-code workflows, I’d love to talk.</p>
+          <p>I’m also available for speaking on design systems, responsive architecture, and designing in the browser.
           </p>
         </section>
       </StripesWrapper>
