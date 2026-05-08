@@ -59,6 +59,22 @@ export default function HomePage() {
 
       <StripesWrapper>
         <section>
+          <h2>Selected Work</h2>
+          <ParagraphWrapper>
+            <ul>
+              <li>
+                <strong><a href="./portfolio">Verso — Condé Nast</a></strong>: Global design system used across 15+ publications.
+              </li>
+              <li>
+                <strong>Astro Design System — Rocket Communications</strong>: Design tooling, Figma plugins, and component architecture.
+              </li>
+              <li>
+                <strong>Sass Breakpoint</strong>: Responsive design library used across the Sass ecosystem.
+              </li>
+            </ul>
+          </ParagraphWrapper>
+        </section>
+        <section>
           <p className={typography.leadIn}>
             I build large design systems for complex platforms. At <strong><a href="./portfolio">Condé Nast</a></strong>, I helped architect <strong>Verso</strong>, a token-driven design system used across 15+ publications including Vogue, The New Yorker, WIRED, Bon Appétit, Pitchfork, and Vanity Fair.
           </p>
@@ -70,7 +86,7 @@ export default function HomePage() {
               I build Figma plugins and design tooling that connect design systems to production code using tokens and JSON as a shared source of truth. I work in both Figma and the browser, translating design intent into resilient components and APIs.
             </p>
             <p>
-              I also contribute to the design and front-end community through tools, writing, speaking, and meetups. I created <strong>Sass Breakpoint</strong>, co-created <strong>Sassy Modular Scale</strong>, and have spoken about design systems, responsive architecture, and design in the browser.
+              I also contribute to the design and front-end community through open-source tools, writing, speaking, and meetups. I’ve spoken about design systems, responsive architecture, and design in the browser.
             </p>
           </ParagraphWrapper>
         </section>
@@ -99,27 +115,6 @@ export default function HomePage() {
             <p>
               I design systems architecture for UI platforms that need to scale across products, brands, and teams. That work includes design tokens, component libraries, multi-brand theming, documentation, adoption patterns, and tooling that keeps design and engineering aligned.
             </p>
-          </ParagraphWrapper>
-        </section>
-        <section>
-          <h3>Selected Project Highlights</h3>
-          <ParagraphWrapper>
-            <p>Selected work that shows the scale and shape of my systems practice:</p>
-            <ul>
-              <li>
-                <strong>
-                  Verso for Condé Nast</strong>: I helped architect a global design system for 15+ publications, using tokens and flexible components to share a foundation without flattening brand identity. <a href="./portfolio">Learn more.</a>
-              </li>
-              <li>
-                <strong>UN ReliefWeb</strong>: I led design system work that helped aid workers navigate critical information during global crises.
-              </li>
-              <li>
-                <strong>Estée Lauder and MAC Cosmetics</strong>: I directed responsive redesign work and component-driven front-end implementation for major beauty brands.
-              </li>
-              <li>
-                <strong>SCORE.org</strong>: I created a design system that supported national consistency while giving local branches room to represent their communities.
-              </li>
-            </ul>
           </ParagraphWrapper>
         </section>
         <section>

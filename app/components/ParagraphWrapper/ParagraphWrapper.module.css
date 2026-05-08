@@ -22,4 +22,13 @@
   .ParagraphWrapper ol:first-child {
     margin-block-start: 0;
   }
+
+  .ParagraphWrapper ul {
+    list-style-type: square;
+    list-style-position: inside;
+
+    li {
+      padding-block-end: var(--spacing-3);
+    }
+  }
 }
